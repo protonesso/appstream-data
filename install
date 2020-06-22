@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+DESTDIR=$1 appstream-util install $PWD/work/output/ataraxia.xml.gz $PWD/work/output/ataraxia-icons.tar.gz

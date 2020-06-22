@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+	
+if [[ ! -d "work" ]]; then
+	mkdir work
+fi
+	
+pushd work
+	
+for dname in output cache logs icons ; do
+	if [[ ! -d "${dname}" ]]; then
+		mkdir "${dname}" -v
+	fi
+done
+	
+appstream-builder --packages-dir=/home/yuyu/ataraxia/OUT.x86_64/packages --output-dir=./output \
+	--cache-dir=./cache --max-threads=$(nproc)  \
+	--log-dir=./logs --enable-hidpi -v \
+	--include-failed --add-cache-id --basename=ataraxia --origin=ataraxia
