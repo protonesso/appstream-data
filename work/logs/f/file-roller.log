@@ -1,0 +1,127 @@
+DEBUG:   Getting filename match for file-roller-3.36.2-1.x86_64.rpm
+DEBUG:   Exploding tree for file-roller
+DEBUG:   Processing file-roller-3.36.2-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <paobac@src.gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.FileRoller
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.FileRoller.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.FileRoller.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.FileRoller</id>
+    <pkgname>file-roller</pkgname>
+    <translation type="gettext">file-roller</translation>
+    <name>File Roller</name>
+    <summary>Open, modify and create compressed archive files</summary>
+    <description><p>Archive Manager (also known as File Roller) is the default GNOME application for opening, creating, and modifying archive and compressed archive files.</p><p>Archive Manager supports a wide range of different archive files, including:</p><ul><li>gzip archives (.tar.gz, .tgz)</li><li>bzip archives (.tar.bz, .tbz)</li><li>zip archives (.zip)</li><li>xz archives (.tar.xz)</li></ul></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.FileRoller.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.FileRoller.png</icon>
+    <categories>
+      <category>Archiving</category>
+      <category>Compression</category>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>extract</keyword>
+      <keyword>tar</keyword>
+      <keyword>unpack</keyword>
+      <keyword>zip</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/bzip2</mimetype>
+      <mimetype>application/gzip</mimetype>
+      <mimetype>application/vnd.android.package-archive</mimetype>
+      <mimetype>application/vnd.debian.binary-package</mimetype>
+      <mimetype>application/vnd.ms-cab-compressed</mimetype>
+      <mimetype>application/x-7z-compressed</mimetype>
+      <mimetype>application/x-7z-compressed-tar</mimetype>
+      <mimetype>application/x-ace</mimetype>
+      <mimetype>application/x-alz</mimetype>
+      <mimetype>application/x-ar</mimetype>
+      <mimetype>application/x-archive</mimetype>
+      <mimetype>application/x-arj</mimetype>
+      <mimetype>application/x-brotli</mimetype>
+      <mimetype>application/x-bzip</mimetype>
+      <mimetype>application/x-bzip-brotli-tar</mimetype>
+      <mimetype>application/x-bzip-compressed-tar</mimetype>
+      <mimetype>application/x-bzip1</mimetype>
+      <mimetype>application/x-bzip1-compressed-tar</mimetype>
+      <mimetype>application/x-cabinet</mimetype>
+      <mimetype>application/x-cd-image</mimetype>
+      <mimetype>application/x-chrome-extension</mimetype>
+      <mimetype>application/x-compress</mimetype>
+      <mimetype>application/x-compressed-tar</mimetype>
+      <mimetype>application/x-cpio</mimetype>
+      <mimetype>application/x-deb</mimetype>
+      <mimetype>application/x-ear</mimetype>
+      <mimetype>application/x-gtar</mimetype>
+      <mimetype>application/x-gzip</mimetype>
+      <mimetype>application/x-gzpostscript</mimetype>
+      <mimetype>application/x-java-archive</mimetype>
+      <mimetype>application/x-lha</mimetype>
+      <mimetype>application/x-lhz</mimetype>
+      <mimetype>application/x-lrzip</mimetype>
+      <mimetype>application/x-lrzip-compressed-tar</mimetype>
+      <mimetype>application/x-lz4</mimetype>
+      <mimetype>application/x-lz4-compressed-tar</mimetype>
+      <mimetype>application/x-lzip</mimetype>
+      <mimetype>application/x-lzip-compressed-tar</mimetype>
+      <mimetype>application/x-lzma</mimetype>
+      <mimetype>application/x-lzma-compressed-tar</mimetype>
+      <mimetype>application/x-lzop</mimetype>
+      <mimetype>application/x-ms-dos-executable</mimetype>
+      <mimetype>application/x-ms-wim</mimetype>
+      <mimetype>application/x-rar</mimetype>
+      <mimetype>application/x-rar-compressed</mimetype>
+      <mimetype>application/x-rpm</mimetype>
+      <mimetype>application/x-rzip</mimetype>
+      <mimetype>application/x-rzip-compressed-tar</mimetype>
+      <mimetype>application/x-source-rpm</mimetype>
+      <mimetype>application/x-stuffit</mimetype>
+      <mimetype>application/x-tar</mimetype>
+      <mimetype>application/x-tarz</mimetype>
+      <mimetype>application/x-tzo</mimetype>
+      <mimetype>application/x-war</mimetype>
+      <mimetype>application/x-xar</mimetype>
+      <mimetype>application/x-xz</mimetype>
+      <mimetype>application/x-xz-compressed-tar</mimetype>
+      <mimetype>application/x-zip</mimetype>
+      <mimetype>application/x-zip-compressed</mimetype>
+      <mimetype>application/x-zoo</mimetype>
+      <mimetype>application/x-zstd-compressed-tar</mimetype>
+      <mimetype>application/zip</mimetype>
+      <mimetype>application/zstd</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/FileRoller</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://wiki.gnome.org/Apps/FileRoller?action=AttachFile&amp;do=get&amp;target=file-roller.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">org.gnome.ArchiveManager1</dbus>
+      <dbus type="session">org.gnome.FileRoller</dbus>
+      <id>org.gnome.FileRoller.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.FileRoller.desktop</launchable>
+  </component>
+</components>
+

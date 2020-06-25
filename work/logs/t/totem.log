@@ -1,0 +1,259 @@
+DEBUG:   Getting filename match for totem-3.34.1-3.x86_64.rpm
+DEBUG:   Exploding tree for totem
+DEBUG:   Processing totem-3.34.1-3.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <hadess@hadess.net>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Totem.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Totem.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Totem.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Totem.desktop</id>
+    <pkgname>totem</pkgname>
+    <translation type="gettext">totem</translation>
+    <name>Videos</name>
+    <summary>Play movies</summary>
+    <description><p>Videos is the official movie player of the GNOME desktop environment. It features a searchable list of local videos, and DVDs, as well as local network video shares (using UPnP/DLNA) and video highlights from a number of web sites.</p><p>Videos comes with added functionality such as a subtitle downloader, the ability to speed up or down playback, create screenshot galleries, and support for recording DVDs.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Totem.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Totem.png</icon>
+    <categories>
+      <category>AudioVideo</category>
+      <category>Player</category>
+      <category>Video</category>
+    </categories>
+    <keywords>
+      <keyword>Clip</keyword>
+      <keyword>DVD</keyword>
+      <keyword>Disc</keyword>
+      <keyword>Film</keyword>
+      <keyword>Movie</keyword>
+      <keyword>Player</keyword>
+      <keyword>Series</keyword>
+      <keyword>TV</keyword>
+      <keyword>Totem</keyword>
+      <keyword>Video</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/mxf</mimetype>
+      <mimetype>application/ogg</mimetype>
+      <mimetype>application/ram</mimetype>
+      <mimetype>application/sdp</mimetype>
+      <mimetype>application/smil</mimetype>
+      <mimetype>application/smil+xml</mimetype>
+      <mimetype>application/vnd.apple.mpegurl</mimetype>
+      <mimetype>application/vnd.ms-asf</mimetype>
+      <mimetype>application/vnd.ms-wpl</mimetype>
+      <mimetype>application/vnd.rn-realmedia</mimetype>
+      <mimetype>application/vnd.rn-realmedia-vbr</mimetype>
+      <mimetype>application/x-extension-m4a</mimetype>
+      <mimetype>application/x-extension-mp4</mimetype>
+      <mimetype>application/x-flac</mimetype>
+      <mimetype>application/x-flash-video</mimetype>
+      <mimetype>application/x-matroska</mimetype>
+      <mimetype>application/x-netshow-channel</mimetype>
+      <mimetype>application/x-ogg</mimetype>
+      <mimetype>application/x-quicktime-media-link</mimetype>
+      <mimetype>application/x-quicktimeplayer</mimetype>
+      <mimetype>application/x-shorten</mimetype>
+      <mimetype>application/x-smil</mimetype>
+      <mimetype>application/xspf+xml</mimetype>
+      <mimetype>audio/3gpp</mimetype>
+      <mimetype>audio/3gpp2</mimetype>
+      <mimetype>audio/AMR</mimetype>
+      <mimetype>audio/AMR-WB</mimetype>
+      <mimetype>audio/aac</mimetype>
+      <mimetype>audio/ac3</mimetype>
+      <mimetype>audio/basic</mimetype>
+      <mimetype>audio/dv</mimetype>
+      <mimetype>audio/eac3</mimetype>
+      <mimetype>audio/flac</mimetype>
+      <mimetype>audio/m4a</mimetype>
+      <mimetype>audio/midi</mimetype>
+      <mimetype>audio/mp1</mimetype>
+      <mimetype>audio/mp2</mimetype>
+      <mimetype>audio/mp3</mimetype>
+      <mimetype>audio/mp4</mimetype>
+      <mimetype>audio/mpeg</mimetype>
+      <mimetype>audio/mpegurl</mimetype>
+      <mimetype>audio/mpg</mimetype>
+      <mimetype>audio/ogg</mimetype>
+      <mimetype>audio/opus</mimetype>
+      <mimetype>audio/prs.sid</mimetype>
+      <mimetype>audio/scpls</mimetype>
+      <mimetype>audio/vnd.rn-realaudio</mimetype>
+      <mimetype>audio/wav</mimetype>
+      <mimetype>audio/webm</mimetype>
+      <mimetype>audio/x-aac</mimetype>
+      <mimetype>audio/x-aiff</mimetype>
+      <mimetype>audio/x-ape</mimetype>
+      <mimetype>audio/x-flac</mimetype>
+      <mimetype>audio/x-gsm</mimetype>
+      <mimetype>audio/x-it</mimetype>
+      <mimetype>audio/x-m4a</mimetype>
+      <mimetype>audio/x-m4b</mimetype>
+      <mimetype>audio/x-matroska</mimetype>
+      <mimetype>audio/x-mod</mimetype>
+      <mimetype>audio/x-mp1</mimetype>
+      <mimetype>audio/x-mp2</mimetype>
+      <mimetype>audio/x-mp3</mimetype>
+      <mimetype>audio/x-mpeg</mimetype>
+      <mimetype>audio/x-mpegurl</mimetype>
+      <mimetype>audio/x-mpg</mimetype>
+      <mimetype>audio/x-ms-asf</mimetype>
+      <mimetype>audio/x-ms-asx</mimetype>
+      <mimetype>audio/x-ms-wax</mimetype>
+      <mimetype>audio/x-ms-wma</mimetype>
+      <mimetype>audio/x-musepack</mimetype>
+      <mimetype>audio/x-opus+ogg</mimetype>
+      <mimetype>audio/x-pn-aiff</mimetype>
+      <mimetype>audio/x-pn-au</mimetype>
+      <mimetype>audio/x-pn-realaudio</mimetype>
+      <mimetype>audio/x-pn-realaudio-plugin</mimetype>
+      <mimetype>audio/x-pn-wav</mimetype>
+      <mimetype>audio/x-pn-windows-acm</mimetype>
+      <mimetype>audio/x-real-audio</mimetype>
+      <mimetype>audio/x-realaudio</mimetype>
+      <mimetype>audio/x-s3m</mimetype>
+      <mimetype>audio/x-sbc</mimetype>
+      <mimetype>audio/x-scpls</mimetype>
+      <mimetype>audio/x-shorten</mimetype>
+      <mimetype>audio/x-speex</mimetype>
+      <mimetype>audio/x-stm</mimetype>
+      <mimetype>audio/x-tta</mimetype>
+      <mimetype>audio/x-vorbis</mimetype>
+      <mimetype>audio/x-vorbis+ogg</mimetype>
+      <mimetype>audio/x-wav</mimetype>
+      <mimetype>audio/x-wavpack</mimetype>
+      <mimetype>audio/x-xm</mimetype>
+      <mimetype>image/vnd.rn-realpix</mimetype>
+      <mimetype>image/x-pict</mimetype>
+      <mimetype>misc/ultravox</mimetype>
+      <mimetype>text/google-video-pointer</mimetype>
+      <mimetype>text/x-google-video-pointer</mimetype>
+      <mimetype>video/3gp</mimetype>
+      <mimetype>video/3gpp</mimetype>
+      <mimetype>video/3gpp2</mimetype>
+      <mimetype>video/divx</mimetype>
+      <mimetype>video/dv</mimetype>
+      <mimetype>video/fli</mimetype>
+      <mimetype>video/flv</mimetype>
+      <mimetype>video/mp2t</mimetype>
+      <mimetype>video/mp4</mimetype>
+      <mimetype>video/mp4v-es</mimetype>
+      <mimetype>video/mpeg</mimetype>
+      <mimetype>video/mpeg-system</mimetype>
+      <mimetype>video/msvideo</mimetype>
+      <mimetype>video/ogg</mimetype>
+      <mimetype>video/quicktime</mimetype>
+      <mimetype>video/vivo</mimetype>
+      <mimetype>video/vnd.divx</mimetype>
+      <mimetype>video/vnd.mpegurl</mimetype>
+      <mimetype>video/vnd.rn-realvideo</mimetype>
+      <mimetype>video/vnd.vivo</mimetype>
+      <mimetype>video/webm</mimetype>
+      <mimetype>video/x-anim</mimetype>
+      <mimetype>video/x-avi</mimetype>
+      <mimetype>video/x-flc</mimetype>
+      <mimetype>video/x-fli</mimetype>
+      <mimetype>video/x-flic</mimetype>
+      <mimetype>video/x-flv</mimetype>
+      <mimetype>video/x-m4v</mimetype>
+      <mimetype>video/x-matroska</mimetype>
+      <mimetype>video/x-mjpeg</mimetype>
+      <mimetype>video/x-mpeg</mimetype>
+      <mimetype>video/x-mpeg2</mimetype>
+      <mimetype>video/x-ms-asf</mimetype>
+      <mimetype>video/x-ms-asf-plugin</mimetype>
+      <mimetype>video/x-ms-asx</mimetype>
+      <mimetype>video/x-ms-wm</mimetype>
+      <mimetype>video/x-ms-wmv</mimetype>
+      <mimetype>video/x-ms-wmx</mimetype>
+      <mimetype>video/x-ms-wvx</mimetype>
+      <mimetype>video/x-msvideo</mimetype>
+      <mimetype>video/x-nsv</mimetype>
+      <mimetype>video/x-ogm+ogg</mimetype>
+      <mimetype>video/x-theora</mimetype>
+      <mimetype>video/x-theora+ogg</mimetype>
+      <mimetype>video/x-totem-stream</mimetype>
+      <mimetype>x-content/video-dvd</mimetype>
+      <mimetype>x-scheme-handler/icy</mimetype>
+      <mimetype>x-scheme-handler/icyx</mimetype>
+      <mimetype>x-scheme-handler/mms</mimetype>
+      <mimetype>x-scheme-handler/mmsh</mimetype>
+      <mimetype>x-scheme-handler/net</mimetype>
+      <mimetype>x-scheme-handler/pnm</mimetype>
+      <mimetype>x-scheme-handler/rtmp</mimetype>
+      <mimetype>x-scheme-handler/rtp</mimetype>
+      <mimetype>x-scheme-handler/rtsp</mimetype>
+      <mimetype>x-scheme-handler/uvox</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Videos</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source" height="576" width="1024">https://gitlab.gnome.org/GNOME/totem/raw/master/data/appdata/ss-videos.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="576" width="1024">https://gitlab.gnome.org/GNOME/totem/raw/master/data/appdata/ss-player.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1570147200" version="3.34.1">
+        <description><p>This new version fixes the top bar icon appearing as a square, and updates translations.</p></description>
+      </release>
+      <release timestamp="1567728000" version="3.34.0">
+        <description><p>We are proud to announce Videos 3.34.0 as the latest stable version.</p><p>This new version fixes a number of bugs, adds an "Open Containing Folder" plugin, and removes the obsolete Brasero and LIRC plugins.</p></description>
+      </release>
+      <release timestamp="1552003200" version="3.32.0">
+        <description><p>We are proud to announce Videos 3.32.0 as the latest stable version.</p></description>
+      </release>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Totem</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Totem.desktop</launchable>
+  </component>
+</components>
+

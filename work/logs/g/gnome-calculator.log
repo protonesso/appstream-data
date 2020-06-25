@@ -1,0 +1,124 @@
+DEBUG:   Getting filename match for gnome-calculator-3.36.0-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-calculator
+DEBUG:   Processing gnome-calculator-3.36.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Calculator.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Calculator.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Calculator.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Calculator.desktop</id>
+    <pkgname>gnome-calculator</pkgname>
+    <translation type="gettext">gnome-calculator</translation>
+    <name>GNOME Calculator</name>
+    <summary>Perform arithmetic, scientific or financial calculations</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>GNOME Calculator is an application that solves mathematical equations. Though it at first appears to be a simple calculator with only basic arithmetic operations, you can switch into Advanced, Financial, or Programming mode to find a surprising set of capabilities.</p><p>The Advanced calculator supports many operations, including: logarithms, factorials, trigonometric and hyperbolic functions, modulus division, complex numbers, random number generation, prime factorization and unit conversions.</p><p>Financial mode supports several computations, including periodic interest rate, present and future value, double declining and straight line depreciation, and many others.</p><p>Programming mode supports conversion between common bases (binary, octal, decimal, and hexadecimal), boolean algebra, one’s and two’s complementation, character to character code conversion, and more.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Calculator.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Calculator.png</icon>
+    <categories>
+      <category>Calculator</category>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>arithmetic</keyword>
+      <keyword>calculation</keyword>
+      <keyword>financial</keyword>
+      <keyword>scientific</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>SearchProvider</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0-or-later</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-calculator/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-calculator/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Calculator</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <caption>GNOME Calculator in Basic Mode</caption>
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-calculator-basic-mode.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>GNOME Calculator in Programming Mode</caption>
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-calculator-programming-mode.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>GNOME Calculator in Advanced Mode</caption>
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-calculator-advanced-mode.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>GNOME Calculator in Financial Mode</caption>
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-calculator-financial-mode.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release type="stable" timestamp="1583539200" version="3.36.0">
+        <description><p>Overview of changes in gnome-calculator 3.36.0</p><ul><li>Updated Catalan translation (Jordi Mas)</li><li>Fixed broken markup in XHosa UI translation (Andre Klapper)</li><li>Updated Swedish translation (Anders Jonsson)</li><li>Updated Italian translation (Janvitus)</li><li>Updated Indonesian translation (Kukuh Syafaat)</li><li>Updated German translation (Tim Sabsch)</li><li>Updated Dutch translation (Nathan Follens)</li><li>Fixed broken markup in Dzongka UI translation (Andre Klapper)</li><li>Updated Czech help translation (Marek Černocký)</li><li>Updated Hungarian translation (Balázs Úr)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1582934400" version="3.35.92">
+        <description><p>Overview of changes in gnome-calculator 3.35.92</p><ul><li>Updated Spanish translation (Daniel Mustieles García)</li><li>Updated Croatian translation (Goran Vidović)</li><li>Documentation build fixes (Rico Tzschichholz)</li><li>Updated Lithuanian translation (Aurimas Černius)</li><li>Updated Swedish translation (Anders Jonsson)</li><li>Removed obsolete keyboard shortcut #148 (Robert Roth)</li><li>Updated Persian translation (Danial Behzadi)</li><li>Updated Basque translation (Asier Sarasua Garmendia)</li><li>Update British English translation (Bruce Cowan)</li><li>Updated Japanese translation (sicklylife)</li><li>Updated Czech translation (Marek Černocký)</li><li>Updated Turkish translation (Emin Tufan)</li><li>Updated Finnish translation (Jiri Grönroos)</li><li>Updated Brazilian Portuguese translation (Rafael Fontenelle)</li><li>Updated Hungarian translation (Balázs Meskó)</li><li>Updated Chinese (Taiwan) translation (pesder)</li><li>Updated Danish translation (Alan Mortensen)</li><li>Updated Serbian translation (Марко М. Костић (Marko M. Kostić))</li><li>help: Update icon for 3.36 (Andre Klapper)</li><li>Updated Karbi translation (J T)</li><li>Updated Korean translation (Changwoo Ryu)</li><li>Updated French translation (Julien Humbert)</li><li>Updated Polish translation (Piotr Drąg)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1580515200" version="3.35.90">
+        <description><p>Overview of changes in gnome-calculator 3.35.90</p><ul><li>Updated Greek translation (Efstathios Iosifidis)</li><li>Updated Indonesian translation (Sucipto)</li><li>Drop padding around the display !40 (Adrien Plazas)</li><li>Updated Keyboard Shortcuts (Sabri Ünal)</li><li>Handle Escape and Enter correctly with completion #144 (Robert Roth)</li><li>Updated Spanish translation (Daniel Mustieles García)</li><li>Updated Slovak translation (Dušan Kazik)</li><li>Added F10 for primary menu shortcut #148 (Robert Roth)</li><li>Updated Catalan translation (Jordi Mas)</li><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated app icon !43 (Tobias Bernard)</li><li>Updated Malay translation (Umarzuki Mochlis)</li><li>Updated Brazilian Portuguese translation (Rafael Fontenelle)</li><li>Added Rack Units to the conversions !37 (Léo Gillot-Lamure)</li><li>Updated Karbi translation (J T)</li><li>Fixed freeze on calculating atan(+/-i) #139 (Robert Roth)</li><li>Fixed mode shortcuts by removing blocking mnemonics #138 (Robert Roth)</li><li>Implemented result history browsing using alt left/right #129 (Robert Roth)</li><li>Added translator comments for possible modes as command line arguments !38 (Rafael Fontenelle)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1578182400" version="3.35.3">
+        <description><p>Overview of changes in gnome-calculator 3.35.3</p><ul><li>Updated Chinese (Taiwan) translation (Yi-Jyun Pan)</li><li>Updated Spanish translation (Daniel Mustieles)</li><li>Updated Swedish translation (Anders Jonsson)</li><li>Help updates (Andre Klapper)</li><li>Updated Galician translation (Fran Diéguez)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1574553600" version="3.35.2">
+        <description><p>Overview of changes in gnome-calculator 3.35.2</p><ul><li>Updated Italian translation (Milo Casagrande)</li><li>Updated Catalan translation (Jordi Mas)</li><li>Updated Japanese translation (Ryuta Fujii)</li><li>Updated Danish translation (Ask Hjorth Larsen)</li><li>List possible modes in commandline help #112 (Robert Roth)</li><li>Add square feet unit #132 (Robert Roth)</li><li>Base conversion display selectable #123 (Robert Roth)</li><li>Created nightly icon (Jakub Steiner)</li><li>Snap build updates (Heather Ellsworth)</li><li>Updated Spanish translation (Daniel Mustieles)</li><li>GCalc library code fixes (Rico Tzschichholz, Daniel Espinoza Ortiz)</li><li>Update required meson version (Diego Escalante Urrelo)</li><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated Persian translation (Danial Behzadi)</li><li>Adapt code to changed gtk+-3.0 bindings (Rico Tzschichholz)</li><li>Added GCi libary and tests for controllers for widgets (Daniel Espinoza Ortiz)</li><li>Updated Czech translation (Marek Černocký)</li><li>Updated Indonesian translation (Andika Triwidada)</li><li>Solve on = key if input isq not a variable name #22 (Alberto González Palomo)</li></ul></description>
+      </release>
+      <release type="stable" timestamp="1567987200" version="3.34.0">
+        <description><p>Overview of changes in gnome-calculator 3.34.0</p><ul><li>Updated Finnish translation (Jiri Grönroos)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1567382400" version="3.33.92">
+        <description><p>Overview of changes in gnome-calculator 3.33.92</p><ul><li>Updated Czech translation (Marek Černocký)</li><li>Updated Finnish translation (Jiri Grönroos)</li><li>Updated German translation (Tim Sabsch)</li><li>Updated Lithuanian translation (Aurimas Černius)</li><li>Updated Polish translation (Piotr Drąg)</li><li>Updated Persian translation (Danial Behzadi)</li><li>Updated Serbian translation (Марко М. Костић (Marko M. Kostić))</li><li>Updated Latvian translation (Rūdolfs Mazurs)</li><li>Updated Galician translation (Fran Diéguez)</li><li>Updated British English translation (Zander)</li><li>Updated Turkish translation (Ahmet Elgün)</li><li>Updated Japanese translation (Ryuta Fujii)</li><li>Updated Catalan translation (Jordi Mas)</li><li>Updated French translation (Charles Monzat)</li><li>Updated Korean translation (Changwoo Ryu)</li><li>README updates (Roger)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1565049600" version="3.33.90">
+        <description><p>Overview of changes in gnome-calculator 3.33.90</p><ul><li>Updated Dutch translation (Nathan Follens)</li><li>Updated Croatian translation (Goran Vidović)</li><li>Updated Swedish translation (Anders Jonsson)</li><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated Slovenian translation (Matej Urbančič)</li><li>Updated Karbi translation (J T)</li><li>Updated Basque translation (Asier Sarasua Garmendia)</li><li>Updated Brazilian Portuguese translation (Rafael Fontenelle)</li><li>Updated Catalan translation (Jordi Mas)</li><li>Updated Romanian translation (Florentina Mușat)</li><li>Flatpak build cleanup (Jordan Petridis)</li><li>Debug messages cleanup (Daniel Espinosa Ortiz)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1560729600" version="3.33.3">
+        <description><p>Overview of changes in gnome-calculator 3.33.3</p><ul><li>Updated Indonesian translation (Kukuh Syafaat)</li><li>Updated Hungarian translation (Balázs Úr)</li><li>Updated Spanish translation (Daniel Mustieles)</li><li>Updated Greek translation (Efstathios Iosifidis)</li><li>calculator library build fixes (Daniel Espinosa Ortiz)</li><li>CI build fixes (Ken VanDine)</li><li>Added mnemonics for primary menu items #113 (Robert Roth)</li><li>Dropped leading zeros octal prefix #114, #109, #110 (Robert Roth)</li></ul></description>
+      </release>
+      <release type="development" timestamp="1558396800" version="3.33.2">
+        <description><p>Overview of changes in gnome-calculator 3.33.2</p><ul><li>Separated calculator library !19 (Daniel Espinosa Ortiz)</li><li>Ensure icon is available for shell (Ken VanDine)</li><li>Updated French translation (Charles Monzat)</li><li>Updated Catalan translation (Jordi Mas)</li><li>Support entering left/right shift with keyboard #98 (Robert Roth)</li><li>Updated Croatian translation (Goran Vidović)</li><li>Fixed CFA conversion rate #102 (Robert Roth)</li><li>Remove copy icon from search provider results #103 (Robert Roth)</li><li>Do not assume octal base for binary numbers #101 (Robert Roth)</li><li>Show thousands separator in unit converter #102 (Robert Roth)</li><li>Use currency name instead of display name for conversion #106 (Robert Roth)</li><li>Quit warns and closes all windows #51 (Robert Roth)</li><li>Avoid normalizing the equation twice in search #104 (Pascal Nowack)</li><li>Ignore keypresses while calculating results #47 (Robert Roth)</li><li>Only allow one decimal point in numbers #5 (Robert Roth)</li><li>Application icon updated in help (Andre Klapper)</li><li>Updated Danish translation (Ask Hjorth Larsen)</li><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated Indonesian translation (Kukuh Syafaat)</li><li>Updated Basque translation (Asier Sarasua Garmendia)</li><li>Updated Chinese translation (Dingzhong Chen)</li></ul></description>
+      </release>
+      <release timestamp="1552262400" version="3.32.0">
+        <description><p>Overview of changes in gnome-calculator 3.32.0</p><ul><li>Updated Esperanto translation (Kristjan Esperanto)</li><li>Updated Korean translation (Changwoo Ryu)</li><li>Updated Slovenian translation (Matej Urbančič)</li><li>Snap build update (Ken VanDine)</li></ul></description>
+      </release>
+      <release timestamp="1551744000" version="3.31.92">
+        <description><p>Overview of changes in gnome-calculator 3.31.92</p><ul><li>Updated Turkish translation (Emin Tufan)</li><li>Updated French translation (Guillaume Bernard)</li><li>Updated Dutch translation (Nathan Follens)</li><li>Updated Lithuanian translation (Aurimas Černius)</li><li>Updated Brazilian Portuguese translation (Rafael Fontenelle)</li><li>Updated Italian translation (Milo Casagrande)</li><li>Updated Russian translation (Stas Solovey)</li><li>Updated Serbian translation (Марко Костић)</li><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated German translation (Tim Sabsch)</li><li>Updated Vietnamese translation (Trần Ngọc Quân)</li><li>Updated Latvian translation (Rūdolfs Mazurs)</li><li>Updated Finnish translation (Jiri Grönroos)</li></ul></description>
+      </release>
+      <release timestamp="1550448000" version="3.31.91">
+        <description><p>Overview of changes in gnome-calculator 3.31.91</p><ul><li>Updated Danish translation (Alan Mortensen)</li><li>Updated Kazakh translation (Baurzhan Muftakhidinov)</li><li>Updated Catalan translation (Jordi Mas)</li><li>Updated Swedish translation (Anders Jonsson)</li><li>Updated Czech translation (Marek Cernocky)</li><li>Updated Slovenian translation (Matej Urbančič)</li><li>Updated Japanese translation (Ryuta Fujii)</li><li>Updated Spanish translation (Daniel Mustieles)</li><li>Updated Romanian translation (Daniel Șerbănescu)</li><li>Updated Galician translation (Fran Diéguez)</li><li>Updated Turkish translation (Emin Tufan)</li><li>Updated Indonesian translation (Kukuh Syafaat)</li><li>Updated Polish translation (Piotr Drąg)</li><li>Updated Hungarian translation (Balázs Úr)</li><li>Additional syntax for unit conversion (Tuomas Mikkola)</li><li>Updated Spanish translation (Daniel Mustieles)</li><li>Updated Finnish translation (Jiri Grönroos)</li><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated Galician translation (Fran Diéguez)</li></ul></description>
+      </release>
+      <release timestamp="1549238400" version="3.31.90">
+        <description><p>Overview of changes in gnome-calculator 3.31.90</p><ul><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated Greek translation (Tom Tryfonidis)</li><li>Updated Swedish translation (Anders Jonsson)</li><li>Updated Spanish translation (Daniel Mustieles)</li><li>Updated Japanese translation (Ryuta Fujii)</li><li>Updated Slovenian translation (Matej Urbančič)</li><li>Updated Indonesian translation (Kukuh Syafaat)</li><li>Updated Hungarian translation (Balázs Úr)</li><li>Updated Czech translation (Daniel Rusek)</li><li>Updated Catalan translation (Jordi Maas)</li><li>snap build fixes (Jeremy Bicha)</li><li>Exchange rate update interval preference #58 (Robert Roth)</li><li>Updated and fixed appdata !20 (Harald H.)</li><li>Fix for digit transformed into ^ on double</li><li>Accept comma and decimal point as decimal separator #86 (Robert Roth)</li></ul></description>
+      </release>
+      <release timestamp="1537747200" version="3.30.1">
+        <description><p>Overview of changes in gnome-calculator 3.30.1:</p><ul><li>Fix opening multiple windows in GNOME Shell (Florian Müllner)</li><li>Mark some strings translatable (Robert Roth)</li><li>Updated Brazilian Portuguese translation (Rafael Fontenelle)</li><li>Updated Croatian translations (Goran Vidović)</li><li>Updated Czech translation (Marek Cernocky)</li><li>Updated Danish translation (Ask Hjorth Larsen)</li><li>Updated Finnish translation (Jiri Grönroos)</li><li>Updated Friulian translation (Fabio Tomat)</li><li>Updated German translation (Mario Blättermann)</li><li>Updated Hungarian translation (Balázs Meskó)</li><li>Updated Indonesian translation (Kukuh Syafaat)</li><li>Updated Italian translation (Janvitus)</li><li>Updated Latvian translation (Rūdolfs Mazurs)</li><li>Updated Polish translation (Piotr Drąg)</li><li>Updated Romanian translation (Daniel Șerbănescu)</li><li>Updated Russian translation (Stas Solovey)</li><li>Updated Swedish translation (Anders Jonsson)</li><li>Updated Slovenian translation (Matej Urbančič)</li><li>Updated Turkish translation (Emin Tufan Çetin)</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Calculator.SearchProvider</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Calculator.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,66 @@
+DEBUG:   Getting filename match for dconf-editor-3.36.2-1.x86_64.rpm
+DEBUG:   Exploding tree for dconf-editor
+DEBUG:   Processing dconf-editor-3.36.2-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <arnaud.bonatti@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/ca.desrt.dconf-editor.png
+DEBUG:   Saved icon ./tmp/icons/128x128/ca.desrt.dconf-editor.png
+<components version="1.0">
+  <component type="desktop">
+    <id>ca.desrt.dconf-editor.desktop</id>
+    <pkgname>dconf-editor</pkgname>
+    <translation type="gettext">dconf-editor</translation>
+    <name>Dconf Editor</name>
+    <summary>A graphical tool for editing the dconf database</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Dconf Editor is a tool to allow direct editing of the dconf configuration database. This is useful when developing applications that use these settings.</p><p>Editing your configuration directly is an advanced feature and may cause applications to not work correctly.</p></description>
+    <icon type="cached" height="128" width="128">128x128/ca.desrt.dconf-editor.png</icon>
+    <icon type="cached" height="64" width="64">64x64/ca.desrt.dconf-editor.png</icon>
+    <categories>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>configuration</keyword>
+      <keyword>settings</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/dconf-editor/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/DconfEditor</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>Browse the keys used by installed applications</caption>
+        <image type="source">https://gitlab.gnome.org/GNOME/dconf-editor/raw/master/editor/screenshot1.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Read keys descriptions and edit their values</caption>
+        <image type="source">https://gitlab.gnome.org/GNOME/dconf-editor/raw/master/editor/screenshot2.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release type="stable" timestamp="1587686400" urgency="medium" version="3.36.2"/>
+      <release type="development" timestamp="1581724800" urgency="low" version="3.35.91"/>
+    </releases>
+    <provides>
+      <binary>dconf-editor</binary>
+      <dbus type="session">ca.desrt.dconf-editor</dbus>
+    </provides>
+    <launchable type="desktop-id">ca.desrt.dconf-editor.desktop</launchable>
+  </component>
+</components>
+

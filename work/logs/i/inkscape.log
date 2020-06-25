@@ -1,0 +1,5 @@
+DEBUG:   Getting filename match for inkscape-1.0-1.x86_64.rpm
+DEBUG:   Exploding tree for inkscape
+DEBUG:   Processing inkscape-1.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: Failed to run process 'appdata': failed to parse ./tmp/inkscape-1.0-1/usr/share/metainfo/org.inkscape.Inkscape.appdata.xml: Unknown tag 'url'

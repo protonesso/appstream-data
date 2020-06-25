@@ -1,0 +1,82 @@
+DEBUG:   Getting filename match for swell-foop-3.34.1-1.x86_64.rpm
+DEBUG:   Exploding tree for swell-foop
+DEBUG:   Processing swell-foop-3.34.1-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.SwellFoop.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.SwellFoop.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.SwellFoop.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.SwellFoop.desktop</id>
+    <pkgname>swell-foop</pkgname>
+    <translation type="gettext">swell-foop</translation>
+    <name>Swell Foop</name>
+    <summary>Clear the screen by removing groups of colored and shaped tiles</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Remove as many squares as possible from the board. Click on a group of squares of the same color to make them all disappear in one fell swoop, causing other squares to fall into place. It is not possible to remove a single square at a time. You get far more points for clearing a larger group of squares, and also for clearing the entire board.</p><p>Swell Foop is always very quick to play, but you can make it somewhat longer by changing the board size.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.SwellFoop.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.SwellFoop.png</icon>
+    <categories>
+      <category>Game</category>
+      <category>LogicGame</category>
+    </categories>
+    <keywords>
+      <keyword>board</keyword>
+      <keyword>game</keyword>
+      <keyword>logic</keyword>
+      <keyword>matching</keyword>
+      <keyword>same</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/swell-foop/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/swell-foop/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Swell%20Foop</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~mcatanzaro/swell-foop.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <launchable type="desktop-id">org.gnome.SwellFoop.desktop</launchable>
+  </component>
+</components>
+

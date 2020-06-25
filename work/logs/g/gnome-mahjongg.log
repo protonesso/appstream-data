@@ -1,0 +1,62 @@
+DEBUG:   Getting filename match for gnome-mahjongg-3.36.2-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-mahjongg
+DEBUG:   Processing gnome-mahjongg-3.36.2-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Mahjongg
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Mahjongg.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Mahjongg.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Mahjongg</id>
+    <pkgname>gnome-mahjongg</pkgname>
+    <translation type="gettext">gnome-mahjongg</translation>
+    <name>GNOME Mahjongg</name>
+    <summary>Match tiles and clear the board</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>A solitaire version of the classic Eastern tile game. Tiles are stacked on the board at the start of the game. The goal is to remove all the tiles in as little time as possible. Select two matching tiles and they will disappear from the board, but you can only select a tile if there is an empty space to its left or right at the same level. Be careful: tiles that look alike may actually be slightly different.</p><p>GNOME Mahjongg features a variety of starting layouts, some easy and some difficult. If you get stuck, you can ask for a hint, but this adds a large time penalty.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Mahjongg.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Mahjongg.png</icon>
+    <categories>
+      <category>BoardGame</category>
+      <category>Game</category>
+    </categories>
+    <keywords>
+      <keyword>board</keyword>
+      <keyword>game</keyword>
+      <keyword>puzzle</keyword>
+      <keyword>strategy</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-2.0+ and CC-BY-SA-3.0</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-mahjongg/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-mahjongg/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Mahjongg</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-mahjongg.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1552262400" version="3.32.0"/>
+    </releases>
+    <launchable type="desktop-id">org.gnome.Mahjongg.desktop</launchable>
+  </component>
+</components>
+

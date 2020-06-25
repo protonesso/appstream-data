@@ -1,0 +1,94 @@
+DEBUG:   Getting filename match for network-manager-applet-1.16.0-2.x86_64.rpm
+DEBUG:   Exploding tree for network-manager-applet
+DEBUG:   Processing network-manager-applet-1.16.0-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <networkmanager-maint@gnome.bugs>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   using stock icon preferences-system-network
+<components version="1.0">
+  <component type="desktop">
+    <id>nm-connection-editor.desktop</id>
+    <pkgname>network-manager-applet</pkgname>
+    <translation type="gettext">nm-applet</translation>
+    <name>NetworkManager</name>
+    <summary>NetworkManager connection editor</summary>
+    <developer_name>The NetworkManager Developers</developer_name>
+    <description><p>NetworkManager is a system service for managing and configuring your network connections and devices.</p><p>The nm-connection-editor program works with NetworkManager to create and edit existing connection profiles for NetworkManager.</p></description>
+    <icon type="stock">preferences-system-network</icon>
+    <categories>
+      <category>Settings</category>
+    </categories>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/network-manager-applet/issues</url>
+    <url type="homepage">https://wiki.gnome.org/Projects/NetworkManager</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source" height="548" width="772">https://git.gnome.org/browse/network-manager-applet/plain/nm-connection-editor.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0"/>
+    <releases>
+      <release timestamp="1570579200" version="1.8.24"/>
+      <release timestamp="1559088000" version="1.8.22"/>
+      <release timestamp="1549497600" version="1.8.20"/>
+      <release timestamp="1536278400" version="1.8.18"/>
+      <release timestamp="1533600000" version="1.8.16"/>
+      <release timestamp="1529884800" version="1.8.14"/>
+      <release timestamp="1527465600" version="1.8.12"/>
+      <release timestamp="1513641600" version="1.8.10"/>
+      <release timestamp="1513555200" version="1.8.8"/>
+      <release timestamp="1510012800" version="1.8.6"/>
+      <release timestamp="1505865600" version="1.8.4"/>
+      <release timestamp="1497312000" version="1.8.2"/>
+      <release timestamp="1494374400" version="1.8.0"/>
+      <release timestamp="1488758400" version="1.4.6"/>
+      <release timestamp="1485302400" version="1.4.4"/>
+      <release timestamp="1475193600" version="1.4.2"/>
+      <release timestamp="1471996800" version="1.4.0"/>
+      <release timestamp="1470182400" version="1.2.4"/>
+      <release timestamp="1462924800" version="1.2.2"/>
+      <release timestamp="1461110400" version="1.2.0"/>
+      <release timestamp="1450828800" version="1.0.10"/>
+      <release timestamp="1447977600" version="1.0.8"/>
+      <release timestamp="1440633600" version="1.0.6"/>
+      <release timestamp="1436832000" version="1.0.4"/>
+      <release timestamp="1430784000" version="1.0.2"/>
+      <release timestamp="1418860800" version="1.0.0"/>
+      <release timestamp="1404345600" version="0.9.10"/>
+      <release timestamp="1398297600" version="0.9.8.10"/>
+      <release timestamp="1396396800" version="0.9.8.9"/>
+      <release timestamp="1384128000" version="0.9.8.8"/>
+      <release timestamp="1379030400" version="0.9.8.4"/>
+      <release timestamp="1370563200" version="0.9.8.2"/>
+      <release timestamp="1361318400" version="0.9.8.0"/>
+      <release timestamp="1351209600" version="0.9.6.4"/>
+      <release timestamp="1344470400" version="0.9.6.2"/>
+      <release timestamp="1344297600" version="0.9.6.0"/>
+      <release timestamp="1332460800" version="0.9.4.1"/>
+      <release timestamp="1332460800" version="0.9.4.0"/>
+      <release timestamp="1320796800" version="0.9.2"/>
+      <release timestamp="1313971200" version="0.9.0"/>
+      <release timestamp="1303257600" version="0.8.4"/>
+      <release timestamp="1288742400" version="0.8.2"/>
+      <release timestamp="1279670400" version="0.8.1"/>
+      <release timestamp="1266451200" version="0.8"/>
+      <release timestamp="1258934400" version="0.7.2"/>
+      <release timestamp="1239580800" version="0.7.1"/>
+      <release timestamp="1227744000" version="0.7.0"/>
+      <release timestamp="1204761600" version="0.6.6"/>
+      <release timestamp="1176249600" version="0.6.5"/>
+    </releases>
+    <launchable type="desktop-id">nm-connection-editor.desktop</launchable>
+  </component>
+</components>
+

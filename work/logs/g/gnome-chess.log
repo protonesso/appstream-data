@@ -1,0 +1,91 @@
+DEBUG:   Getting filename match for gnome-chess-3.36.1-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-chess
+DEBUG:   Processing gnome-chess-3.36.1-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Chess
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Chess.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Chess.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Chess</id>
+    <pkgname>gnome-chess</pkgname>
+    <translation type="gettext">gnome-chess</translation>
+    <name>GNOME Chess</name>
+    <summary>Play the classic two-player board game of chess</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>GNOME Chess is a simple chess game. You can play against your computer at three different difficulty levels, or against a friend at your computer.</p><p>Computer chess enthusiasts will appreciate GNOME Chess’s compatibility with nearly all modern computer chess engines, and its ability to detect several popular engines automatically if installed.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Chess.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Chess.png</icon>
+    <categories>
+      <category>BoardGame</category>
+      <category>Game</category>
+    </categories>
+    <keywords>
+      <keyword>game</keyword>
+      <keyword>strategy</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/x-chess-pgn</mimetype>
+    </mimetypes>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-chess/issues/</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-chess/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Chess</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-chess.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1590796800" version="3.36.1"/>
+      <release timestamp="1583366400" version="3.36.0"/>
+      <release timestamp="1578009600" version="3.35.3"/>
+      <release timestamp="1567900800" version="3.34.0"/>
+    </releases>
+    <provides>
+      <id>gnome-chess.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Chess.desktop</launchable>
+  </component>
+</components>
+

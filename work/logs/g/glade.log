@@ -1,0 +1,94 @@
+DEBUG:   Getting filename match for glade-3.36.0-1.x86_64.rpm
+DEBUG:   Exploding tree for glade
+DEBUG:   Processing glade-3.36.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <juanpablougarte@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Glade.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Glade.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Glade</id>
+    <pkgname>glade</pkgname>
+    <translation type="gettext">glade</translation>
+    <name>Glade</name>
+    <summary>Create or open user interface designs for GTK+ applications</summary>
+    <description><p>Glade is a RAD tool to enable quick &amp; easy development of user interfaces for the GTK+ 3 toolkit and the GNOME desktop environment.</p><p>The user interfaces designed in Glade are saved as XML and these can be loaded by applications dynamically as needed by using GtkBuilder or used directly to define a new GtkWidget derived object class using GTK+ new template feature.</p><p>By using GtkBuilder, Glade XML files can be used in numerous programming languages including C, C++, C#, Vala, Java, Perl, Python, and others.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Glade.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Glade.png</icon>
+    <categories>
+      <category>Development</category>
+      <category>GUIDesigner</category>
+    </categories>
+    <keywords>
+      <keyword>GUI designer</keyword>
+      <keyword>ui builder</keyword>
+      <keyword>user interface</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/x-glade</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+ and LGPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/glade/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/glade/stable/</url>
+    <url type="homepage">http://glade.gnome.org/</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://glade.gnome.org/images/glade-main-page.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1520812800" version="3.22.0">
+        <description><p>Glade 3.22.0</p><ul><li>Fix bug 774994 "in treeview columns editor contextual menu does nothing"</li><li>Simplified GladeBaseEditor</li><li>Fix formatting / layout of project verification details (Daniel P. Berrange)</li><li>Widge chooser: activate treeview with single click and enable Drag &amp; Drop</li><li>Fix Design view selected state</li><li>Fixes bug 793036 "GtkCellRenderer Properties not loaded from glade file" (peter Onion)</li><li>Fix bug in action widgets response-id parsing on 32bits system</li><li>Fix bug 772485 "File Name property of GtkImage is copied to all other GtkImage"</li><li>GladeProject: always treat resource properties as relative</li><li>Fix bug 793652 "Crash when deleting a list"</li><li>Fix bug 793757 "Gtk-CRITICAL **: _gtk_window_add_popover: assertion '_gtk_widget_get_parent (popover) == NULL' failed"</li><li>Add GDK_SUPER_MASK accelerator handling (Sebastian Stang)</li><li>Fix bug #778537 "ActionBar need placeholder"</li><li>Fix bug #794141 - Gtk.IconView disappeared from glade (Albfan)</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <id>glade.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Glade.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,223 @@
+DEBUG:   Getting filename match for xarchiver-0.5.4.15-1.x86_64.rpm
+DEBUG:   Exploding tree for xarchiver
+DEBUG:   Processing xarchiver-0.5.4.15-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/com.github.xarchiver.png
+DEBUG:   Saved icon ./tmp/icons/128x128/com.github.xarchiver.png
+<components version="1.0">
+  <component type="desktop">
+    <id>com.github.xarchiver</id>
+    <pkgname>xarchiver</pkgname>
+    <name>Xarchiver</name>
+    <summary>A GTK+ only archive manager</summary>
+    <summary xml:lang="ar">جتك+ مدير الأرشيف فقط</summary>
+    <summary xml:lang="ast">Un xestor de ficheros comprimíos basáu namái en GTK+</summary>
+    <summary xml:lang="bg">GTK+ архивен управител</summary>
+    <summary xml:lang="ca">Un gestor d'arxius només GTK+</summary>
+    <summary xml:lang="cs">Správce archivů pouze pro GTK+</summary>
+    <summary xml:lang="da">En arkivhåndtering baseret udelukkende på GTK+</summary>
+    <summary xml:lang="de">Ein nur auf GTK+ basierender Archivmanager</summary>
+    <summary xml:lang="dz">ཇི་ཊི་ཀེ་+༢་ ཀྱིས་རྐྱངམ་ཅིག་ཡིག་མཛོད་འཛིན་སྐྱོང་པ།</summary>
+    <summary xml:lang="el">Ένας διαχειριστής συμπιεσμένων αρχείων σε GTK+</summary>
+    <summary xml:lang="es">Un gestor de archivos comprimidos basado solo en GTK+</summary>
+    <summary xml:lang="eu">GTK+-rako bakarrik artxibo-kudeatzailea</summary>
+    <summary xml:lang="fi">GTK+ -pakkaussovellus</summary>
+    <summary xml:lang="fr">Un gestionnaire d'archive pour GTK+</summary>
+    <summary xml:lang="gl">Un xestor de arquivos só en GTK+</summary>
+    <summary xml:lang="he">מנהל ארכיונים ב־GTK+ בלבד</summary>
+    <summary xml:lang="hr">Upravitelj arhivama samo za GTK+</summary>
+    <summary xml:lang="hu">GTK+ archívumkezelő</summary>
+    <summary xml:lang="id">Manajer arsip khusus GTK+</summary>
+    <summary xml:lang="it">Un gestore di archivi basato solo GTK+</summary>
+    <summary xml:lang="ja">Xfce 4 アーカイブマネージャ</summary>
+    <summary xml:lang="kk">Тек GTK+ талап ететін архивтер басқарушысы</summary>
+    <summary xml:lang="lt">Tik GTK+ archyvų tvarkytuvė</summary>
+    <summary xml:lang="lv">GTK+ vienīgais arhīvu pārvaldnieks</summary>
+    <summary xml:lang="nb">En GTK+ basert arkivbehandler</summary>
+    <summary xml:lang="nl">Een GTK+ archiefbeheerder</summary>
+    <summary xml:lang="pl">Program zarządzający archiwami oparty wyłącznie o GTK+</summary>
+    <summary xml:lang="pt_BR">Um gerenciador de pacotes baseado no GTK+</summary>
+    <summary xml:lang="pt_PT">Um gestor de arquivos baseado em GTK+</summary>
+    <summary xml:lang="ro">Manager GTK+ de arhive</summary>
+    <summary xml:lang="ru">Менеджер архивов только для GTK+</summary>
+    <summary xml:lang="si">GTK+ පමණක් සංරක්ෂණ කළමනාකරුවෙක්</summary>
+    <summary xml:lang="sk">Správca archívov len pre GTK+</summary>
+    <summary xml:lang="sq">Përgjegjës arkivash vetëm për GTK+</summary>
+    <summary xml:lang="sv">En arkivhanterare som använder GTK+</summary>
+    <summary xml:lang="tr">GTK+ ile tasarlanmış arşiv yöneticisi</summary>
+    <summary xml:lang="ug">GTK+ دىلا ئىشلەتكىلى بولىدىغان ئارخىپ باشقۇرغۇ</summary>
+    <summary xml:lang="uk">Програма для управління архівами, що використовує GTK+</summary>
+    <summary xml:lang="ur">صرف GTK+ محفوظہ منیجر</summary>
+    <summary xml:lang="zh_CN">只使用 GTK+ 的归档文件管理器</summary>
+    <summary xml:lang="zh_TW">GTK+ 介面的封存檔管理程式</summary>
+    <description><p>Xarchiver is a lightweight desktop independent GTK+ frontend for manipulating xz, 7z, lzma, arj, bzip2, gzip, rar, tar, zip, rpm, lz4, compress, zstd, lzip, lrzip, lzop, lha and deb files. It allows you to create archives and add, extract, and delete files from them. Password protected archives in the arj, 7z, rar, zip and lrzip formats are supported.</p></description>
+    <icon type="cached" height="128" width="128">128x128/com.github.xarchiver.png</icon>
+    <icon type="cached" height="64" width="64">64x64/com.github.xarchiver.png</icon>
+    <categories>
+      <category>Archiving</category>
+      <category>Compression</category>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>7-zip</keyword>
+      <keyword>7z</keyword>
+      <keyword>7za</keyword>
+      <keyword>7zip</keyword>
+      <keyword>7zr</keyword>
+      <keyword>GTK</keyword>
+      <keyword>Zstandard</keyword>
+      <keyword>android</keyword>
+      <keyword>apk</keyword>
+      <keyword>ar</keyword>
+      <keyword>archiver</keyword>
+      <keyword>archiving</keyword>
+      <keyword>arj</keyword>
+      <keyword>bunzip2</keyword>
+      <keyword>bz2</keyword>
+      <keyword>bzip2</keyword>
+      <keyword>cbz</keyword>
+      <keyword>comic book</keyword>
+      <keyword>compress</keyword>
+      <keyword>compression</keyword>
+      <keyword>cpio</keyword>
+      <keyword>deb</keyword>
+      <keyword>epub</keyword>
+      <keyword>exe</keyword>
+      <keyword>front end</keyword>
+      <keyword>frontend</keyword>
+      <keyword>gtar</keyword>
+      <keyword>gunzip</keyword>
+      <keyword>gz</keyword>
+      <keyword>gzip</keyword>
+      <keyword>jar</keyword>
+      <keyword>lbzip2</keyword>
+      <keyword>lha</keyword>
+      <keyword>library</keyword>
+      <keyword>lrz</keyword>
+      <keyword>lrzip</keyword>
+      <keyword>lsar</keyword>
+      <keyword>lz</keyword>
+      <keyword>lz4</keyword>
+      <keyword>lzh</keyword>
+      <keyword>lzip</keyword>
+      <keyword>lzma</keyword>
+      <keyword>lzo</keyword>
+      <keyword>lzop</keyword>
+      <keyword>oxt</keyword>
+      <keyword>pbzip2</keyword>
+      <keyword>pigz</keyword>
+      <keyword>plzip</keyword>
+      <keyword>rar</keyword>
+      <keyword>rar4</keyword>
+      <keyword>rar5</keyword>
+      <keyword>rpm</keyword>
+      <keyword>tar</keyword>
+      <keyword>unar</keyword>
+      <keyword>unarchiver</keyword>
+      <keyword>unarj</keyword>
+      <keyword>unrar</keyword>
+      <keyword>unzip</keyword>
+      <keyword>xpi</keyword>
+      <keyword>xz</keyword>
+      <keyword>zip</keyword>
+      <keyword>zst</keyword>
+      <keyword>zstd</keyword>
+      <keyword xml:lang="bg">архиватор</keyword>
+      <keyword xml:lang="bg">архивиране</keyword>
+      <keyword xml:lang="bg">библиотека</keyword>
+      <keyword xml:lang="bg">графичен интерфейс</keyword>
+      <keyword xml:lang="bg">комикс файл</keyword>
+      <keyword xml:lang="bg">компресия</keyword>
+      <keyword xml:lang="de">Android</keyword>
+      <keyword xml:lang="de">Archivierer</keyword>
+      <keyword xml:lang="de">Archivierung</keyword>
+      <keyword xml:lang="de">Bibliothek</keyword>
+      <keyword xml:lang="de">Comic-Book</keyword>
+      <keyword xml:lang="de">Front-End</keyword>
+      <keyword xml:lang="de">Frontend</keyword>
+      <keyword xml:lang="de">Kompression</keyword>
+      <keyword xml:lang="de">Komprimierung</keyword>
+      <keyword xml:lang="es">Android</keyword>
+      <keyword xml:lang="es">archivado</keyword>
+      <keyword xml:lang="es">archivador</keyword>
+      <keyword xml:lang="es">biblioteca</keyword>
+      <keyword xml:lang="es">compresión</keyword>
+      <keyword xml:lang="es">compresor</keyword>
+      <keyword xml:lang="es">interfaz</keyword>
+      <keyword xml:lang="es">libro de cómic</keyword>
+      <keyword xml:lang="fr">archiveur</keyword>
+      <keyword xml:lang="fr">bande dessinée</keyword>
+      <keyword xml:lang="fr">bibliothèque</keyword>
+      <keyword xml:lang="fr">compresser</keyword>
+      <keyword xml:lang="fr">interface graphique</keyword>
+      <keyword xml:lang="lt">Android</keyword>
+      <keyword xml:lang="lt">archyvavimas</keyword>
+      <keyword xml:lang="lt">archyvavimo programa</keyword>
+      <keyword xml:lang="lt">biblioteka</keyword>
+      <keyword xml:lang="lt">glaudinimas</keyword>
+      <keyword xml:lang="lt">išorinė pusė</keyword>
+      <keyword xml:lang="lt">komiksų knyga</keyword>
+      <keyword xml:lang="lt">naudotojo sąsaja</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/epub+zip</mimetype>
+      <mimetype>application/gzip</mimetype>
+      <mimetype>application/vnd.android.package-archive</mimetype>
+      <mimetype>application/vnd.comicbook+zip</mimetype>
+      <mimetype>application/vnd.debian.binary-package</mimetype>
+      <mimetype>application/vnd.openofficeorg.extension</mimetype>
+      <mimetype>application/vnd.rar</mimetype>
+      <mimetype>application/x-7z-compressed</mimetype>
+      <mimetype>application/x-archive</mimetype>
+      <mimetype>application/x-arj</mimetype>
+      <mimetype>application/x-bzip</mimetype>
+      <mimetype>application/x-bzip-compressed-tar</mimetype>
+      <mimetype>application/x-compress</mimetype>
+      <mimetype>application/x-compressed-tar</mimetype>
+      <mimetype>application/x-cpio</mimetype>
+      <mimetype>application/x-cpio-compressed</mimetype>
+      <mimetype>application/x-java-archive</mimetype>
+      <mimetype>application/x-lha</mimetype>
+      <mimetype>application/x-lrzip</mimetype>
+      <mimetype>application/x-lrzip-compressed-tar</mimetype>
+      <mimetype>application/x-lz4</mimetype>
+      <mimetype>application/x-lz4-compressed-tar</mimetype>
+      <mimetype>application/x-lzip</mimetype>
+      <mimetype>application/x-lzip-compressed-tar</mimetype>
+      <mimetype>application/x-lzma</mimetype>
+      <mimetype>application/x-lzma-compressed-tar</mimetype>
+      <mimetype>application/x-lzop</mimetype>
+      <mimetype>application/x-rar</mimetype>
+      <mimetype>application/x-rpm</mimetype>
+      <mimetype>application/x-source-rpm</mimetype>
+      <mimetype>application/x-tar</mimetype>
+      <mimetype>application/x-tarz</mimetype>
+      <mimetype>application/x-tzo</mimetype>
+      <mimetype>application/x-xpinstall</mimetype>
+      <mimetype>application/x-xz</mimetype>
+      <mimetype>application/x-xz-compressed-tar</mimetype>
+      <mimetype>application/x-zstd-compressed-tar</mimetype>
+      <mimetype>application/zip</mimetype>
+      <mimetype>application/zstd</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0</project_license>
+    <url type="bugtracker">https://github.com/ib/xarchiver/issues</url>
+    <url type="homepage">https://github.com/ib/xarchiver</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">http://xarchiver.sourceforge.net/screenshots/main_window.png</image>
+      </screenshot>
+    </screenshots>
+    <launchable type="desktop-id">xarchiver.desktop</launchable>
+  </component>
+</components>
+

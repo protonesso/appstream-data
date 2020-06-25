@@ -1,0 +1,109 @@
+DEBUG:   Getting filename match for nautilus-3.36.3-3.x86_64.rpm
+DEBUG:   Exploding tree for nautilus
+DEBUG:   Processing nautilus-3.36.3-3.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <ernestask_AT_gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Nautilus.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Nautilus.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Nautilus.desktop</id>
+    <pkgname>nautilus</pkgname>
+    <translation type="gettext">nautilus</translation>
+    <name>Files</name>
+    <summary>Access and organize files</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Files, also known as Nautilus, is the default file manager of the GNOME desktop. It provides a  simple and integrated way of managing your files and browsing your file system.</p><p>Nautilus supports all the basic functions of a file manager and more. It can search and manage your files and folders, both locally and on a network, read and write data to and from removable media, run scripts, and launch applications. It has three views: Icon Grid, Icon List, and Tree List. Its functions can be extended with plugins and scripts.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Nautilus.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Nautilus.png</icon>
+    <categories>
+      <category>Core</category>
+      <category>FileManager</category>
+      <category>System</category>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>disk</keyword>
+      <keyword>explore</keyword>
+      <keyword>filesystem</keyword>
+      <keyword>folder</keyword>
+      <keyword>manager</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+      <kudo>SearchProvider</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/bzip2</mimetype>
+      <mimetype>application/gzip</mimetype>
+      <mimetype>application/x-7z-compressed</mimetype>
+      <mimetype>application/x-7z-compressed-tar</mimetype>
+      <mimetype>application/x-bzip</mimetype>
+      <mimetype>application/x-bzip-compressed-tar</mimetype>
+      <mimetype>application/x-compress</mimetype>
+      <mimetype>application/x-compressed-tar</mimetype>
+      <mimetype>application/x-cpio</mimetype>
+      <mimetype>application/x-gzip</mimetype>
+      <mimetype>application/x-lha</mimetype>
+      <mimetype>application/x-lzip</mimetype>
+      <mimetype>application/x-lzip-compressed-tar</mimetype>
+      <mimetype>application/x-lzma</mimetype>
+      <mimetype>application/x-lzma-compressed-tar</mimetype>
+      <mimetype>application/x-tar</mimetype>
+      <mimetype>application/x-tarz</mimetype>
+      <mimetype>application/x-xar</mimetype>
+      <mimetype>application/x-xz</mimetype>
+      <mimetype>application/x-xz-compressed-tar</mimetype>
+      <mimetype>application/zip</mimetype>
+      <mimetype>inode/directory</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/nautilus/issues</url>
+    <url type="donation">https://www.gnome.org/support-gnome/</url>
+    <url type="help">https://wiki.gnome.org/action/show/Apps/Nautilus</url>
+    <url type="homepage">https://wiki.gnome.org/action/show/Apps/Nautilus</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>Tile View</caption>
+        <image type="source">https://static.gnome.org/appdata/nautilus/nautilus-201901141.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>List View</caption>
+        <image type="source">https://static.gnome.org/appdata/nautilus/nautilus-201901142.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Other Locations</caption>
+        <image type="source">https://static.gnome.org/appdata/nautilus/nautilus-201901144.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Search</caption>
+        <image type="source">https://static.gnome.org/appdata/nautilus/nautilus-201901143.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1557014400" version="3.32.1"/>
+      <release timestamp="1552435200" version="3.32.0"/>
+      <release timestamp="1544572800" version="3.30.5"/>
+      <release timestamp="1542758400" version="3.30.4"/>
+      <release timestamp="1540944000" version="3.30.3"/>
+    </releases>
+    <provides>
+      <dbus type="session">org.freedesktop.FileManager1</dbus>
+      <dbus type="session">org.gnome.Nautilus</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Nautilus.desktop</launchable>
+  </component>
+</components>
+

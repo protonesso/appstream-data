@@ -1,0 +1,115 @@
+DEBUG:   Getting filename match for gnome-terminal-3.36.2-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-terminal
+DEBUG:   Processing gnome-terminal-3.36.2-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <https://wiki.gnome.org/Apps/Terminal/ReportingBugs>
+INFO:    Upstream contact <https://wiki.gnome.org/Apps/Terminal/ReportingBugs>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Terminal.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Terminal.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+WARNING: duplicate org.gnome.Terminal.desktop not included as added from gnome-terminal-3.36.2-1
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Terminal.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Terminal.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Terminal.desktop</id>
+    <pkgname>gnome-terminal</pkgname>
+    <name>Terminal</name>
+    <summary>Use the command line</summary>
+    <description><p>GNOME Terminal is a terminal emulator application for accessing a UNIX shell environment which can be used to run programs available on your system.</p><p>It supports several profiles, multiple tabs and implements several keyboard shortcuts.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Terminal.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Terminal.png</icon>
+    <categories>
+      <category>System</category>
+      <category>TerminalEmulator</category>
+    </categories>
+    <keywords>
+      <keyword>cmd</keyword>
+      <keyword>command</keyword>
+      <keyword>commandline</keyword>
+      <keyword>prompt</keyword>
+      <keyword>shell</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>SearchProvider</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Terminal</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">org.gnome.Terminal</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Terminal.desktop</launchable>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Terminal.desktop</id>
+    <pkgname>gnome-terminal</pkgname>
+    <name>Terminal</name>
+    <summary>Use the command line</summary>
+    <description><p>GNOME Terminal is a terminal emulator application for accessing a UNIX shell environment which can be used to run programs available on your system.</p><p>It supports several profiles, multiple tabs and implements several keyboard shortcuts.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Terminal.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Terminal.png</icon>
+    <categories>
+      <category>System</category>
+      <category>TerminalEmulator</category>
+    </categories>
+    <keywords>
+      <keyword>cmd</keyword>
+      <keyword>command</keyword>
+      <keyword>commandline</keyword>
+      <keyword>prompt</keyword>
+      <keyword>shell</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>SearchProvider</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <vetos>
+      <veto>duplicate of gnome-terminal-3.36.2-1</veto>
+    </vetos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Terminal</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">org.gnome.Terminal</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Terminal.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,25 @@
+DEBUG:   Getting filename match for ibus-hangul-1.5.3-1.x86_64.rpm
+DEBUG:   Exploding tree for ibus-hangul
+DEBUG:   Processing ibus-hangul-1.5.3-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+<components version="1.0">
+  <component type="inputmethod">
+    <id>org.freedesktop.ibus.engine.hangul</id>
+    <pkgname>ibus-hangul</pkgname>
+    <translation type="gettext">ibus-hangul</translation>
+    <name>ibus-hangul</name>
+    <summary>Hangul engine for IBus</summary>
+    <description><p>IBus-Hangul is a Korean input method engine for IBus.</p></description>
+    <project_license>GPL-2</project_license>
+    <url type="bugtracker">https://github.com/libhangul/ibus-hangul/issues</url>
+    <url type="homepage">https://github.com/libhangul/ibus-hangul</url>
+    <project_group>IBus</project_group>
+  </component>
+</components>
+

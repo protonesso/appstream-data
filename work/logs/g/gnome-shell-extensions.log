@@ -1,0 +1,223 @@
+DEBUG:   Getting filename match for gnome-shell-extensions-3.36.2-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-shell-extensions
+DEBUG:   Processing gnome-shell-extensions-3.36.2-1.x86_64.rpm with shell-extension
+DEBUG:   Running asb_plugin_process() from shell-extension
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+<components version="1.0">
+  <component type="shell-extension">
+    <id>workspace-indicator_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Workspace Indicator</name>
+    <summary>GNOME Shell Extension</summary>
+    <developer_name>erick.red@gmail.com</developer_name>
+    <description><p>Put an indicator on the panel signaling in which workspace you are, and give you the possibility of switching to another one.</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">workspace-indicator@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>windowsNavigator_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>windowNavigator</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Allow keyboard selection of windows and workspaces in overlay mode. &lt;Ctrl&gt;number selects a workspace, and &lt;Alt&gt;number selects a window.</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">windowsNavigator@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>window-list_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Window List</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Display a window list at the bottom of the screen. This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME&apos;s GitLab instance instead.</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">window-list@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>screenshot-window-sizer_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Screenshot Window Sizer</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Resize windows for GNOME Software screenshots</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>places-menu_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Places Status Indicator</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Add a menu for quickly navigating places in the system. This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME&apos;s GitLab instance instead.</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">places-menu@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>launch-new-instance_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Launch new instance</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Always launch a new instance when clicking in the dash or the application view. This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME&apos;s GitLab instance instead.</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">launch-new-instance@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>horizontal-workspaces_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Horizontal workspaces</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Use a horizontal workspace layout</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">horizontal-workspaces@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>drive-menu_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Removable Drive Menu</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>A status menu for accessing and unmounting removable devices.</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">drive-menu@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="shell-extension">
+    <id>apps-menu_gnome-shell-extensions.gcampax.github.com</id>
+    <pkgname>gnome-shell-extensions</pkgname>
+    <translation type="gettext">gnome-shell-extensions</translation>
+    <name>Applications Menu</name>
+    <summary>GNOME Shell Extension</summary>
+    <developer_name>e2002@bk.ru</developer_name>
+    <description><p>Add a category-based menu for applications. This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME&apos;s GitLab instance instead.</p></description>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell-extensions</url>
+    <releases>
+      <release version="3.36"/>
+    </releases>
+    <custom>
+      <value key="shell-extensions::uuid">apps-menu@gnome-shell-extensions.gcampax.github.com</value>
+    </custom>
+  </component>
+</components>
+

@@ -1,0 +1,112 @@
+DEBUG:   Getting filename match for lightsoff-3.36.0-1.x86_64.rpm
+DEBUG:   Exploding tree for lightsoff
+DEBUG:   Processing lightsoff-3.36.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.LightsOff
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.LightsOff.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.LightsOff.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.LightsOff</id>
+    <pkgname>lightsoff</pkgname>
+    <translation type="gettext">lightsoff</translation>
+    <name>Lights Off</name>
+    <summary>Turn off all the lights</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Lights Off is a collection of light switch puzzles. Clicking on a light toggles it either on or off, but also toggles all the surrounding lights, too. Your objective is simple: turn off all the lights!</p><p>Players who delight in turning off lights will enjoy the huge number of levels.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.LightsOff.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.LightsOff.png</icon>
+    <categories>
+      <category>Game</category>
+      <category>LogicGame</category>
+    </categories>
+    <keywords>
+      <keyword>adjacent</keyword>
+      <keyword>board</keyword>
+      <keyword>game</keyword>
+      <keyword>logic</keyword>
+      <keyword>puzzle</keyword>
+      <keyword>tiles</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/lightsoff/issues/new?issue</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/lightsoff/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Lightsoff</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~mcatanzaro/lightsoff.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release type="stable" timestamp="1583539200" version="3.36.0">
+        <description><p>Overview of changes in lightsoff 3.36.0</p><ul><li>Updated translations</li><li>Updated help</li></ul></description>
+      </release>
+      <release type="development" timestamp="1580515200" version="3.35.90">
+        <description><p>Overview of changes in lightsoff 3.35.90</p><ul><li>Updated translations</li><li>Updated help</li></ul></description>
+      </release>
+      <release type="stable" timestamp="1567987200" version="3.34.0">
+        <description><p>Overview of changes in lightsoff 3.34.0</p><ul><li>Updated translations</li></ul></description>
+      </release>
+      <release type="development" timestamp="1567382400" version="3.33.92">
+        <description><p>Overview of changes in lightsoff 3.33.92</p><ul><li>Updated translations</li></ul></description>
+      </release>
+      <release timestamp="1552262400" version="3.32.0">
+        <description><p>Overview of changes in lightsoff 3.32.0</p><ul><li>Updated translations</li></ul></description>
+      </release>
+      <release timestamp="1551744000" version="3.31.921">
+        <description><p>Overview of changes in lightsoff 3.31.92</p><ul><li>Updated translations</li></ul></description>
+      </release>
+      <release timestamp="1550448000" version="3.31.91">
+        <description><p>Overview of changes in lightsoff 3.31.91</p><ul><li>Snap build fixes (Jeremy Bicha)</li><li>Updated translations</li></ul></description>
+      </release>
+      <release timestamp="1549238400" version="3.31.90">
+        <description><p>Overview of changes in lightsoff 3.31.90</p><ul><li>Snap build fixes (Jeremy Bicha)</li><li>Unify application identifier !5 (Bilal Elmoussaoui)</li><li>Added tests to validate appdata and desktop !5 (Bilal Elmoussaoui)</li><li>Updated appdata !5 (Bilal Elmoussaoui)</li><li>Added flatpak nightly builds !6 (Bilal Elmoussaoui)</li><li>Updated translations</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <id>lightsoff.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.LightsOff.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,58 @@
+DEBUG:   Getting filename match for simple-scan-3.36.3-1.x86_64.rpm
+DEBUG:   Exploding tree for simple-scan
+DEBUG:   Processing simple-scan-3.36.3-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <robert.ancell_AT_canonical.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/simple-scan.png
+DEBUG:   Saved icon ./tmp/icons/128x128/simple-scan.png
+<components version="1.0">
+  <component type="desktop">
+    <id>simple-scan.desktop</id>
+    <pkgname>simple-scan</pkgname>
+    <translation type="gettext">simple-scan</translation>
+    <name>Document Scanner</name>
+    <summary>Make a digital copy of your photos and documents</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>A really easy way to scan both text and images. You can crop out the bad parts of an image and rotate it if it is the wrong way round. You can print your scans, export them to pdf, or save them in a range of image formats.</p><p>This app uses the SANE framework to support most existing scanners.</p></description>
+    <icon type="cached" height="128" width="128">128x128/simple-scan.png</icon>
+    <icon type="cached" height="64" width="64">64x64/simple-scan.png</icon>
+    <categories>
+      <category>Graphics</category>
+      <category>Scanning</category>
+    </categories>
+    <keywords>
+      <keyword>adf</keyword>
+      <keyword>flatbed</keyword>
+      <keyword>scan</keyword>
+      <keyword>scanner</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+    </kudos>
+    <project_license>GPL-3.0+ and CC-BY-SA-3.0</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/simple-scan/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/simple-scan</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://launchpadlibrarian.net/203209644/simple-scan.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1567900800" version="3.34.0"/>
+      <release timestamp="1557014400" version="3.32.2.1"/>
+      <release timestamp="1554768000" version="3.32.2"/>
+    </releases>
+    <launchable type="desktop-id">simple-scan.desktop</launchable>
+  </component>
+</components>
+

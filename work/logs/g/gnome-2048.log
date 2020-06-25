@@ -1,0 +1,90 @@
+DEBUG:   Getting filename match for gnome-2048-3.36.3-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-2048
+DEBUG:   Processing gnome-2048-3.36.3-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <arnaud.bonatti@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.TwentyFortyEight
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.TwentyFortyEight.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.TwentyFortyEight.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.TwentyFortyEight</id>
+    <pkgname>gnome-2048</pkgname>
+    <translation type="gettext">gnome-2048</translation>
+    <name>GNOME 2048</name>
+    <summary>Obtain the 2048 tile</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Play the highly addictive 2048 game. GNOME 2048 is a clone of the popular single-player puzzle game. Gameplay consists of joining numbers in a grid and obtain the 2048 tile.</p><p>Use your keyboard's arrow keys to slide all tiles in the desired direction. Be careful: all tiles slide to their farthest possible positions, you cannot slide just one tile or one row or column. Tiles with the same value are joined when slided one over the other.</p><p>With every new tile obtained you increase your score. If you think you can easily get the 2048 tile, do not let it stop you, the game does not end there, you can continue joining tiles and improving your score.</p><p>Originally created by Gabriele Cirulli, 2048 has gained much popularity due to it being highly addictive. Cirulli's 2048 is in turn a clone of the 1024 game and includes ideas from other clones.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.TwentyFortyEight.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.TwentyFortyEight.png</icon>
+    <categories>
+      <category>Game</category>
+    </categories>
+    <keywords>
+      <keyword>puzzle</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-2048/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/2048</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>A running game having reached the 2048 tile</caption>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-2048/raw/master/data/screenshot.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release type="stable" timestamp="1590796800" urgency="medium" version="3.36.3"/>
+      <release type="development" timestamp="1580515200" urgency="low" version="3.35.90"/>
+    </releases>
+    <provides>
+      <id>org.gnome.gnome-2048.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.TwentyFortyEight.desktop</launchable>
+  </component>
+</components>
+

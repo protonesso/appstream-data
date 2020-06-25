@@ -1,0 +1,94 @@
+DEBUG:   Getting filename match for epiphany-3.36.2-2.x86_64.rpm
+DEBUG:   Exploding tree for epiphany
+DEBUG:   Processing epiphany-3.36.2-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Epiphany.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Epiphany.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Epiphany.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Epiphany.desktop</id>
+    <pkgname>epiphany</pkgname>
+    <translation type="gettext">epiphany</translation>
+    <name>GNOME Web</name>
+    <summary>Web browser for GNOME</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>The web browser for GNOME, featuring tight integration with the desktop and a simple and intuitive user interface that allows you to focus on your web pages. If you’re looking for a simple, clean, beautiful view of the web, this is the browser for you.</p><p>GNOME Web is often referred to by its code name, Epiphany.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Epiphany.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Epiphany.png</icon>
+    <categories>
+      <category>Network</category>
+      <category>WebBrowser</category>
+    </categories>
+    <keywords>
+      <keyword>browser</keyword>
+      <keyword>internet</keyword>
+      <keyword>web</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>SearchProvider</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/x-mimearchive</mimetype>
+      <mimetype>application/xhtml+xml</mimetype>
+      <mimetype>message/rfc822</mimetype>
+      <mimetype>multipart/related</mimetype>
+      <mimetype>text/html</mimetype>
+      <mimetype>text/xml</mimetype>
+      <mimetype>x-scheme-handler/http</mimetype>
+      <mimetype>x-scheme-handler/https</mimetype>
+    </mimetypes>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/epiphany/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/epiphany/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Web</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <caption>The GNOME web site displayed in GNOME Web</caption>
+        <image type="source">https://git.gnome.org/browse/epiphany/plain/data/screenshot.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1590710400" version="3.36.2"/>
+      <release timestamp="1585267200" version="3.36.1"/>
+      <release timestamp="1583539200" version="3.36.0"/>
+      <release timestamp="1582761600" version="3.35.92"/>
+      <release timestamp="1581638400" version="3.35.91"/>
+      <release timestamp="1580515200" version="3.35.90"/>
+      <release timestamp="1574380800" version="3.35.2"/>
+      <release timestamp="1570752000" version="3.35.1"/>
+      <release timestamp="1570147200" version="3.34.1"/>
+      <release timestamp="1567814400" version="3.34.0"/>
+      <release timestamp="1567296000" version="3.33.92"/>
+      <release timestamp="1565913600" version="3.33.91"/>
+      <release timestamp="1564963200" version="3.33.90"/>
+      <release timestamp="1563062400" version="3.33.4"/>
+      <release timestamp="1546473600" version="3.35.3"/>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Epiphany.SearchProvider</dbus>
+      <id>epiphany.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Epiphany.desktop</launchable>
+  </component>
+</components>
+

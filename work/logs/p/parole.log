@@ -1,0 +1,5 @@
+DEBUG:   Getting filename match for parole-1.0.5-1.x86_64.rpm
+DEBUG:   Exploding tree for parole
+DEBUG:   Processing parole-1.0.5-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: Failed to run process 'appdata': failed to parse ./tmp/parole-1.0.5-1/usr/share/metainfo/parole.appdata.xml: Error on line 289 char 360: <p> already set 'Kjo hedhje në qarkullim zhvillim ndreq disa të meta, gabime shkrimi, dhe hollësi historike të pranishme në dokumentim. Tashmë përpunohen etiketa në kartela të dërguara përmes HTTP/S. Mekanizmi' and tried to replace with ' është çaktivizuar për GTK+ 3.22 dhe versione më të rinj, për shkak ndryshime thelbësore të API-t.'

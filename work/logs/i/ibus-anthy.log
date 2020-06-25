@@ -1,0 +1,26 @@
+DEBUG:   Getting filename match for ibus-anthy-1.5.11-1.x86_64.rpm
+DEBUG:   Exploding tree for ibus-anthy
+DEBUG:   Processing ibus-anthy-1.5.11-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <tfujiwar_AT_redhat.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+<components version="1.0">
+  <component type="inputmethod">
+    <id>org.freedesktop.ibus.engine.anthy</id>
+    <pkgname>ibus-anthy</pkgname>
+    <translation type="gettext">ibus-anthy</translation>
+    <name>Anthy</name>
+    <summary>Japanese input method</summary>
+    <description><p>The Anthy input method is designed for entering Japanese text.</p><p>Input methods are typing systems allowing users to input complex languages. They are necessary because these contain too many characters to simply be laid out on a traditional keyboard.</p></description>
+    <project_license>GPL-2.0</project_license>
+    <url type="bugtracker">https://github.com/ibus/ibus-anthy/issues</url>
+    <url type="help">https://github.com/ibus/ibus/wiki/FAQ</url>
+    <url type="homepage">https://github.com/ibus/ibus/wiki</url>
+  </component>
+</components>
+

@@ -1,0 +1,62 @@
+DEBUG:   Getting filename match for gnome-tweaks-3.34.0-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-tweaks
+DEBUG:   Processing gnome-tweaks-3.34.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <jbicha@ubuntu.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.tweaks.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.tweaks.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.tweaks.desktop</id>
+    <pkgname>gnome-tweaks</pkgname>
+    <translation type="gettext">gnome-tweaks</translation>
+    <name>GNOME Tweaks</name>
+    <summary>Tweak advanced GNOME 3 settings</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>GNOME Tweaks allows adjusting advanced GNOME options.</p><p>It can install and manage themes and extensions, change power settings, manage startup applications, and enable desktop icons among other settings.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.tweaks.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.tweaks.png</icon>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>Advanced</keyword>
+      <keyword>Extensions</keyword>
+      <keyword>Fonts</keyword>
+      <keyword>Keyboard</keyword>
+      <keyword>Preferences</keyword>
+      <keyword>Settings</keyword>
+      <keyword>Theme</keyword>
+      <keyword>Typing</keyword>
+      <keyword>XKB</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-tweaks/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Tweaks</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://wiki.gnome.org/Apps/Tweaks?action=AttachFile&amp;do=get&amp;target=UI.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <id>gnome-tweak-tool.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.tweaks.desktop</launchable>
+  </component>
+</components>
+

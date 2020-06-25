@@ -1,0 +1,74 @@
+DEBUG:   Getting filename match for gnome-font-viewer-3.34.0-2.x86_64.rpm
+DEBUG:   Exploding tree for gnome-font-viewer
+DEBUG:   Processing gnome-font-viewer-3.34.0-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.font-viewer.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.font-viewer.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.font-viewer.desktop</id>
+    <pkgname>gnome-font-viewer</pkgname>
+    <translation type="gettext">gnome-font-viewer</translation>
+    <name>GNOME Fonts</name>
+    <summary>View fonts on your system</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>GNOME Fonts shows you the fonts installed on your computer for your use as thumbnails. Selecting any thumbnails shows the full view of how the font would look under various sizes.</p><p>GNOME Fonts also supports installing new font files downloaded in the .ttf and other formats. Fonts may be installed only for your use or made available to all users on the computer.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.font-viewer.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.font-viewer.png</icon>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>fontface</keyword>
+      <keyword>fonts</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/x-font-otf</mimetype>
+      <mimetype>application/x-font-pcf</mimetype>
+      <mimetype>application/x-font-ttf</mimetype>
+      <mimetype>application/x-font-type1</mimetype>
+      <mimetype>font/otf</mimetype>
+      <mimetype>font/ttf</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-font-viewer/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="homepage">http://www.gnome.org/gnome-3/</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://help.gnome.org/misc/release-notes/3.6/figures/users-font-viewer.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1552608000" version="3.32.0">
+        <description><ul><li>Update the application icon</li><li>Improve usability of the Install button</li><li>Translation updates</li></ul></description>
+      </release>
+      <release timestamp="1535587200" version="3.30.0">
+        <description><ul><li>Show more OpenType features</li><li>Translation updates</li></ul></description>
+      </release>
+      <release timestamp="1520899200" version="3.28.0">
+        <description><ul><li>Translation updates</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.font-viewer</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.font-viewer.desktop</launchable>
+  </component>
+</components>
+

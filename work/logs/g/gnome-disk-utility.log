@@ -1,0 +1,74 @@
+DEBUG:   Getting filename match for gnome-disk-utility-3.36.1-2.x86_64.rpm
+DEBUG:   Exploding tree for gnome-disk-utility
+DEBUG:   Processing gnome-disk-utility-3.36.1-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <kailueke@riseup.net>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.DiskUtility.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.DiskUtility.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.DiskUtility.desktop</id>
+    <pkgname>gnome-disk-utility</pkgname>
+    <translation type="gettext">gnome-disk-utility</translation>
+    <name>GNOME Disks</name>
+    <summary>Disk management utility for GNOME</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Disks provides an easy way to inspect, format, partition, and configure disks and block devices.</p><p>Using Disks, you can view SMART data, manage devices, benchmark physical disks, and image USB sticks.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.DiskUtility.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.DiskUtility.png</icon>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>S.M.A.R.T.</keyword>
+      <keyword>backup</keyword>
+      <keyword>benchmark</keyword>
+      <keyword>cdrom</keyword>
+      <keyword>disc</keyword>
+      <keyword>disk</keyword>
+      <keyword>drive</keyword>
+      <keyword>dvd</keyword>
+      <keyword>encryption</keyword>
+      <keyword>harddisk</keyword>
+      <keyword>hdd</keyword>
+      <keyword>image</keyword>
+      <keyword>iso</keyword>
+      <keyword>luks</keyword>
+      <keyword>partition</keyword>
+      <keyword>raid</keyword>
+      <keyword>restore</keyword>
+      <keyword>smart</keyword>
+      <keyword>volume</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-disk-utility/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-help/stable/disk.html</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Disks</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>An easy way to manage your disks</caption>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-disk-utility/raw/master/data/appdata-screenshot.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">org.gnome.DiskUtility</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.DiskUtility.desktop</launchable>
+  </component>
+</components>
+

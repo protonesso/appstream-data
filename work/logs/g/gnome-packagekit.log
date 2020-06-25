@@ -1,0 +1,234 @@
+DEBUG:   Getting filename match for gnome-packagekit-3.32.0-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-packagekit
+DEBUG:   Processing gnome-packagekit-3.32.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <richard@hughsie.com>
+INFO:    Upstream contact <richard@hughsie.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   using stock icon system-software-update
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   using stock icon system-software-install
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Packages.desktop</id>
+    <pkgname>gnome-packagekit</pkgname>
+    <translation type="gettext">gnome-packagekit</translation>
+    <name>GNOME Packages</name>
+    <summary>Add or remove software installed on the system</summary>
+    <description><p>Packages allows you to install and remove packages on your system. You can view and search packages by name, details or even file name and also see dependencies of one package on other packages. Searching by groups is possible and is an easy way to find software in your favorite desktop environment.</p><p>Packages uses PackageKit and can work on any distribution using the native package management framework.</p></description>
+    <icon type="stock">system-software-install</icon>
+    <categories>
+      <category>PackageManager</category>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>Install</keyword>
+      <keyword>Preferences</keyword>
+      <keyword>Repositories</keyword>
+      <keyword>Sources</keyword>
+      <keyword>Store</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">http://www.packagekit.org/</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://git.gnome.org/browse/gnome-packagekit/plain/data/appdata/ss-application.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://git.gnome.org/browse/gnome-packagekit/plain/data/appdata/ss-application-details.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1552003200" version="3.32.0">
+        <description><p>This is the first stable release for GNOME 3.32 which updates several translations and fixes some build issues.</p></description>
+      </release>
+      <release timestamp="1536019200" version="3.30.0">
+        <description><p>This is the first stable release for GNOME 3.30 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1520812800" version="3.28.0">
+        <description><p>This is the first stable release for GNOME 3.28 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1505088000" version="3.26.0">
+        <description><p>This is the first stable release for GNOME 3.26 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1502064000" version="3.25.90">
+        <description><p>This unstable release switches to the meson build-system and updates several translations.</p></description>
+      </release>
+      <release timestamp="1489968000" version="3.24.0">
+        <description><p>This is the first stable release for GNOME 3.24.</p></description>
+      </release>
+      <release timestamp="1489190400" version="3.23.92">
+        <description><p>This unstable release updates several translations.</p></description>
+      </release>
+      <release timestamp="1486944000" version="3.23.90">
+        <description><p>This unstable release ports away from intltool and updates translations.</p></description>
+      </release>
+      <release timestamp="1476230400" version="3.22.1">
+        <description><p>This release modernizes metainfo files and updates translations.</p></description>
+      </release>
+      <release timestamp="1474243200" version="3.22.0">
+        <description><p>This is the first stable release for GNOME 3.22</p></description>
+      </release>
+      <release timestamp="1473724800" version="3.21.92">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1472428800" version="3.21.91">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1468800000" version="3.21.4">
+        <description><p>This unstable release for GNOME 3.21 fixes the following bugs:</p><ul><li>Use new-style application IDs for flatpak</li><li>Remove the broken markdown parsing module</li></ul><p>This release also updates translations.</p></description>
+      </release>
+      <release timestamp="1458518400" version="3.20.0">
+        <description><p>This release for GNOME 3.20 fixes the following bugs:</p><ul><li>Add a missing tag to the AppData file</li><li>Add resizing to various modal dialogs</li></ul><p>This release also updates translations.</p></description>
+      </release>
+      <release timestamp="1442827658" version="3.18.0">
+        <description><p>This is the first stable release for GNOME 3.18</p></description>
+      </release>
+      <release timestamp="1439989821" version="3.17.90">
+        <description><p>This release fixes the following bugs:</p><ul><li>Set minimum content height for scrolled windows</li><li>Ensure to escape package and vendor name</li></ul></description>
+      </release>
+      <release timestamp="1427103917" version="3.16.0">
+        <description><p>This stable release marks the release of GNOME 3.16!</p></description>
+      </release>
+      <release timestamp="1426498834" version="3.15.92">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1425299116" version="3.15.91">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1424118207" version="3.15.90">
+        <description><p>This release removes the dialog to run newly installed software.</p></description>
+      </release>
+      <release timestamp="1421625600" version="3.15.4"/>
+      <release timestamp="1418774400" version="3.15.3">
+        <description><p>This release fixes the following bug:</p><ul><li>Avoid conflict with new GTK+ API</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <id>gpk-application.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Packages.desktop</launchable>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.PackageUpdater.desktop</id>
+    <pkgname>gnome-packagekit</pkgname>
+    <name>GNOME Package Updater</name>
+    <summary>Update software installed on the system</summary>
+    <description><p>Package Updater allows you to update packages on your system without rebooting. You can view details about each update and choose which updates to apply.</p><p>Package Updater uses PackageKit and can work on any distribution using the native package management framework.</p></description>
+    <icon type="stock">system-software-update</icon>
+    <categories>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>Updates</keyword>
+      <keyword>Upgrade</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">http://www.packagekit.org/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://git.gnome.org/browse/gnome-packagekit/plain/data/appdata/ss-updater.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1552003200" version="3.32.0">
+        <description><p>This is the first stable release for GNOME 3.32 which updates several translations and fixes some build issues.</p></description>
+      </release>
+      <release timestamp="1536019200" version="3.30.0">
+        <description><p>This is the first stable release for GNOME 3.30 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1520812800" version="3.28.0">
+        <description><p>This is the first stable release for GNOME 3.28 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1505088000" version="3.26.0">
+        <description><p>This is the first stable release for GNOME 3.26 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1502064000" version="3.25.90">
+        <description><p>This unstable release switches to the meson build-system and updates several translations.</p></description>
+      </release>
+      <release timestamp="1489968000" version="3.24.0">
+        <description><p>This is the first stable release for GNOME 3.24.</p></description>
+      </release>
+      <release timestamp="1489190400" version="3.23.92">
+        <description><p>This unstable release updates several translations.</p></description>
+      </release>
+      <release timestamp="1486944000" version="3.23.90">
+        <description><p>This unstable release ports away from intltool and updates translations.</p></description>
+      </release>
+      <release timestamp="1474243200" version="3.22.0">
+        <description><p>This is the first stable release for GNOME 3.22</p></description>
+      </release>
+      <release timestamp="1473724800" version="3.21.92">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1472428800" version="3.21.91">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1471219200" version="3.21.90">
+        <description><p>This unstable release for GNOME 3.21 fixes the following bugs:</p><ul><li>Mark forgotten strings as translatable</li><li>Update the UI files to adhere to the GNOME 3 UI guidelines</li></ul><p>This release also updates translations.</p></description>
+      </release>
+      <release timestamp="1468800000" version="3.21.4">
+        <description><p>This unstable release for GNOME 3.21 fixes the following bugs:</p><ul><li>Use new-style application IDs for flatpak</li><li>Remove the broken markdown parsing module</li></ul><p>This release also updates translations.</p></description>
+      </release>
+      <release timestamp="1458518400" version="3.20.0">
+        <description><p>This release for GNOME 3.20 fixes the following bugs:</p><ul><li>Add a missing tag to the AppData file</li></ul><p>This release also updates translations.</p></description>
+      </release>
+      <release timestamp="1442827658" version="3.18.0">
+        <description><p>This is the first stable release for GNOME 3.18</p></description>
+      </release>
+      <release timestamp="1439989821" version="3.17.90">
+        <description><p>This release fixes the following bug:</p><ul><li>Consider available packages as updatable</li></ul></description>
+      </release>
+      <release timestamp="1427103917" version="3.16.0">
+        <description><p>This stable release marks the release of GNOME 3.16!</p></description>
+      </release>
+      <release timestamp="1426498834" version="3.15.92">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1425299116" version="3.15.91">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1424118207" version="3.15.90">
+        <description><p>This release moves the session D-Bus interface to GNOME Software.</p></description>
+      </release>
+      <release timestamp="1421625600" version="3.15.4">
+        <description><p>This release fixes the following bugs:</p><ul><li>Add suitable Keywords to the package updater desktop file</li></ul></description>
+      </release>
+      <release timestamp="1418774400" version="3.15.3">
+        <description><p>This release fixes the following bug:</p><ul><li>Avoid conflict with new GTK+ API</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <id>gpk-update-viewer.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.PackageUpdater.desktop</launchable>
+  </component>
+</components>
+

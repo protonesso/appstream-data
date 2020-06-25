@@ -1,0 +1,225 @@
+DEBUG:   Getting filename match for celluloid-0.19-1.x86_64.rpm
+DEBUG:   Exploding tree for celluloid
+DEBUG:   Processing celluloid-0.19-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <gnome-mpv@teknik.io>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/io.github.celluloid_player.Celluloid.png
+DEBUG:   Saved icon ./tmp/icons/128x128/io.github.celluloid_player.Celluloid.png
+<components version="1.0">
+  <component type="desktop">
+    <id>io.github.celluloid_player.Celluloid</id>
+    <pkgname>celluloid</pkgname>
+    <translation type="gettext">celluloid</translation>
+    <name>Celluloid</name>
+    <summary>GTK+ frontend for mpv</summary>
+    <developer_name>The Celluloid Developers</developer_name>
+    <description><p>Celluloid is a simple media player that can play virtually all video and audio formats. It supports playlists and MPRIS2 media player controls. The design of Celluloid follows the GNOME Human Interface Guidelines, but can also be adapted for other systems that don't use client-side decorations (CSD). It is based on the mpv library and GTK.</p><p>Features:</p><ul><li>Drag and drop playlist</li><li>Loading external mpv configuration files</li><li>MPRIS2 D-Bus interface</li></ul></description>
+    <icon type="cached" height="128" width="128">128x128/io.github.celluloid_player.Celluloid.png</icon>
+    <icon type="cached" height="64" width="64">64x64/io.github.celluloid_player.Celluloid.png</icon>
+    <categories>
+      <category>AudioVideo</category>
+      <category>Player</category>
+      <category>TV</category>
+      <category>Video</category>
+    </categories>
+    <keywords>
+      <keyword>Album</keyword>
+      <keyword>Clip</keyword>
+      <keyword>DVD</keyword>
+      <keyword>Disc</keyword>
+      <keyword>Film</keyword>
+      <keyword>GNOME</keyword>
+      <keyword>Movie</keyword>
+      <keyword>Music</keyword>
+      <keyword>Player</keyword>
+      <keyword>Series</keyword>
+      <keyword>TV</keyword>
+      <keyword>Video</keyword>
+      <keyword>mpv</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/mpeg4-iod</mimetype>
+      <mimetype>application/mpeg4-muxcodetable</mimetype>
+      <mimetype>application/mxf</mimetype>
+      <mimetype>application/ogg</mimetype>
+      <mimetype>application/ram</mimetype>
+      <mimetype>application/sdp</mimetype>
+      <mimetype>application/streamingmedia</mimetype>
+      <mimetype>application/vnd.apple.mpegurl</mimetype>
+      <mimetype>application/vnd.ms-asf</mimetype>
+      <mimetype>application/vnd.rn-realmedia</mimetype>
+      <mimetype>application/vnd.rn-realmedia-vbr</mimetype>
+      <mimetype>application/x-extension-m4a</mimetype>
+      <mimetype>application/x-extension-mp4</mimetype>
+      <mimetype>application/x-flac</mimetype>
+      <mimetype>application/x-flash-video</mimetype>
+      <mimetype>application/x-matroska</mimetype>
+      <mimetype>application/x-ogg</mimetype>
+      <mimetype>application/x-streamingmedia</mimetype>
+      <mimetype>audio/3gpp</mimetype>
+      <mimetype>audio/3gpp2</mimetype>
+      <mimetype>audio/aac</mimetype>
+      <mimetype>audio/ac3</mimetype>
+      <mimetype>audio/amr</mimetype>
+      <mimetype>audio/amr-wb</mimetype>
+      <mimetype>audio/basic</mimetype>
+      <mimetype>audio/dv</mimetype>
+      <mimetype>audio/eac3</mimetype>
+      <mimetype>audio/flac</mimetype>
+      <mimetype>audio/m4a</mimetype>
+      <mimetype>audio/midi</mimetype>
+      <mimetype>audio/mp1</mimetype>
+      <mimetype>audio/mp2</mimetype>
+      <mimetype>audio/mp3</mimetype>
+      <mimetype>audio/mp4</mimetype>
+      <mimetype>audio/mpeg</mimetype>
+      <mimetype>audio/mpegurl</mimetype>
+      <mimetype>audio/mpg</mimetype>
+      <mimetype>audio/ogg</mimetype>
+      <mimetype>audio/opus</mimetype>
+      <mimetype>audio/scpls</mimetype>
+      <mimetype>audio/vnd.dolby.heaac.1</mimetype>
+      <mimetype>audio/vnd.dolby.heaac.2</mimetype>
+      <mimetype>audio/vnd.dolby.mlp</mimetype>
+      <mimetype>audio/vnd.dts</mimetype>
+      <mimetype>audio/vnd.dts.hd</mimetype>
+      <mimetype>audio/vnd.rn-realaudio</mimetype>
+      <mimetype>audio/wav</mimetype>
+      <mimetype>audio/webm</mimetype>
+      <mimetype>audio/x-aac</mimetype>
+      <mimetype>audio/x-aiff</mimetype>
+      <mimetype>audio/x-ape</mimetype>
+      <mimetype>audio/x-flac</mimetype>
+      <mimetype>audio/x-gsm</mimetype>
+      <mimetype>audio/x-it</mimetype>
+      <mimetype>audio/x-m4a</mimetype>
+      <mimetype>audio/x-matroska</mimetype>
+      <mimetype>audio/x-mod</mimetype>
+      <mimetype>audio/x-mp1</mimetype>
+      <mimetype>audio/x-mp2</mimetype>
+      <mimetype>audio/x-mp3</mimetype>
+      <mimetype>audio/x-mpeg</mimetype>
+      <mimetype>audio/x-mpegurl</mimetype>
+      <mimetype>audio/x-mpg</mimetype>
+      <mimetype>audio/x-ms-asf</mimetype>
+      <mimetype>audio/x-ms-wma</mimetype>
+      <mimetype>audio/x-musepack</mimetype>
+      <mimetype>audio/x-pn-aiff</mimetype>
+      <mimetype>audio/x-pn-au</mimetype>
+      <mimetype>audio/x-pn-realaudio</mimetype>
+      <mimetype>audio/x-pn-wav</mimetype>
+      <mimetype>audio/x-real-audio</mimetype>
+      <mimetype>audio/x-realaudio</mimetype>
+      <mimetype>audio/x-s3m</mimetype>
+      <mimetype>audio/x-scpls</mimetype>
+      <mimetype>audio/x-shorten</mimetype>
+      <mimetype>audio/x-speex</mimetype>
+      <mimetype>audio/x-tta</mimetype>
+      <mimetype>audio/x-vorbis</mimetype>
+      <mimetype>audio/x-vorbis+ogg</mimetype>
+      <mimetype>audio/x-wav</mimetype>
+      <mimetype>audio/x-wavpack</mimetype>
+      <mimetype>audio/x-xm</mimetype>
+      <mimetype>video/3gp</mimetype>
+      <mimetype>video/3gpp</mimetype>
+      <mimetype>video/3gpp2</mimetype>
+      <mimetype>video/divx</mimetype>
+      <mimetype>video/dv</mimetype>
+      <mimetype>video/fli</mimetype>
+      <mimetype>video/flv</mimetype>
+      <mimetype>video/mp2t</mimetype>
+      <mimetype>video/mp4</mimetype>
+      <mimetype>video/mp4v-es</mimetype>
+      <mimetype>video/mpeg</mimetype>
+      <mimetype>video/mpeg-system</mimetype>
+      <mimetype>video/msvideo</mimetype>
+      <mimetype>video/ogg</mimetype>
+      <mimetype>video/quicktime</mimetype>
+      <mimetype>video/vnd.mpegurl</mimetype>
+      <mimetype>video/vnd.rn-realvideo</mimetype>
+      <mimetype>video/webm</mimetype>
+      <mimetype>video/x-avi</mimetype>
+      <mimetype>video/x-flc</mimetype>
+      <mimetype>video/x-fli</mimetype>
+      <mimetype>video/x-flv</mimetype>
+      <mimetype>video/x-m4v</mimetype>
+      <mimetype>video/x-matroska</mimetype>
+      <mimetype>video/x-mpeg</mimetype>
+      <mimetype>video/x-mpeg-system</mimetype>
+      <mimetype>video/x-mpeg2</mimetype>
+      <mimetype>video/x-ms-asf</mimetype>
+      <mimetype>video/x-ms-wm</mimetype>
+      <mimetype>video/x-ms-wmv</mimetype>
+      <mimetype>video/x-ms-wmx</mimetype>
+      <mimetype>video/x-msvideo</mimetype>
+      <mimetype>video/x-nsv</mimetype>
+      <mimetype>video/x-ogm+ogg</mimetype>
+      <mimetype>video/x-theora</mimetype>
+      <mimetype>video/x-theora+ogg</mimetype>
+      <mimetype>x-content/audio-cdda</mimetype>
+      <mimetype>x-content/audio-player</mimetype>
+      <mimetype>x-content/video-dvd</mimetype>
+      <mimetype>x-scheme-handler/mms</mimetype>
+      <mimetype>x-scheme-handler/mmsh</mimetype>
+      <mimetype>x-scheme-handler/rtmp</mimetype>
+      <mimetype>x-scheme-handler/rtp</mimetype>
+      <mimetype>x-scheme-handler/rtsp</mimetype>
+    </mimetypes>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">http://github.com/celluloid-player/celluloid/issues</url>
+    <url type="homepage">http://celluloid-player.github.io</url>
+    <url type="translate">http://translate.zanata.org/project/view/celluloid</url>
+    <screenshots>
+      <screenshot type="default">
+        <caption>The main window showing the application in action</caption>
+        <image type="source">http://celluloid-player.github.io/images/screenshot-0.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>The main window with CSD disabled</caption>
+        <image type="source">http://celluloid-player.github.io/images/screenshot-1.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>The main window with playlist open</caption>
+        <image type="source">http://celluloid-player.github.io/images/screenshot-2.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1586304000" version="0.19">
+        <description><p>This release contains the following changes:</p><ul><li>Adjust the range of volume button based on the value of ht volume-max property.</li><li>Retain window maximization state across sessions.</li><li>Retain loop state across sessions.</li><li>Implement playlist search.</li><li>Update the list of shortcuts in Keyboard Shortcuts dialog.</li><li>Correctly handle quotes and escape sequences in extra mpv options.</li><li>Display time at cursor position when hovering the seek bar.</li><li>Deprecate '--mpv-options'. Options starting with '--mpv-' can be used to set mpv options instead. For example, passing '--mpv-vf=vflip' to Celluloid is equivalent to passing '--vf=vflip' to mpv.</li><li>Add support for configuring dead zone, an area in which mouse movement will not cause controls to be shown.</li><li>Make window sizing work correctly with HiDPI displays.</li><li>Add Finnish translation by Kimmo Kujansuu.</li><li>Add Slovenian translation by @bertronika.</li></ul><p>This listing is incomplete. See git log for complete changelog.</p></description>
+      </release>
+      <release timestamp="1572912000" version="0.18">
+        <description><p>This release contains the following changes:</p><ul><li>Add Persian translation by @danialbehzadi</li><li>Add Ukranian translation by @vl-nix</li><li>Add support for showing/hiding window decorations using the mpv option --border</li><li>Add menu item for opening discs</li><li>Block cursor autohide when volume popup is open in windowed mode</li><li>Fix crash with mpv 0.30</li></ul><p>This listing is incomplete. See git log for complete changelog.</p></description>
+      </release>
+      <release timestamp="1565222400" version="0.17">
+        <description><p>This release contains the following changes:</p><ul><li>Rename project to Celluloid</li><li>Add Turkish translation by @TeknoMobil</li><li>Add Esperanto translation by @F3nd0</li><li>Migrate from opengl-cb to the new render API</li><li>Handle numpad keybindings</li><li>Handle unicode keybindings</li><li>Forward media key events to mpv</li><li>Add dconf key for controlling cursor speed at which controls are unhidden</li><li>Add option for suppressing playback errors</li></ul><p>This listing is incomplete. See git log for complete changelog.</p></description>
+      </release>
+      <release timestamp="1548028800" version="0.16">
+        <description><p>This release contains the following changes:</p><ul><li>Split up the General tab in the preferences dialog</li><li>Improve behavior when toggling playlist under tiling window managers</li><li>Move app menu items to primary menu</li><li>Use separate MPRIS DBus connection for each window</li><li>Add support for MPRIS property LoopStatus</li><li>Add option --mpv-options for setting arbitrary mpv options from the command-line</li></ul><p>This listing is incomplete. See git log for complete changelog.</p></description>
+      </release>
+      <release timestamp="1536364800" version="0.15">
+        <description><p>This release contains the following changes:</p><ul><li>Set default screenshot directory to XDG_PICTURES_DIR</li><li>Improve handling of --window-scale, --autofit, --autofit-larger, and --autofit-smaller</li><li>Add command line option for setting WM_ROLE</li><li>Add context menu item for removing playlist items</li><li>Add context menu item for copying location of playlist items</li></ul><p>This listing is incomplete. See git log for complete changelog.</p></description>
+      </release>
+      <release timestamp="1518825600" version="0.14">
+        <description><p>This release contains the following changes:</p><ul><li>Add option to make skip buttons change playlist entries rather than chapters</li><li>Make the file chooser accept non-local locations</li><li>Add right-click menu entry for looping a single file</li><li>Handle property change events for fullscreen and window-scale</li><li>Add option to autohide mouse cursor in windowed mode</li></ul><p>This listing is incomplete. See git log for complete changelog.</p></description>
+      </release>
+      <release timestamp="1507852800" version="0.13"/>
+    </releases>
+    <provides>
+      <dbus type="session">io.github.celluloid_player.Celluloid</dbus>
+      <id>io.github.GnomeMpv.desktop</id>
+    </provides>
+    <launchable type="desktop-id">io.github.celluloid_player.Celluloid.desktop</launchable>
+  </component>
+</components>
+

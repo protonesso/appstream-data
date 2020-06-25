@@ -1,0 +1,103 @@
+DEBUG:   Getting filename match for gnome-todo-3.28.1-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-todo
+DEBUG:   Processing gnome-todo-3.28.1-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <georges.stavracas@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Todo.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Todo.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Todo.desktop</id>
+    <pkgname>gnome-todo</pkgname>
+    <translation type="gettext">gnome-todo</translation>
+    <name>To Do</name>
+    <summary>Task manager for GNOME</summary>
+    <description><p>GNOME To Do is a task management application designed to integrate with GNOME. It is extensible through plugins and supports custom task providers.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Todo.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Todo.png</icon>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>Productivity</keyword>
+      <keyword>Task</keyword>
+      <keyword>Todo</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-todo</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Todo</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>GNOME To Do with the dark theme variant</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-todo/plain/data/appdata/dark-theme.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Available plugins for GNOME To Do</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-todo/plain/data/appdata/plugins.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Editing a tasklist with GNOME To Do</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-todo/plain/data/appdata/editing-tasklist.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Task lists displayed on grid mode</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-todo/plain/data/appdata/grid-view.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Task lists displayed on list mode</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-todo/plain/data/appdata/list-view.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Visualizing tasks for today on GNOME To Do’s Today panel</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-todo/plain/data/appdata/today-panel.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1523318400" version="3.28.1">
+        <description><p>GNOME To Do 3.28.1 brings new and updated translations, and minor bugfixes to the Scheduled panel.</p></description>
+      </release>
+      <release timestamp="1520812800" version="3.28.0">
+        <description><p>We're proud to annouce GNOME To Do 3.28.0!</p><p>GNOME To Do 3.28 is a major improvement over the previous versions, and introduces exciting new features and important fixes. The highlights of this release are:</p><p>One major drawback of this release is that the Todo.txt integration plugin lost the ability to handle subtasks. If you rely on that feature, please refrain from using this version of GNOME To Do.</p><p>It is important to notice that Todoist and Todo.txt integrations are still considered experimental, and should not be used in production environments.</p><p>This release also updates translations, and adds new translations.</p></description>
+      </release>
+      <release timestamp="1518307200" version="3.27.90">
+        <description><p>We're proud to annouce GNOME To Do 3.27.90, the alpha release of the next stable release that is going to be released this semester.</p><p>The highlights of this release are:</p><p>One major drawback of this release is that the Todo.txt integration plugin lost the ability to handle subtasks. If you rely on that feature, please refrain from using this version of GNOME To Do.</p><p>This release also updates translations, and adds new translations.</p></description>
+      </release>
+      <release timestamp="1510790400" version="3.27.2">
+        <description><p>We're proud to annouce GNOME To Do 3.27.2, the first development snapshot of the 3.28 release.</p><p>This release features a big (but still ongoing) redesign of the task rows. They are now much simpler and easier to work with, while having more features!</p><p>This release also updates translations, and adds new translations.</p><p>Thanks to everyone that contributed to GNOME To Do this cycle!</p></description>
+      </release>
+      <release timestamp="1505088000" version="3.26.0">
+        <description><p>We're proud to annouce GNOME To Do 3.26, the first release in the 3.26 stable series! This release, thanks to the hard work of a Google Summer of Code student, we have synchronization with Todoist in place.</p><p>This release also updates translations, and adds new translations.</p><p>Thanks to everyone that contributed to GNOME To Do this cycle!</p></description>
+      </release>
+      <release timestamp="1502323200" version="3.25.90">
+        <description><p>This is the second unstable release for GNOME 3.26 series. The new changes are:</p><ul><li>Implementation of the Todoist plugin by Rohit Kaushik.</li><li>Complete move to the Meson build system, dramatically reducing the build times by 80% or more.</li></ul><p>This release also updates translations, and adds new translations.</p></description>
+      </release>
+      <release timestamp="1497830400" version="3.25.3">
+        <description><p>This is the first unstable release for GNOME 3.26 series, and adds many new features and improvements. The major addition was the new Todoist plugin skeleton by Rohit Kaushik, and many other smaller improvements and bugfixes.</p><p>This release also updates translations, and adds new translations.</p><p>Thanks to all the contributors that worked on GNOME To Do!</p></description>
+      </release>
+      <release timestamp="1492992000" version="3.24.0">
+        <description><p>This is the first stable release for GNOME 3.24, and adds many new features and improvements.</p><p>This release also updates translations, and adds new translations.</p><p>Thanks to all the contributors that worked on GNOME To Do!</p></description>
+      </release>
+      <release timestamp="1477958400" version="3.22.0">
+        <description><p>This is the first stable release for GNOME 3.22, and adds many new features and improvements.</p><p>This release also updates translations, and adds new translations.</p><p>Thanks to all the contributors that worked on GNOME To Do!</p></description>
+      </release>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Todo</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Todo.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,58 @@
+DEBUG:   Getting filename match for yelp-3.36.0-1.x86_64.rpm
+DEBUG:   Exploding tree for yelp
+DEBUG:   Processing yelp-3.36.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <gnome-doc-devel-list@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/yelp.png
+DEBUG:   Saved icon ./tmp/icons/128x128/yelp.png
+<components version="1.0">
+  <component type="desktop">
+    <id>yelp.desktop</id>
+    <pkgname>yelp</pkgname>
+    <translation type="gettext">yelp</translation>
+    <name>GNOME Help</name>
+    <summary>Help viewer for GNOME</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can also display DocBook, info, man, and HTML documentation.</p><p>It makes it easy to find the documentation you need, with interactive search and bookmarks.</p><p>It also has an editor mode, which shows editorial comments and revision statuses when editing Mallard documents.</p></description>
+    <icon type="cached" height="128" width="128">128x128/yelp.png</icon>
+    <icon type="cached" height="64" width="64">64x64/yelp.png</icon>
+    <categories>
+      <category>Core</category>
+      <category>Documentation</category>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>documentation</keyword>
+      <keyword>help</keyword>
+      <keyword>information</keyword>
+      <keyword>manual</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>x-scheme-handler/ghelp</mimetype>
+      <mimetype>x-scheme-handler/help</mimetype>
+      <mimetype>x-scheme-handler/info</mimetype>
+      <mimetype>x-scheme-handler/man</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Yelp</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://wiki.gnome.org/Apps/Yelp?action=AttachFile&amp;do=get&amp;target=yelp_screenshot.png</image>
+      </screenshot>
+    </screenshots>
+    <launchable type="desktop-id">yelp.desktop</launchable>
+  </component>
+</components>
+

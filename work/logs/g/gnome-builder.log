@@ -1,0 +1,164 @@
+DEBUG:   Getting filename match for gnome-builder-3.36.0-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-builder
+DEBUG:   Processing gnome-builder-3.36.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <chergert@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Builder.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Builder.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Builder.desktop</id>
+    <pkgname>gnome-builder</pkgname>
+    <translation type="gettext">gnome-builder</translation>
+    <name>Builder</name>
+    <summary>An IDE for GNOME</summary>
+    <developer_name>Christian Hergert, et al.</developer_name>
+    <description><p>Builder is an actively developed Integrated Development Environment for GNOME. It combines integrated support for essential GNOME technologies such as GTK+, GLib, and GNOME APIs with features that any developer will appreciate, like syntax highlighting and snippets.</p><p>You can rely on predictable releases of Builder with each new release of GNOME every six months.</p><p>Features:</p><ul><li>Built in syntax highlighting for many languages</li><li>Side-by-side code editors</li><li>Multi-monitor support</li><li>Code overview mini-map</li><li>Integration with Git</li><li>Integration with Autotools, Cargo, CMake, Gradle, Meson, Maven, Make, PHPize, and Waf</li><li>Clang based auto-completion, semantic highlighting, and diagnostics</li><li>Python based auto-completion, semantic highlighting, and diagnostics</li><li>Vala based auto-completion and diagnostics</li><li>Auto indentation support for C, Python, Vala, and XML</li><li>HTML, Markdown, and reStructuredText, and Sphinx live preview</li><li>Optional Vim, Emacs, and SublimeText style editing</li><li>An integrated software profiler for native applications</li><li>An integrated debugger for native applications</li><li>Support for building with jhbuild and flatpak runtimes</li><li>Support for viewing TODOs found within your code base</li><li>Fast fuzzy text search across files and symbols</li></ul></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Builder.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Builder.png</icon>
+    <categories>
+      <category>Development</category>
+      <category>IDE</category>
+    </categories>
+    <keywords>
+      <keyword>Build</keyword>
+      <keyword>Develop</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/javascript</mimetype>
+      <mimetype>application/json</mimetype>
+      <mimetype>application/x-desktop</mimetype>
+      <mimetype>application/x-gnome-app-info</mimetype>
+      <mimetype>application/x-javascript</mimetype>
+      <mimetype>application/x-m4</mimetype>
+      <mimetype>application/x-perl</mimetype>
+      <mimetype>application/x-php</mimetype>
+      <mimetype>application/x-php-source</mimetype>
+      <mimetype>application/x-python</mimetype>
+      <mimetype>application/x-ruby</mimetype>
+      <mimetype>application/x-shellscript</mimetype>
+      <mimetype>application/x-yaml</mimetype>
+      <mimetype>application/xml</mimetype>
+      <mimetype>text/css</mimetype>
+      <mimetype>text/html</mimetype>
+      <mimetype>text/javascript</mimetype>
+      <mimetype>text/x-c</mimetype>
+      <mimetype>text/x-c++</mimetype>
+      <mimetype>text/x-c++hdr</mimetype>
+      <mimetype>text/x-c++src</mimetype>
+      <mimetype>text/x-changelog</mimetype>
+      <mimetype>text/x-chdr</mimetype>
+      <mimetype>text/x-cpp</mimetype>
+      <mimetype>text/x-csrc</mimetype>
+      <mimetype>text/x-go</mimetype>
+      <mimetype>text/x-javascript</mimetype>
+      <mimetype>text/x-js</mimetype>
+      <mimetype>text/x-lua</mimetype>
+      <mimetype>text/x-makefile</mimetype>
+      <mimetype>text/x-markdown</mimetype>
+      <mimetype>text/x-perl</mimetype>
+      <mimetype>text/x-php</mimetype>
+      <mimetype>text/x-php-source</mimetype>
+      <mimetype>text/x-pkg-config</mimetype>
+      <mimetype>text/x-python</mimetype>
+      <mimetype>text/x-ruby</mimetype>
+      <mimetype>text/x-sh</mimetype>
+      <mimetype>text/x-shellscript</mimetype>
+      <mimetype>text/x-sql</mimetype>
+      <mimetype>text/x-vala</mimetype>
+      <mimetype>text/xml</mimetype>
+    </mimetypes>
+    <project_license>GPL-3.0+ and GPL-2.0+ and LGPL-3.0+ and LGPL-2.0+ and MIT</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-builder/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://builder.readthedocs.io</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Builder</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>Create new projects from a variety of templates</caption>
+        <image type="source" height="1350" width="2400">https://gitlab.gnome.org/GNOME/gnome-builder/raw/master/data/appdata/02-template.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Debug with the GNU debugger</caption>
+        <image type="source" height="1350" width="2400">https://gitlab.gnome.org/GNOME/gnome-builder/raw/master/data/appdata/06-debugger.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Fast global fuzzy search</caption>
+        <image type="source" height="1350" width="2400">https://gitlab.gnome.org/GNOME/gnome-builder/raw/master/data/appdata/05-search.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Integration with Git to clone your projects</caption>
+        <image type="source" height="1350" width="2400">https://gitlab.gnome.org/GNOME/gnome-builder/raw/master/data/appdata/03-clone.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Quickly access your projects</caption>
+        <image type="source" height="1350" width="2400">https://gitlab.gnome.org/GNOME/gnome-builder/raw/master/data/appdata/01-greeter.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>The source code editor</caption>
+        <image type="source" height="1350" width="2400">https://gitlab.gnome.org/GNOME/gnome-builder/raw/master/data/appdata/04-editor.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1583452800" version="3.36.0">
+        <description><p>Builder 3.36 provies a number of performance fixes, UI improvements, and bug fixes. It also improves support for Vala, Rust, Python, and C/C++ languages.</p></description>
+      </release>
+      <release timestamp="1577923200" version="3.35.3">
+        <description><p>Builder 3.35.3 provies a number of bug fixes and UI improvements.</p></description>
+      </release>
+      <release timestamp="1567987200" version="3.34.0">
+        <description><p>Builder 3.34.0 culminates six months of feature development, bugfixes, and performance improvements.</p></description>
+      </release>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Builder</dbus>
+      <id>gnome-builder</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Builder.desktop</launchable>
+  </component>
+</components>
+

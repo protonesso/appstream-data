@@ -1,0 +1,60 @@
+DEBUG:   Getting filename match for gnome-sound-recorder-3.34.0-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-sound-recorder
+DEBUG:   Processing gnome-sound-recorder-3.34.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <meg387@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.SoundRecorder.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.SoundRecorder.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.SoundRecorder.desktop</id>
+    <pkgname>gnome-sound-recorder</pkgname>
+    <translation type="gettext">gnome-sound-recorder</translation>
+    <name>Sound Recorder</name>
+    <summary>A simple, modern sound recorder for GNOME</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Sound Recorder provides a simple and modern interface that provides a straight-forward way to record and play audio. It allows you to do basic editing, and create voice memos.</p><p>Sound Recorder automatically handles the saving process so that you do not need to worry about accidentally discarding the previous recording.</p><p>Supported audio formats:</p><ul><li>Ogg Vorbis, Opus, FLAC, MP3 and MOV</li></ul></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.SoundRecorder.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.SoundRecorder.png</icon>
+    <categories>
+      <category>Audio</category>
+      <category>AudioVideo</category>
+    </categories>
+    <keywords>
+      <keyword>Application</keyword>
+      <keyword>Audio</keyword>
+      <keyword>Record</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-sound-recorder/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/SoundRecorder</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-sound-recorder/raw/master/data/appdata/gsr-main.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0"/>
+    <releases>
+      <release timestamp="1568073600" version="3.34.0">
+        <description><p>Translations updates</p></description>
+      </release>
+    </releases>
+    <launchable>org.gnome.SoundRecorder.desktop</launchable>
+  </component>
+</components>
+

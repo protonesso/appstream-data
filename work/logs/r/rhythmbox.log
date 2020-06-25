@@ -1,0 +1,531 @@
+DEBUG:   Getting filename match for rhythmbox-3.4.4-1.x86_64.rpm
+DEBUG:   Exploding tree for rhythmbox
+DEBUG:   Processing rhythmbox-3.4.4-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <jmatthew@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for rhythmbox.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/rhythmbox.png
+DEBUG:   Saved icon ./tmp/icons/128x128/rhythmbox.png
+<components version="1.0">
+  <component type="desktop">
+    <id>rhythmbox.desktop</id>
+    <pkgname>rhythmbox</pkgname>
+    <translation type="gettext">rhythmbox</translation>
+    <name>Rhythmbox</name>
+    <name xml:lang="ar">أنغام</name>
+    <name xml:lang="dz">རི་ཐམ་བོཀསི་</name>
+    <name xml:lang="fa">ریتم‌باکس</name>
+    <name xml:lang="fi">Rytmilaatikko</name>
+    <name xml:lang="hi">रिदमबॉक्स</name>
+    <name xml:lang="hr">Rhytmbox</name>
+    <name xml:lang="ko">리듬박스</name>
+    <name xml:lang="mn">Ритмбокс</name>
+    <name xml:lang="nb">RhythmBox</name>
+    <name xml:lang="ne">रिदमबक्स</name>
+    <name xml:lang="pa">ਰੀਥਮਬਾਕਸ</name>
+    <name xml:lang="ps">رېدمبکس</name>
+    <name xml:lang="si">රිදම්බෝක්ස්</name>
+    <name xml:lang="sr">Ритам машина</name>
+    <name xml:lang="sr@latin">Ritam mašina</name>
+    <name xml:lang="ta">ரிதம் பெட்டி</name>
+    <name xml:lang="te">రిథమ్‌బాక్స్</name>
+    <summary>Play and organize your music collection</summary>
+    <summary xml:lang="af">Speel en organiseer u musiekversameling</summary>
+    <summary xml:lang="ar">شَغّل ونَظّم مجموعتك الموسيقية</summary>
+    <summary xml:lang="as">আপোনাৰ সঙ্গীত বজাওক আৰু পৰিচালনা কৰক</summary>
+    <summary xml:lang="az">Musiqi kolleksiyanızı tərtib edin və dinləyin</summary>
+    <summary xml:lang="be">Прайграе і арганізуе вашу музычную калекцыю</summary>
+    <summary xml:lang="be@latin">Vykonvaj i arhanizuj svaju muzyčnuju kalekcyju</summary>
+    <summary xml:lang="bg">Слушане и организиране на музикална ви колекция</summary>
+    <summary xml:lang="br">Lenn hag urzhian ho tastumadeg sonerezh</summary>
+    <summary xml:lang="bs">Organizuj i izvodi svoju muzičku zbirku</summary>
+    <summary xml:lang="ca">Reproduïu i organitzeu la col·lecció de música</summary>
+    <summary xml:lang="ca@valencia">Reproduïu i organitzeu la col·lecció de música</summary>
+    <summary xml:lang="cs">Přehrávejte si a organizujte svoji hudební sbírku</summary>
+    <summary xml:lang="cy">Chwarae a threfni eich casgliad cerddoriaeth</summary>
+    <summary xml:lang="da">Afspil og organisér din musiksamling</summary>
+    <summary xml:lang="de">Ihre Musiksammlung wiedergeben und organisieren</summary>
+    <summary xml:lang="dz">གཏང་ཞིནམ་ལས་ཁྱོད་རའི་སྙན་ཆ་བསྡུ་གསོག་འགོ་འདྲེན་འཐབ།</summary>
+    <summary xml:lang="el">Αναπαραγωγή και οργάνωση της μουσικής συλλογής σας</summary>
+    <summary xml:lang="en_GB">Play and organise your music collection</summary>
+    <summary xml:lang="eo">Ludu kaj organizu vian muzikaron</summary>
+    <summary xml:lang="es">Organice y reproduzca su colección de música</summary>
+    <summary xml:lang="et">Esita ja halda oma muusikakollektsiooni</summary>
+    <summary xml:lang="eu">Erreproduzitu eta antolatu zure musika-bilduma</summary>
+    <summary xml:lang="fa">پخش و سازماندهی مجموعه‌ی موسیقی شما</summary>
+    <summary xml:lang="fi">Soita ja järjestele musiikkikokoelmasi</summary>
+    <summary xml:lang="fr">Lire et organiser votre collection musicale</summary>
+    <summary xml:lang="fur">Sune e organize le tô colezion di musichis</summary>
+    <summary xml:lang="ga">Seinn agus eagraigh do bhailiúchán ceoil</summary>
+    <summary xml:lang="gd">Cluich agus cum rian air a' chruinneachadh chiùil agad</summary>
+    <summary xml:lang="gl">Reproduza e organice a súa colección de música</summary>
+    <summary xml:lang="gu">તમારા સંગીત સંગ્રહને વ્યવસ્થિત કરો અને વગાડો</summary>
+    <summary xml:lang="he">לנגינה וארגון של אוסף מוזיקה</summary>
+    <summary xml:lang="hi">अपने संगीत संग्रह को बजाएँ और व्यवस्थित करें</summary>
+    <summary xml:lang="hr">Organizirajte i reproducirajte svoju glazbenu kolekciju</summary>
+    <summary xml:lang="hu">Zenék rendszerezése és lejátszása</summary>
+    <summary xml:lang="id">Putar dan atur koleksi musik</summary>
+    <summary xml:lang="is">Spila og sjá um tónlistarsafnið þitt</summary>
+    <summary xml:lang="it">Riproduce e organizza la collezione musicale</summary>
+    <summary xml:lang="ja">あなたの楽曲コレクションを再生、管理します</summary>
+    <summary xml:lang="kk">Музыкалық жинағыңызды ойнау және реттеу</summary>
+    <summary xml:lang="kn">ನಿಮ್ಮ ಸಂಗೀತದ ಸಂಗ್ರಹವನ್ನು ಚಲಾಯಿಸಿ ಹಾಗು ವ್ಯವಸ್ಥಿತವಾಗಿ ಜೋಡಿಸಿ</summary>
+    <summary xml:lang="ko">음악 모음을 재생하고 정리합니다</summary>
+    <summary xml:lang="lt">Valdykite ir klausykitės savo muzikos kolekcijos</summary>
+    <summary xml:lang="lv">Atskaņo un organizē savu mūzikas kolekciju</summary>
+    <summary xml:lang="mk">Свири и организирај ја твојата музичка колекција</summary>
+    <summary xml:lang="mn">Хөгжмийн цуглуулгаа тоглуулж, зохион байгуул</summary>
+    <summary xml:lang="mr">तुमचे संगीत संग्रह चालवा व संयोजीत करा</summary>
+    <summary xml:lang="ms">Mian dan pelihara koleksi muzik anda</summary>
+    <summary xml:lang="nb">Spill av og organiser din musikksamling</summary>
+    <summary xml:lang="ne">तपाईँको सङ्गीत सङ्ग्रह सङ्गठित गर्नुहोस् र प्ले गर्नुहोस्</summary>
+    <summary xml:lang="nl">Uw muziekcollectie beluisteren en beheren</summary>
+    <summary xml:lang="nn">Spel av og organiser musikksamlinga di</summary>
+    <summary xml:lang="oc">Legir e organizar vòstra colleccion musicala</summary>
+    <summary xml:lang="pa">ਆਪਣੀ ਸੰਗੀਤ ਪਸੰਦ ਚਲਾਉ ਅਤੇ ਸੰਭਾਲੋ</summary>
+    <summary xml:lang="pl">Odtwarzanie i organizowanie kolekcji muzycznej</summary>
+    <summary xml:lang="ps">خپل ټنګټکور ټولګې غږول او سازول</summary>
+    <summary xml:lang="pt">Reproduza e organize a sua coleção de música</summary>
+    <summary xml:lang="pt_BR">Reproduz e organiza a sua coleção de músicas</summary>
+    <summary xml:lang="ro">Redă și organizează colecția dumneavoastră de piese</summary>
+    <summary xml:lang="ru">Программа воспроизведения и управления вашей музыкальной коллекцией</summary>
+    <summary xml:lang="si">ඔබගේ ගීත සමුච්චය සකස් කරන්න සහ ධාවනය කරන්න</summary>
+    <summary xml:lang="sk">Prehráva a organizuje vašu hudobnú zbierku</summary>
+    <summary xml:lang="sl">Predvajajte in organizirajte glasbeno zbirko</summary>
+    <summary xml:lang="sr">Слушајте и уређујте музичку збирку</summary>
+    <summary xml:lang="sr@latin">Slušajte i uređujte muzičku zbirku</summary>
+    <summary xml:lang="sv">Spela och organisera din musiksamling</summary>
+    <summary xml:lang="ta">உங்கள் இசை தொகுப்பை இசை அல்லது ஒழுங்குப்படுத்து</summary>
+    <summary xml:lang="te">మీ సంగీత సేకరణను ఆడించండి మరియు నిర్వహించండి</summary>
+    <summary xml:lang="th">เล่นและจัดการกับเพลงของคุณ</summary>
+    <summary xml:lang="tr">Müzik koleksiyonunuzu çalın ve yönetin</summary>
+    <summary xml:lang="uk">Відтворення та упорядкування збірки музичних творів</summary>
+    <summary xml:lang="vi">Phát nhạc và tổ chức các tập nhạc</summary>
+    <summary xml:lang="zh_CN">播放并组织您的音乐收藏</summary>
+    <summary xml:lang="zh_HK">播放及管理音樂收藏</summary>
+    <summary xml:lang="zh_TW">播放及管理音樂收藏</summary>
+    <description><p>Rhythmbox is a music management application, designed to work well under the GNOME desktop. In addition to music stored on your computer, it supports network shares, podcasts, radio streams, portable music devices (including phones), and internet music services such as Last.fm and Magnatune.</p><p>Rhythmbox is Free software, based on GTK+ and GStreamer, and is extensible via plugins written in Python or C.</p></description>
+    <description xml:lang="bs"><p>Rhythmbox je aplikacija za upravljanje muzikom, dizajniran da radi dobro na GNOME desktopu. Pored muzike sačuvane na vašem računaru, ona podržava i dijeljenja mreže, podcaste, radio tokove, prenosive muzičke uređaje (uključujući telefone), i internet muzičke servise kao što su Last.fm i Magnatune.</p><p>Rhythmbox je besplatan softver, baziran na GTK+ i GStreamer-u, i može se proširiti pluginima napisanim u Pythonu ili C-u.</p></description>
+    <description xml:lang="ca"><p>El Rhytmbox és una aplicació de gestió de música dissenyada per treballar amb l'escriptori GNOME. A més de gestionar la música que teniu al vostre ordinador, és compatible amb la compartició en xarxa, podcasts, flux de ràdio, dispositius de música portable (inclosos telèfons) i serveis de música d'Internet com Last.fm o Magnatune.</p><p>El Rhythmbox és programari lliure, basat en GTK+ i GStreamer, i és extensible mitjançant connectors escrits en Python o C.</p></description>
+    <description xml:lang="cs"><p>Rhythmbox je aplikace sloužící ke správě hudby a je navržena pro pracovní prostředí GNOME. Mimo hudby uložené ve vašem počítači podporuje také síťové sdílení, podcasty, vysílání rádií, přenosné přehrávače (včetně mobilních telefonů) a internetové hudební služby, jako je Last.fm a Magnatune.</p><p>Rhythmbox je svobodný software používající GTK+ a GStreamer a je rozšiřitelný pomocí zásuvných modulů psaných v jazycích Python nebo C.</p></description>
+    <description xml:lang="da"><p>Rhythmbox er et musikhåndteringsprogram som er designet med særligt henblik på GNOME-skrivebordet. Ud over musikken på din computer, understøtter Rhythmbox netværksdelinger, podcast, radiostrømme, transportable musikafspillere (inklusive telefoner) samt internettjenester såsom Last.fm og Magnatune.</p><p>Rhythmbox er fri software baseret på GTK+ og GStreamer, og kan udvides med moduler skrevet i Python eller C.</p></description>
+    <description xml:lang="de"><p>Rhythmbox ist ein Musikverwaltungsprogramm, welches konzipiert ist, um gut innerhalb der GNOME-Arbeitsumgebung zu laufen. Über die Musik hinaus, die auf Ihrem Rechner gespeichert ist, unterstützt es Netzwerkfreigaben, »Podcasts«, Radiosendungen, tragbare Musikgeräte (auch Telefone) und Internet-Musikdienste wie Last.fm und Magnatune.</p><p>Rhythmbox ist freie Software, basierend auf GTK+ und GStreamer. Es ist mit Zusatzmodulen erweiterbar, die in Python oder C geschrieben sind.</p></description>
+    <description xml:lang="el"><p>Το Rhythmbox είναι μια εφαρμογή διαχειρίσης της μουσικής σας, σχεδιασμένη να λειτουργεί άριστα στο GNOME. Εκτός από τη μουσική που είναι αποθηκευμένη στον υπολογιστή σας, υποστηρίζει κοινόχρηστα δικτύου, ραδιοφωνικές ροές, φορητές συσκευές μουσικής (και κινητά τηλέφωνα), και διαδικτυακές υπηρεσίες μουσικής όπως τα Last.fm και Magnatune.</p><p>Το Rhythmbox είναι ελεύθερο λογισμικό, βασισμένο στο GTK+ και το GStreamer, και είναι επεκτάσιμο με πρόσθετο γραμμένα σε Python ή C.</p></description>
+    <description xml:lang="eo"><p>Rhythmnox estas muzika mastruma aplikaĵo kiu funkcias bone en la GNOME labortablo. Krom muzikon sur via komputilo, ĝi subtenas retdividejojn, podkastojn, radiofluojn, porteblajn muzikaparatojn (inkluzive telefonojn), kaj retajn muzikservojn kiel Last.fm kaj Magnatune.</p><p>Rhythmbox estas libera programaro, bazita sur GTK+ kaj GStreamer, kaj ĝi estas etendebla per Python- kaj C-kromprogramoj.</p></description>
+    <description xml:lang="es"><p>Rhythmbox es una aplicación de gestión de música diseñada para funcionar bien en el escritorio GNOME. Además de la música guardada en su equipo, soporta comparticiones de red, podcasts, flujos de radio, dispositivos de música portátil (incluyendo los teléfonos) y servicios de música por Internet, tales como Last.fm y Magnatune.</p><p>Rhythmbox es software libre, basado en GTK+ y GStreamer, y se puede ampliar mediante complementos escritos en Python o en C.</p></description>
+    <description xml:lang="eu"><p>Rhythmbox musika kudeatzeko aplikazio bat da, GNOME mahaiganean ongi funtzionatzeko diseinatu dena. Zure ordenagailuan gordetako musika erabiltzeaz gain, sareko musika, podcast-ak, irrati-korronteak, musika-gailu eramangarriak (telefonoak barne) eta interneteko musika-zerbitzuak, adibidez Last.fm eta Magnatune, onartzen ditu.</p><p>Rhythmbox software librea da, GTK+ eta GStreamer programetan oinarritua, eta Python edo C lengoaietan idatzitako pluginen bidez hedatu daiteke.</p></description>
+    <description xml:lang="fi"><p>Rytmilaatikko on sovellus musiikin hallintaan. Se tukee paikallisten tiedostojen lisäksi verkkojakoja, podcasteja, radiosuoratoistoja, kannettavia musiikkilaitteita (mukaan lukien puhelimia) ja internetpalveluita kuten Last.fm ja Magnatune.</p><p>Rytmilaatikko on vapaa ja avoin ohjelmisto, joka pohjautuu GTK+:aan ja Gstreameriin. Rytmilaatikko on ohjelmoitu käyttäen Pythonia ja C:tä. Laajennuksilla on mahdollista lisätä toiminnalisuuksia Rytmilaatikkoon.</p></description>
+    <description xml:lang="fr"><p>Rhythmbox est une application de gestion de musique conçue pour s’intégrer harmonieusement au bureau GNOME. En plus de la musique stockée sur votre ordinateur, elle gère les partages réseau, les podcasts, les flux radiophoniques, les lecteurs audio portables (y compris les téléphones), et les services de musique sur Internet comme Last.fm et Magnatune.</p><p>Rhythmbox est un logiciel libre basé sur GTK+ et GStreamer ; il est extensible par des greffons écrits en Python ou en C.</p></description>
+    <description xml:lang="gd"><p>Cuiridh tu rian air a' cheòl agad le Rhythmbox 's a chaidh a dhealbhadh ach an obraich e gu ma air an deasg GNOME. A bharrachd air a' cheòl a tha air a' choimpiutair agad, cuiridh e taic ri co-roinneadh lìonraidh, pod-chraoladh, sruthadh rèidio, uidheaman ciùil so-ghiùlan (a' gabhail a-steach fònaichean) agus seirbheisean ciùil air loidhne mar Last.fm agus Magnatune.</p><p>'S e bathar-bog saor a tha sa Rhythmbox 's tha e stèidhichte air GTK+ agus GStreamer. Gabhaidh a leudachadh le plugain a ghabhas sgrìobhadh ann an Python no C.</p></description>
+    <description xml:lang="gl"><p>Rhythmbox é un aplicativo de xestión musical, deseñado para traballar no escritorio GNOME. Ademais da música gardada no seu computador, tamén acepta comparticións de rede, fluxos de radio, dispositivos portátiles de música (incluídos teléfonos) e servizos de música por internet tales como Last.fm e Magnatune.</p><p>Rhythmbox é software libre, baseado en GTK+ e GStreamer e ampliábel mediante engadidos escritos en Python ou C.</p></description>
+    <description xml:lang="hr"><p>Rhythmbox je aplikacija za upravljanje glazbom, dizajnirana tako da radi u GNOME radnom okruženju. Kao dodatak glazbi spremljenoj na vašem računalu, podržava mrežno dijeljenje, podcaste, radio streamove, prijenosne glazbene uređaje (uključujući mobitele) i internet glazbene usluge poput Last.fm i Magnatune.</p><p>Rhythmbox je slobodan softver, temeljen na GTK+ i GStreameru, i proširiv je putem priključaka napisanim u Pythonu ili C.</p></description>
+    <description xml:lang="hu"><p>A Rhythmbox egy GNOME környezetbeli működésre tervezett zenekezelő alkalmazás. A számítógépén tárolt zenén túl támogatja a hálózati megosztásokat, podcastokat, rádióközvetítéseket, hordozható zenelejátszókat (telefonokat is) és olyan internetes zenei szolgáltatásokat, mint a Last.fm és Magnatune.</p><p>A Rhythmbox szabad szoftver, a GTK+ és GStreamer használatával készült, és Python vagy C nyelvű bővítményekkel bővíthető.</p></description>
+    <description xml:lang="id"><p>Rhythmbox adalah sebuah aplikasi manajemen musik, dirancang untuk bekerja baik di bawah desktop GNOME. Selain musik yang disimpan pada komputer Anda, itu mendukung berbagi pakai jaringan, podcast, stream radio, perangkat musik portabel (termasuk telepon), dan layanan musik internet seperti Last.fm dan Magnatune.</p><p>Rhythmbox adalah Perangkat lunak bebas, berbasis pada GTK+ dan GStreamer, dan dapat dikembangkan melalui pengaya yang ditulis dalam Python atau C.</p></description>
+    <description xml:lang="it"><p>Rhythmbox è un'applicazione per la gestione della musica, progettata per integrarsi nell'ambiente grafico GNOME. Oltre alla musica archiviata nel proprio computer, supporta condivisioni di rete, podcast, radio, dispositivi portatili (compresi telefonini) e servizi musicali su Internet come Last.fm e Magnatune.</p><p>Rhythmbox è software libero basato su GTK+ e GStreamer ed è possibile estenderne le funzionalità attraverso plugin scritti in Python o C.</p></description>
+    <description xml:lang="ja"><p>Rhythmboxは楽曲管理アプリケーションで、GNOMEデスクトップ環境に最適化されて設定されています。コンピューター内に保存された音楽ファイル、ネットワーク経由の共有、ポッドキャスト、インターネットラジオ、ポータブル音楽デバイス(スマートフォン含む)、Last.fmやMagnatuneといったインターネット音楽配信サービスをサポートしています。</p><p>RhythmboxはGTK+とGStreamerをベースとしたフリーソフトウェアです。PythonやCで書かれたプラグインによって拡張可能です。</p></description>
+    <description xml:lang="ko"><p>리듬박스는 그놈 데스크톱에서 잘 동작하도록 설계한 음악 관리 프로그램입니다. 컴퓨터에 저장한 음악 파일에 대해 네트워크 공유, 팟캐스트, 라디오 스트리밍, 휴대용 음악 재생 장치(폰 포함), Last.fm 및 Magnatune과 같은 인터넷 음악 서비스를 지원합니다.</p><p>리듬 박스는 GTK+와 지스트리머를 기반으로 한 자유 소프트웨어이며, 파이썬 또는 C로 작성한 플러그인으로 기능을 확장할 수 있습니다.</p></description>
+    <description xml:lang="lt"><p>Rhythmbox yra muzikos tvarkymo programa, sukurta taip, kad gerai veiktų GNOME darbalaukyje. Be jūsų kompiuteryje esančios muzikos ji palaiko tinklo viešinius, tiklalaides, radijo srautus, nešiojamus muzikos įrenginius (įskaitant telefonus) bei internetines muzikos tarnybas, tokias kaip Last.fm ir Magnatune.</p><p>Rhythmbox yra laisva programinė įranga, sukurta GTK+ ir GStreamer pagrindu, bei yra plečiama įskiepiais, parašytais Python arba C kalbomis.</p></description>
+    <description xml:lang="lv"><p>Rhythmbox ir mūzikas pārvaldības lietotne, kas veidota darbam GNOME vidē. Tā atbalsta ne tikai uz datora saglabātu mūziku, bet arī tīkla koplietojumus, podraides, radio straumējumus, pārnēsājamās mūzikas ierīces (tai skaitā tālruņus) un interneta mūzikas pakalpojumus, piemēram, Last.fm un Magnatune.</p><p>Rhythmbox ir brīvā programmatūra, kas ir balstīta uz GTK+ un GStreamer, un tā ir paplašināma ar Python un C valodās rakstītiem spraudņiem.</p></description>
+    <description xml:lang="nb"><p>Rhythmbox er et program for håndtering av musikk og er designet for GNOME skrivebordet. I tillegg til musikk lagret på din datamaskin støtter det delte nettverkslokasjoner, podcaster, radiostrømmer og portable musikkenheter (inklusive telefoner) og musikktjenester på internett som Last.fm og Magnatune.</p><p>Rhythmbox er fri programvare basert på GTK+ og GStreamer og kan utvides via tillegg skrevet i Python eller C.</p></description>
+    <description xml:lang="nl"><p>Rhythmbox is een muziekbeheerprogramma, ontworpen om goed te werken in de Gnome-werkomgeving. Naast muziek die op uw computer is opgeslagen ondersteunt Rhythmbox in een netwerk gedeelde bestanden, podcasts, radiostreams, draagbare muziekapparaten (inclusief telefoons) en muziekdiensten op het internet zoals Last.fm en Magnatune.</p><p>Rhythmbox is vrije software, gebaseerd op GTK+ en GStreamer, en is uit te breiden via plug-ins geschreven in Python of C.</p></description>
+    <description xml:lang="oc"><p>Rhythmbox es una aplicacion de gestion de musica concebuda per s'integrar armoniosament al burèu GNOME. Amai de la musica emmagazinada sus vòstre ordinator, gerís los partiments ret, los podcasts, los fluxes radiofonics, los lectors àudios portables (incluses los telefòns), e los servicis de musica sus Internet coma Last.fm e Magnatune.</p><p>Rhythmbox es un logicial liure basat sus GTK+ e GStreamer ; es extensible per d'empeutons escriches en Python o en C.</p></description>
+    <description xml:lang="pl"><p>Rhythmbox to program do zarządzania muzyką, zaprojektowany do działania w środowisku GNOME. Oprócz muzyki przechowywanej na komputerze obsługuje on także muzykę udostępnianą w sieci, podcasty, radio internetowe, przenośne odtwarzacze muzyki (w tym smartfony) oraz serwisy internetowe Last.fm i Magnatune.</p><p>Rhythmbox jest wolnym oprogramowaniem, opartym na bibliotekach GTK i GStreamer, i jest rozszerzalny dzięki mechanizmowi wtyczek napisanych w językach Python i C.</p></description>
+    <description xml:lang="pt"><p>O Rhytmbox é uma aplicação de gestão de música desenhada para trabalhar bem nos ambientes de trabalho GNOME. Além de armazenar música no seu computador, suporta partilhas de rede, podcasts, fluxos de rádio, dispositivos de música portáteis (incluindo telefones) e serviços de música pela internet, tais como Last.fm e Magnatune.</p><p>Rhytmbox é uma aplicação livre, baseado em GTK+ e GStreamer e é extensivel com extensões escritas em Python ou C.</p></description>
+    <description xml:lang="pt_BR"><p>Rhythmbox é um aplicativo de gerenciamento de músicas, projetado para funcionar bem sob o ambiente GNOME. Além de músicas armazenadas em seu computador, há suporte a compartilhamentos de rede, podcasts, streams de rádio, dispositivos de música portáteis (incluindo telefones), e serviços de músicas na Internet tal como Last.fm e Magnatune.</p><p>Rhythmbox é um software livre, baseado no GTK+ e GStreamer, e é extensível via plug-ins escritos em Python ou C.</p></description>
+    <description xml:lang="ro"><p>Rhythmbox este o aplicație de administrare a muzicii, concepută pentru a funcționa bine sub mediul de desktop GNOME. Pe lângă muzica stocată pe calculatorul dumneavoastră, suportă partajări de rețea, podcasturi, fluxuri radio, dispozitive portabile de muzică (inclusiv telefoane) și servicii de muzică pe internet cum ar fi Last.fm și Magnatune.</p><p>Rhythmbox este program liber, bazat pe GTK+ și GStreamer, și este extensibil prin module scrise în Python sau C.</p></description>
+    <description xml:lang="ru"><p>Rhythmbox программа для управления музыкой, разработанная для работы в среде GNOME. В дополнение к музыке, хранящейся на Вашем компьютере, она поддерживает работу по сети, подкасты, радио, портативные устройства (включая телефоны), а также музыкальные интернет сервисы, такие как Last.fm и Magnatune.</p><p>Rhythmbox свободное ПО, основанное на GTK+ и GStreamer, и расширяемое с помощью плагинов написанных на Python или C.</p></description>
+    <description xml:lang="sk"><p>Rhythmbox je aplikácia na správu hudby navrhnutá tak, aby fungovala bezchybne v prostredí GNOME. Podporuje nielen hudobnú zbierku vo vašom počítači, ale tiež sprístupnenie v sieti, podcasty, rádiové prúdy, prenosné hudobné zariadenia (vrátane telefónov) a internetové hudobné služby ako Last.fm a Magnatune.</p><p>Rhythmbox je slobodný softvér založený na knižnici GTK+ a GStreamer a rozšíriteľný pomocou zásuvných modulov vytvorených v jazyku Python alebo C.</p></description>
+    <description xml:lang="sr"><p>Ритам машина је програм за управљање музиком, осмишљен да ради лепо под Гномовом радном површи. Поред музике ускладиштене на вашем рачунару, подржава мрежна дељења, подемисије, радио токове, преносне музичке уређаје (укључујући телефоне), и интернетне услуге музике као што су Ласт.фм и Мегатјун.</p><p>Ритам машина је слободан софтвер, заснован на Гтк+ и Гстримеру, и може се проширити прикључцима писаним у Питону или Ц-у.</p></description>
+    <description xml:lang="sr@latin"><p>Ritam mašina je program za upravljanje muzikom, osmišljen da radi lepo pod Gnomovom radnom površi. Pored muzike uskladištene na vašem računaru, podržava mrežna deljenja, podemisije, radio tokove, prenosne muzičke uređaje (uključujući telefone), i internetne usluge muzike kao što su Last.fm i Megatjun.</p><p>Ritam mašina je slobodan softver, zasnovan na Gtk+ i Gstrimeru, i može se proširiti priključcima pisanim u Pitonu ili C-u.</p></description>
+    <description xml:lang="sv"><p>Rhythmbox är ett program för musikhantering, designat för att fungera bra i skrivbordsmiljön GNOME. Förutom musik lagrad på din dator stöder det nätverksutdelningar, poddsändningar, radioströmmar, portabla musikenheter (inklusive mobiler) och musiktjänster på internet som Last.fm och Magnatune.</p><p>Rhythmbox är fri programvara, baserad på GTK+ och GStreamer, och är utökningsbar genom insticksmoduler skrivna i Python eller C.</p></description>
+    <description xml:lang="tr"><p>Rhythmbox GNOME masaüstünde iyi çalışmak üzere tasarlanmış bir müzik yönetim uygulamasıdır. Bilgisayarınzda kayıtlı müziğe ek olarak, ağ paylaşımlarını, podcast’ları, radyo akışlarını, taşınabilir müzik aygıtlarını (telefonlar dahil), ve Last.fm ve Magnatune gibi internet müzik servislerini de destekler.</p><p>Rhythmbox GTK+ ve GStreamer temelli bir Özgür yazılımdır, ve Python veya C ile yazılan eklentilerle geliştirilebilir.</p></description>
+    <description xml:lang="vi"><p>Rhythmbox là một ứng dụng quản lý nhạc, thiết kế để làm việc tốt trên môi trường máy tính GNOME. Ngoài việc nhạc lưu trên máy tính của bạn, nó còn hỗ trợ chia sẻ qua mạng, podcats, luồng radio, thiết bị âm nhạc di động (bao gồm cả điện thoại) và các dịch vụ âm nhạc trên internet như là Last.fm và Magnatune.</p><p>Rhythmbox là phần mềm miễn phí, dựa trên GTK+ và GStreamer, và được mở rộng thông qua các phần bổ xung viết bằng ngôn ngữ Python hay C.</p></description>
+    <description xml:lang="zh_CN"><p>Rhythmbox 是一个音乐管理应用程序，主要用于 GNOME 桌面环境。除了在计算机上存储音乐，也支持网络共享，播客，电台，便携式音乐设备(包括手机)，和互联网音乐服务，例如 Last.fm 和 Magnatune。</p><p>Rhythmbox 是自由软件，基于 GTK+ 和 GStreamer 框架，可以通过 Python 或 C 插件扩展。</p></description>
+    <description xml:lang="zh_TW"><p>Rhythmbox 是音樂管理程式，其設計是要在 GNOME 桌面下良好運作。除了儲存在您電腦上的音樂之外，它還支援網路分享、Podcast、無線電臺串流、可攜式音樂裝置 (包括手機)、和網際網路音樂服務如 Last.fm 與 Magnatune。</p><p>Rhythmbox 是自由軟體，基於 GTK+ 與 GStreamer 建置，可透過由 Python 或 C 等語言撰寫的外掛程式擴充功能。</p></description>
+    <icon type="cached" height="128" width="128">128x128/rhythmbox.png</icon>
+    <icon type="cached" height="64" width="64">64x64/rhythmbox.png</icon>
+    <categories>
+      <category>Audio</category>
+      <category>AudioVideo</category>
+      <category>Player</category>
+    </categories>
+    <keywords>
+      <keyword>Audio</keyword>
+      <keyword>CD</keyword>
+      <keyword>DLNA</keyword>
+      <keyword>Last.fm</keyword>
+      <keyword>MP3</keyword>
+      <keyword>MTP</keyword>
+      <keyword>Playlist</keyword>
+      <keyword>Podcast</keyword>
+      <keyword>Radio</keyword>
+      <keyword>Song</keyword>
+      <keyword>UPnP</keyword>
+      <keyword>iPod</keyword>
+      <keyword xml:lang="ar">أغاني</keyword>
+      <keyword xml:lang="ar">أيبود</keyword>
+      <keyword xml:lang="ar">إم بي ثري</keyword>
+      <keyword xml:lang="ar">اغاني</keyword>
+      <keyword xml:lang="ar">ام بي ثري</keyword>
+      <keyword xml:lang="ar">ايبود</keyword>
+      <keyword xml:lang="ar">بث صوتي</keyword>
+      <keyword xml:lang="ar">راديو</keyword>
+      <keyword xml:lang="ar">صوت</keyword>
+      <keyword xml:lang="ar">صوتيات</keyword>
+      <keyword xml:lang="ar">قائمة تشغيل</keyword>
+      <keyword xml:lang="ar">قرص</keyword>
+      <keyword xml:lang="ar">قرص مرن</keyword>
+      <keyword xml:lang="ar">نشرات صوتية</keyword>
+      <keyword xml:lang="ar">نشرة صوتية</keyword>
+      <keyword xml:lang="bs">Pjesma</keyword>
+      <keyword xml:lang="bs">Podemisija</keyword>
+      <keyword xml:lang="bs">Spisak pjesama</keyword>
+      <keyword xml:lang="bs">Zvuk</keyword>
+      <keyword xml:lang="ca">Cançó</keyword>
+      <keyword xml:lang="ca">Llista de reproducció</keyword>
+      <keyword xml:lang="ca">Ràdio</keyword>
+      <keyword xml:lang="cs">audio</keyword>
+      <keyword xml:lang="cs">hudba</keyword>
+      <keyword xml:lang="cs">podcast</keyword>
+      <keyword xml:lang="cs">písnička</keyword>
+      <keyword xml:lang="cs">přenosný přehrávač</keyword>
+      <keyword xml:lang="cs">rádio</keyword>
+      <keyword xml:lang="cs">seznam skladeb</keyword>
+      <keyword xml:lang="cs">skladba</keyword>
+      <keyword xml:lang="cs">zvuk</keyword>
+      <keyword xml:lang="da">Afspilningsliste</keyword>
+      <keyword xml:lang="da">Lyd</keyword>
+      <keyword xml:lang="da">Musik</keyword>
+      <keyword xml:lang="da">Sang</keyword>
+      <keyword xml:lang="da">Spilleliste</keyword>
+      <keyword xml:lang="da">cd</keyword>
+      <keyword xml:lang="de">Lied</keyword>
+      <keyword xml:lang="de">Musik</keyword>
+      <keyword xml:lang="de">Wiedergabeliste</keyword>
+      <keyword xml:lang="el">Ήχος</keyword>
+      <keyword xml:lang="el">Λίστα αναπαραγωγής</keyword>
+      <keyword xml:lang="el">Ράδιο</keyword>
+      <keyword xml:lang="el">Τραγούδι</keyword>
+      <keyword xml:lang="el">Φορητή εκπομπή(Podcast)</keyword>
+      <keyword xml:lang="eo">Aŭdo</keyword>
+      <keyword xml:lang="eo">KD</keyword>
+      <keyword xml:lang="eo">Kanto</keyword>
+      <keyword xml:lang="eo">Ludlisto</keyword>
+      <keyword xml:lang="eo">Podkasto</keyword>
+      <keyword xml:lang="eo">Sono</keyword>
+      <keyword xml:lang="es">Canción</keyword>
+      <keyword xml:lang="es">Lista de reproducción</keyword>
+      <keyword xml:lang="es">Sonido</keyword>
+      <keyword xml:lang="eu">Abestia</keyword>
+      <keyword xml:lang="eu">Audioa</keyword>
+      <keyword xml:lang="eu">Erreprodukzio-zerrenda</keyword>
+      <keyword xml:lang="eu">Irratia</keyword>
+      <keyword xml:lang="eu">Podcast-a</keyword>
+      <keyword xml:lang="fi">biisi</keyword>
+      <keyword xml:lang="fi">kappale</keyword>
+      <keyword xml:lang="fi">raita</keyword>
+      <keyword xml:lang="fi">soittolista</keyword>
+      <keyword xml:lang="fi">ääni</keyword>
+      <keyword xml:lang="fr">chanson</keyword>
+      <keyword xml:lang="fr">liste de lecture</keyword>
+      <keyword xml:lang="fr">musique</keyword>
+      <keyword xml:lang="fr">radio</keyword>
+      <keyword xml:lang="fur">Cjançon</keyword>
+      <keyword xml:lang="fur">liste</keyword>
+      <keyword xml:lang="fur">musichis</keyword>
+      <keyword xml:lang="gd">fuaime</keyword>
+      <keyword xml:lang="gd">pod-chraoladh</keyword>
+      <keyword xml:lang="gd">rèidio</keyword>
+      <keyword xml:lang="gd">òrain</keyword>
+      <keyword xml:lang="gd">òran</keyword>
+      <keyword xml:lang="gl">Canción</keyword>
+      <keyword xml:lang="gl">Lista de reprodución</keyword>
+      <keyword xml:lang="gl">Son</keyword>
+      <keyword xml:lang="hr">Pjesma</keyword>
+      <keyword xml:lang="hr">Popis izvođenja</keyword>
+      <keyword xml:lang="hr">Zvuk</keyword>
+      <keyword xml:lang="hu">Dal</keyword>
+      <keyword xml:lang="hu">Hang</keyword>
+      <keyword xml:lang="hu">Lejátszólista</keyword>
+      <keyword xml:lang="hu">Rádió</keyword>
+      <keyword xml:lang="hu">Szám</keyword>
+      <keyword xml:lang="hu">Zene</keyword>
+      <keyword xml:lang="id">Daftar putar</keyword>
+      <keyword xml:lang="id">Lagu</keyword>
+      <keyword xml:lang="it">Canzone</keyword>
+      <keyword xml:lang="it">Canzoni</keyword>
+      <keyword xml:lang="it">Musica</keyword>
+      <keyword xml:lang="it">Suono</keyword>
+      <keyword xml:lang="it">last.fm</keyword>
+      <keyword xml:lang="ja">musicplayer</keyword>
+      <keyword xml:lang="ja">オーディオ</keyword>
+      <keyword xml:lang="ja">ソング</keyword>
+      <keyword xml:lang="ja">プレイリスト</keyword>
+      <keyword xml:lang="ja">ポッドキャスト</keyword>
+      <keyword xml:lang="ja">ミュージック</keyword>
+      <keyword xml:lang="ja">ユニバーサルプラグアンドプレイ</keyword>
+      <keyword xml:lang="ja">ラジオ</keyword>
+      <keyword xml:lang="ja">楽曲</keyword>
+      <keyword xml:lang="ja">歌</keyword>
+      <keyword xml:lang="ja">音声</keyword>
+      <keyword xml:lang="ja">音楽</keyword>
+      <keyword xml:lang="ko">노래</keyword>
+      <keyword xml:lang="ko">라디오</keyword>
+      <keyword xml:lang="ko">아이팟</keyword>
+      <keyword xml:lang="ko">오디오</keyword>
+      <keyword xml:lang="ko">재생목록</keyword>
+      <keyword xml:lang="ko">팟캐스트</keyword>
+      <keyword xml:lang="lt">Daina</keyword>
+      <keyword xml:lang="lt">Garsas</keyword>
+      <keyword xml:lang="lt">Grojaraštis</keyword>
+      <keyword xml:lang="lt">Radijas</keyword>
+      <keyword xml:lang="lt">Tinklalaidė</keyword>
+      <keyword xml:lang="lt">UpnP</keyword>
+      <keyword xml:lang="lv">Dziesma</keyword>
+      <keyword xml:lang="lv">Podraide</keyword>
+      <keyword xml:lang="lv">Repertuārs</keyword>
+      <keyword xml:lang="nb">Lyd</keyword>
+      <keyword xml:lang="nb">Sang</keyword>
+      <keyword xml:lang="nb">Spilleliste</keyword>
+      <keyword xml:lang="nl">afspeellijst</keyword>
+      <keyword xml:lang="nl">audio</keyword>
+      <keyword xml:lang="nl">cd</keyword>
+      <keyword xml:lang="nl">dlna</keyword>
+      <keyword xml:lang="nl">ipod</keyword>
+      <keyword xml:lang="nl">last.fm</keyword>
+      <keyword xml:lang="nl">liedje</keyword>
+      <keyword xml:lang="nl">mp3</keyword>
+      <keyword xml:lang="nl">mtp</keyword>
+      <keyword xml:lang="nl">muziek</keyword>
+      <keyword xml:lang="nl">nummer</keyword>
+      <keyword xml:lang="nl">podcast</keyword>
+      <keyword xml:lang="nl">radio</keyword>
+      <keyword xml:lang="nl">track</keyword>
+      <keyword xml:lang="nl">upnp</keyword>
+      <keyword xml:lang="oc">cançon</keyword>
+      <keyword xml:lang="oc">lista de lectura</keyword>
+      <keyword xml:lang="oc">musica</keyword>
+      <keyword xml:lang="oc">ràdio</keyword>
+      <keyword xml:lang="oc">Àudio</keyword>
+      <keyword xml:lang="pl">DAAP</keyword>
+      <keyword xml:lang="pl">Dźwięk</keyword>
+      <keyword xml:lang="pl">FLAC</keyword>
+      <keyword xml:lang="pl">LIRC</keyword>
+      <keyword xml:lang="pl">Lastfm</keyword>
+      <keyword xml:lang="pl">Libre.fm</keyword>
+      <keyword xml:lang="pl">Librefm</keyword>
+      <keyword xml:lang="pl">Lista</keyword>
+      <keyword xml:lang="pl">M3U</keyword>
+      <keyword xml:lang="pl">MPRIS</keyword>
+      <keyword xml:lang="pl">Magnatune</keyword>
+      <keyword xml:lang="pl">Ogg</keyword>
+      <keyword xml:lang="pl">PLS</keyword>
+      <keyword xml:lang="pl">Piosenka</keyword>
+      <keyword xml:lang="pl">Playlista</keyword>
+      <keyword xml:lang="pl">Podkasty</keyword>
+      <keyword xml:lang="pl">Płyta</keyword>
+      <keyword xml:lang="pl">ReplayGain</keyword>
+      <keyword xml:lang="pl">SoundCloud</keyword>
+      <keyword xml:lang="pl">Utwór</keyword>
+      <keyword xml:lang="pl">Vorbis</keyword>
+      <keyword xml:lang="pl">XSPF</keyword>
+      <keyword xml:lang="pl">odtwarzania</keyword>
+      <keyword xml:lang="pt">Canção</keyword>
+      <keyword xml:lang="pt">Lista de reprodução</keyword>
+      <keyword xml:lang="pt">Rádio</keyword>
+      <keyword xml:lang="pt">Áudio</keyword>
+      <keyword xml:lang="pt_BR">Lista de reprodução</keyword>
+      <keyword xml:lang="pt_BR">Rádio</keyword>
+      <keyword xml:lang="pt_BR">Som</keyword>
+      <keyword xml:lang="pt_BR">Áudio</keyword>
+      <keyword xml:lang="ro">Listă</keyword>
+      <keyword xml:lang="ro">Piesă</keyword>
+      <keyword xml:lang="ru">Аудио</keyword>
+      <keyword xml:lang="ru">Звук</keyword>
+      <keyword xml:lang="ru">Композиция</keyword>
+      <keyword xml:lang="ru">Песня</keyword>
+      <keyword xml:lang="ru">Плейлист</keyword>
+      <keyword xml:lang="ru">Подкаст</keyword>
+      <keyword xml:lang="ru">Радио</keyword>
+      <keyword xml:lang="ru">Список</keyword>
+      <keyword xml:lang="si"> ගීතලැයිස්තුව</keyword>
+      <keyword xml:lang="si">අයිපොඩ්</keyword>
+      <keyword xml:lang="si">එම්පීත්‍රී</keyword>
+      <keyword xml:lang="si">ගීත</keyword>
+      <keyword xml:lang="si">පොඩ්කාස්ට්</keyword>
+      <keyword xml:lang="si">රේඩියෝ</keyword>
+      <keyword xml:lang="si">ශ්‍රව්‍ය</keyword>
+      <keyword xml:lang="si">සීඩී</keyword>
+      <keyword xml:lang="sk">Hudba</keyword>
+      <keyword xml:lang="sk">Pesničky</keyword>
+      <keyword xml:lang="sk">Pieseň</keyword>
+      <keyword xml:lang="sk">Rádio</keyword>
+      <keyword xml:lang="sk">Skladby</keyword>
+      <keyword xml:lang="sk">Zoznam piesní</keyword>
+      <keyword xml:lang="sl">glasba</keyword>
+      <keyword xml:lang="sl">pesmi</keyword>
+      <keyword xml:lang="sl">podcast</keyword>
+      <keyword xml:lang="sl">radio</keyword>
+      <keyword xml:lang="sl">seznam predvajanja</keyword>
+      <keyword xml:lang="sl">skladbe</keyword>
+      <keyword xml:lang="sl">zvok</keyword>
+      <keyword xml:lang="sr">ajPod</keyword>
+      <keyword xml:lang="sr">pesma</keyword>
+      <keyword xml:lang="sr">podkast</keyword>
+      <keyword xml:lang="sr">spisak numera</keyword>
+      <keyword xml:lang="sr">zvuk</keyword>
+      <keyword xml:lang="sr">ДЛНА</keyword>
+      <keyword xml:lang="sr">Ласт.фм</keyword>
+      <keyword xml:lang="sr">МП3</keyword>
+      <keyword xml:lang="sr">МТП</keyword>
+      <keyword xml:lang="sr">УПнП</keyword>
+      <keyword xml:lang="sr">ЦД</keyword>
+      <keyword xml:lang="sr">ајПод</keyword>
+      <keyword xml:lang="sr">звук</keyword>
+      <keyword xml:lang="sr">песма</keyword>
+      <keyword xml:lang="sr">подкаст</keyword>
+      <keyword xml:lang="sr">радио</keyword>
+      <keyword xml:lang="sr">списак нумера</keyword>
+      <keyword xml:lang="sr@latin">ajPod</keyword>
+      <keyword xml:lang="sr@latin">pesma</keyword>
+      <keyword xml:lang="sr@latin">podkast</keyword>
+      <keyword xml:lang="sr@latin">radio</keyword>
+      <keyword xml:lang="sr@latin">spisak numera</keyword>
+      <keyword xml:lang="sr@latin">zvuk</keyword>
+      <keyword xml:lang="sv">Ljud</keyword>
+      <keyword xml:lang="sv">Låt</keyword>
+      <keyword xml:lang="sv">Spellista</keyword>
+      <keyword xml:lang="th">คิวเพลง</keyword>
+      <keyword xml:lang="th">ซีดี</keyword>
+      <keyword xml:lang="th">พอดแคสต์</keyword>
+      <keyword xml:lang="th">วิทยุ</keyword>
+      <keyword xml:lang="th">เพลง</keyword>
+      <keyword xml:lang="th">แฟ้มเสียง</keyword>
+      <keyword xml:lang="th">ไอพอด</keyword>
+      <keyword xml:lang="tr">Parça</keyword>
+      <keyword xml:lang="tr">Radyo</keyword>
+      <keyword xml:lang="tr">Ses</keyword>
+      <keyword xml:lang="tr">Çalma Listesi</keyword>
+      <keyword xml:lang="tr">Şarkı</keyword>
+      <keyword xml:lang="vi">Hát</keyword>
+      <keyword xml:lang="vi">am</keyword>
+      <keyword xml:lang="vi">dai</keyword>
+      <keyword xml:lang="vi">hat</keyword>
+      <keyword xml:lang="vi">nhac</keyword>
+      <keyword xml:lang="vi">nhạc</keyword>
+      <keyword xml:lang="vi">thanh</keyword>
+      <keyword xml:lang="vi">âm</keyword>
+      <keyword xml:lang="vi">Đài</keyword>
+      <keyword xml:lang="zh_CN">光盘</keyword>
+      <keyword xml:lang="zh_CN">播客</keyword>
+      <keyword xml:lang="zh_CN">播放列表</keyword>
+      <keyword xml:lang="zh_CN">歌曲</keyword>
+      <keyword xml:lang="zh_CN">电台</keyword>
+      <keyword xml:lang="zh_CN">音乐</keyword>
+      <keyword xml:lang="zh_CN">音频</keyword>
+      <keyword xml:lang="zh_HK">唱片</keyword>
+      <keyword xml:lang="zh_HK">廣播</keyword>
+      <keyword xml:lang="zh_HK">播客</keyword>
+      <keyword xml:lang="zh_HK">播放清單</keyword>
+      <keyword xml:lang="zh_HK">歌</keyword>
+      <keyword xml:lang="zh_HK">歌曲</keyword>
+      <keyword xml:lang="zh_HK">電台</keyword>
+      <keyword xml:lang="zh_HK">電臺</keyword>
+      <keyword xml:lang="zh_HK">音樂</keyword>
+      <keyword xml:lang="zh_HK">音訊</keyword>
+      <keyword xml:lang="zh_TW">唱片</keyword>
+      <keyword xml:lang="zh_TW">廣播</keyword>
+      <keyword xml:lang="zh_TW">播客</keyword>
+      <keyword xml:lang="zh_TW">播放清單</keyword>
+      <keyword xml:lang="zh_TW">歌</keyword>
+      <keyword xml:lang="zh_TW">歌曲</keyword>
+      <keyword xml:lang="zh_TW">電台</keyword>
+      <keyword xml:lang="zh_TW">電臺</keyword>
+      <keyword xml:lang="zh_TW">音樂</keyword>
+      <keyword xml:lang="zh_TW">音訊</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>Notifications</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/ogg</mimetype>
+      <mimetype>application/x-ogg</mimetype>
+      <mimetype>audio/mp4</mimetype>
+      <mimetype>audio/mpeg</mimetype>
+      <mimetype>audio/vorbis</mimetype>
+      <mimetype>audio/x-flac</mimetype>
+      <mimetype>audio/x-it</mimetype>
+      <mimetype>audio/x-mod</mimetype>
+      <mimetype>audio/x-mp3</mimetype>
+      <mimetype>audio/x-mpeg</mimetype>
+      <mimetype>audio/x-mpegurl</mimetype>
+      <mimetype>audio/x-s3m</mimetype>
+      <mimetype>audio/x-scpls</mimetype>
+      <mimetype>audio/x-stm</mimetype>
+      <mimetype>audio/x-vorbis</mimetype>
+      <mimetype>audio/x-vorbis+ogg</mimetype>
+      <mimetype>audio/x-xm</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+ and GFDL-1.3</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/rhythmbox/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/rhythmbox/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Rhythmbox</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~jmatthew/rhythmbox-appdata-screenshot.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1578182400" version="3.4.4">
+        <description><p>This new version fixes a number of bugs, adds support for fetching cover art from coverartarchive.org and submitting listening data to listenbrainz.org.</p></description>
+      </release>
+      <release timestamp="1546214400" version="3.4.3">
+        <description><p>This new version fixes a number of bugs. The Android plugin now works better with Samsung and Android 9 devices, and the status bar was replaced with a floating bar.</p></description>
+      </release>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Rhythmbox3</dbus>
+    </provides>
+    <launchable type="desktop-id">rhythmbox.desktop</launchable>
+  </component>
+</components>
+

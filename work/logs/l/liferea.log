@@ -1,0 +1,131 @@
+DEBUG:   Getting filename match for liferea-1.13.1-1.x86_64.rpm
+DEBUG:   Exploding tree for liferea
+DEBUG:   Processing liferea-1.13.1-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <liferea-devel@lists.sf.net>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/net.sourceforge.liferea.png
+DEBUG:   Saved icon ./tmp/icons/128x128/net.sourceforge.liferea.png
+<components version="1.0">
+  <component type="desktop">
+    <id>net.sourceforge.liferea.desktop</id>
+    <pkgname>liferea</pkgname>
+    <name>Liferea</name>
+    <name xml:lang="ar">لايفريا</name>
+    <name xml:lang="bg">Събирач на RSS емисии (Liferea)</name>
+    <name xml:lang="he">‫Liferea</name>
+    <summary>RSS feed reader</summary>
+    <summary xml:lang="ar">اقرأ تلقيمات الأخبار و المدونات</summary>
+    <summary xml:lang="ca">Llegiu canals de notícies i blocs</summary>
+    <summary xml:lang="cs">Čtečka RSS kanálů</summary>
+    <summary xml:lang="da">Læs nyheds- og blogkilder</summary>
+    <summary xml:lang="de">RSS Feedreader</summary>
+    <summary xml:lang="es">Lector de canales de noticias y blogs</summary>
+    <summary xml:lang="eu">Irakurri berri jarioak eta blogak</summary>
+    <summary xml:lang="fi">Lue uutissyötteitä ja blogeja</summary>
+    <summary xml:lang="fr">Lecteur de flux RSS</summary>
+    <summary xml:lang="he">קרא ערוצי חדשות ובלוגים</summary>
+    <summary xml:lang="hu">Hírforrások és blogok olvasása</summary>
+    <summary xml:lang="id">Baca feed berita dan blog</summary>
+    <summary xml:lang="it">Lettore notiziari</summary>
+    <summary xml:lang="lv">Lasīt ziņu plūsmas un blogus</summary>
+    <summary xml:lang="nl">Nieuwsfeeds en blogs lezen</summary>
+    <summary xml:lang="pl">Odczytuje zawartość kanałów wiadomości i blogów</summary>
+    <summary xml:lang="pt_BR">Leia fontes de notícias e blogs</summary>
+    <summary xml:lang="ru">Читайте ленты новостей и блоги</summary>
+    <summary xml:lang="sq">Lexoni blogje dhe prurje lajmesh</summary>
+    <summary xml:lang="sv">Läs nyhetsflöden och bloggar</summary>
+    <summary xml:lang="tr">RSS besleme okuyucu</summary>
+    <summary xml:lang="uk">Читання подач новин та блогів</summary>
+    <summary xml:lang="vi">Đọc các tin mới và blog</summary>
+    <description><p>Liferea is an abbreviation for Linux Feed Reader. It is a news aggregator for online news feeds. It supports a number of different feed formats including RSS/RDF, CDF and Atom. There are many other news readers available, but these others are not available for Linux or require many extra libraries to be installed. Liferea tries to fill this gap by creating a fast, easy to use, easy to install news aggregator for GTK/GNOME.</p><p>Distinguishing features:</p><ul><li>Read articles when offline</li><li>Synchronizes with TheOldReader</li><li>Synchronizes with TinyTinyRSS</li><li>Synchronizes with InoReader</li><li>Synchronizes with Reedah</li><li>Permanently save headlines in news bins</li><li>Match items using search folders</li><li>Play Podcasts</li></ul></description>
+    <description xml:lang="ar"><p>لايفريا هو مجمّع أخبار لتلقيمات الأخبار. يدعم عددًا من أنساق التلقيمات مثل RSS/RDF و CDF و Atom. يوجد العديد من قارئات تلقيمات الأخبار لكنها إما غير متوفرة على لينكس أو تتطلب الكثير من المكتبات الإضافية. يحاول لايفريا سد هذه الهوّة بتوفير مجمّع أخبار سهل الاستخدام و التثبيت لجنوم.</p><p>الخصائص المميزة:</p><ul><li>قراءة المقالات دون اتصال</li><li>المزامنة مع قارئ TheOldReader</li><li>المزامنة مع TinyTinyRSS</li><li>المزامنة مع قارئ InoReader</li><li>المزامنة مع قارئ Reedah</li><li>حفظ عناوين الأخبار بشكل دائم في سلة الأخبار</li><li>تجميع العناصر باستخدام مجلدات البحث</li><li>تشغيل التدوين صوتي</li></ul></description>
+    <description xml:lang="cs"><p>Charakteristické vlastnosti:</p><ul><li>Číst články při stavu offline</li></ul></description>
+    <description xml:lang="de"><p>Liferea ist eine Abkürzung für »Linux Feed Reader«. Es ist ein Aggregator für Online-News-Feeds. Es unterstützt eine Reihe von verschiedenen Feed-Formaten, wie RSS/RDF, CDF und Atom. Es gibt viele andere Aggregatoren, doch diese sind nicht für Linux verfügbar oder setzen voraus dass viele externe Bibliotheken installiert sind. Liferea versucht diese Lücke zu schließen indem ein schneller, leicht zu benutzender, und leicht zu installierender Nachrichten-Aggregator für GTK/Gnome erstellt wird.</p><p>Interessante Fähigkeiten:</p><ul><li>Artikel offline lesen</li><li>Synchronisiert mit TheOldReader</li><li>Synchronisiert mit TinyTinyRSS</li><li>Synchronisiert mit InoReader</li><li>Synchronisiert mit Reedah</li><li>Speichert Schlagzeilen dauerhauft in 'News Bins'</li><li>Filtern von Schlagzeilen mit Suchordnern</li><li>Podcasts abspielen</li></ul></description>
+    <description xml:lang="es"><p>Liferea es una abreviatura de «Linux Feed Reader». Es un agregador de canales de noticias en línea. Es compatible con varios formatos de canales, como RSS/RDF, CDF y Atom. Existen otros lectores de noticias, pero o no están disponibles en Linux o necesitan de muchas bibliotecas adicionales para funcionar. Liferea trata de llenar ese vacío con un agregador rápido y fácil de usar y de instalar para GTK/GNOME.</p><p>Funcionalidades distintivas:</p><ul><li>Lectura de artículos sin conexión</li><li>Sincronización con TheOldReader</li><li>Sincronización con TinyTinyRSS</li><li>Sincronización con InoReader</li><li>Sincronización con Reedah</li><li>Guardado permanente de titulares en bandejas de noticias</li><li>Correspondencia de artículos mediante carpetas virtuales</li><li>Reproducción de podcasts</li></ul></description>
+    <description xml:lang="fi"><p>Liferea on lyhenne sanoista Linux Feed Reader, eli Linux-syötteenlukija. Se on uutiskeräin verkossa oleville syötteille. Liferea tukee lukuisia eri muotoja, mukaan lukien RSS/RDF, CDF ja Atom. Vaikka olemassa on myös muita uutislukijoita, ne eivät ole saatavilla Linuxille tai vaativat useita eri lisäkirjastoja asennettavaksi. Liferea pyrkii vastaamaan tarpeeseen tarjoamalla nopean ja heppokäyttöisen uutiskeräimen GNOME-työpöydälle.</p><p>Ominaisuuksia:</p><ul><li>Lue artikkeleita kun et ole yhteydessä verkkoon</li><li>Synkronoi TheOldReaderin kanssa</li><li>Synkronoi TinyTinyRSS:n kanssa</li><li>Synkronoi InoReaderin kanssa</li><li>Synkronoi Reedahin kanssa</li><li>Tallenna uutisotsikot pysyvästi uutiskoreihin</li><li>Hae tuloksia käyttämällä hakukansioita</li><li>Toista podcasteja</li></ul></description>
+    <description xml:lang="fr"><p>Liferea est l’abréviation de Linux Feed Reader. C’est un agrégateur de flux pour sites web. Il gère un certain nombre de formats de flux dont RSS/RDF, CDF et ATOM. D’autres lecteurs de flux existent mais soit ils ne sont pas disponibles pour Linux, soit ils nécessitent beaucoup de bibliothèques externes pour être installés. Liferea essaie de combler ce manque en créant un agrégateur de flux rapide, facile à utiliser et à installer pour GTK/Gnome.</p><p>Fonctionnalités importantes :</p><ul><li>Lire les articles hors-ligne</li><li>Synchroniser avec TheOldReader</li><li>Synchroniser avec TinyTinyRSS</li><li>Synchroniser avec les InoReader</li><li>Synchroniser avec Reedah</li><li>Sauvegarder des titres dans des boîtes à nouvelles</li><li>Retrouvez des articles en utilisant des dossiers de recherche</li><li>Lire les Podcast</li></ul></description>
+    <description xml:lang="he"><p>‏Liferea הינו קיצור של Linux Feed Reader (קורא ערוצים של Linux). זהו מאגד חדשות עבור ערוצי חדשות מקוונים. זה תומך במספר של פורמטים שונים של ערוצים כולל RSS/RDF, ‏CDF וגם Atom. קיימים קוראי חדשות רבים אחרים זמינים, אך אלו לא זמינים עבור Linux או מצריכים ספריות חיצוניות רבות על מנת שיותקנו. Liferea מנסה לגשר על פער זה על ידי יצירת מאגד חדשות עבור GTK/GNOME מהיר, קל לשימוש, קל להתקנה.</p><p>תכונות מיוחדות:</p><ul><li>קריאת מאמרים במצב לא־מקוון</li><li>סנכרון בעזרת TheOldReader</li><li>סנכרון בעזרת TinyTinyRSS</li><li>סנכרון בעזרת InoReader</li><li>סנכרון בעזרת Reedah</li><li>אחסון כותרות באופן קבוע בתוך סלי איסוף</li><li>התאמת פריטים באמצעות תיקיות חיפוש</li><li>ניגון פודקסטים</li></ul></description>
+    <description xml:lang="id"><p>Liferea ialah akronim untuk Linux Feed Reader. Agregator berita untuk feed berita online. Mendukung berbagai format feed yang berbeda termasuk RSS/RDF, CDF dan Atom. Ada banyak pembaca berita yang tersedia, namun tidak tersedia untuk Linux atau memerlukan pustaka ekstra untuk diinstal. Liferea mencoba untuk memenuhinya dengan membuat agregator untuk GTK/GNOME yang cepat, mudah digunakan, mudah diinstall.</p><p>Fitur istimewa:</p><ul><li>Baca artikel ketika luring</li><li>Sinkronisasi dengan TheOldReader</li><li>Sinkronisasi dengan TinyTinyRSS</li><li>Sinkronisasi dengan InoReader</li><li>Sinkronisasi dengan Reedah</li><li>Simpan headline di news bin</li><li>Item yang sesuai menggunakan pencarian folder</li><li>Mainkan Podcast</li></ul></description>
+    <description xml:lang="it"><p>Liferea è un'abbreviazione di Linux Feed Reader. È un aggregatore di notizie per i notiziari in rete. Supporta diversi formati di notiziari tra cui RSS/RDF, CDF e Atom. Ci sono molti altri lettori di notizie disponibili, ma questi non sono disponibili per Linux o richiedono l'installazione di molte librerie aggiuntive. Liferea cerca di colmare questa lacuna creando un aggregatore di notizie veloce, facile da usare e facile da installare per GTK/GNOME.</p><p>Funzionalità distintive:</p><ul><li>Legge gli articoli quando si è fuori rete</li><li>Sincronizza con TheOldReader</li><li>Sincronizza con TinyTinyRSS</li><li>Sincronizza con InoReader</li><li>Sincronizza con Reedah</li><li>Salve permanentemente le testate nell'archivio notizie</li><li>Abbina gli articoli usando le cartelle di ricerca</li><li>Riproduce i podcast</li></ul></description>
+    <description xml:lang="ja"><p>特徴的な機能:</p><ul><li>TheOldReader との同期</li><li>TinyTinyRSS との同期</li><li>InoReader との同期</li><li>Reedah との同期</li><li>Podcastを演奏する</li></ul></description>
+    <description xml:lang="ru"><p>Liferea — сокращение слов Linux Feed Reader. Она поддерживает ленты большинства форматов, включая RSS/RDF, CDF и Atom. Существует много других агрегаторов новостей, но они не работают под Linux или требуют установки множества дополнительных библиотек. Liferea пытается восполнить этот пробел, оставаясь быстрым, простым в установке и использовании агрегатором новостей для GTK/GNOME.</p><p>Особенности:</p><ul><li>Чтение в автономном режиме</li><li>Синхронизация с TheOldReader</li><li>Синхронизация с TinyTinyRSS</li><li>Постоянное хранение заголовков в ящиках новостей</li><li>Объединение новостей в папках поиска</li><li>Воспроизведение подкастов</li></ul></description>
+    <description xml:lang="sq"><p>Veçori Për T’u Përmendur</p><ul><li>Lexoni artikujt kur jeni i palidhur</li><li>Njëkohësohet me TheOldReader-in</li><li>Njëkohësohet me TinyTinyRSS-në</li><li>Njëkohësohet me InoReader-in</li><li>Njëkohësohet me with Reedah</li><li>Ruaji përgjithmonë titujt në kosha lajmesh</li><li>Gjej përputhje për zëra duke përdorur dosje kërkimi</li><li>Luaj Podcast-e</li></ul></description>
+    <description xml:lang="sv"><p>Liferea är en förkortning av Linux Feed Reader. Det är en nyhetsläsare för nyhetsflöden på nätet. Det stödjer ett antal olika flödesformat inklusive RSS/RDF, CDF och Atom. Det finns många andra nyhetsläsare tillgängliga, men dessa andra finns inte tillgängliga för Linux eller kräver många extra bibliotek för installation. Liferea försöker att fylla detta tomrum genom att skapa en snabb, lättanvänd, lätt installerbar nyhetsläsare för GTK/GNOME.</p><p>Utmärkande funktioner:</p><ul><li>Läs artiklar i frånkopplat läge</li><li>Synkroniserar med TheOldReader</li><li>Synkroniserar med TinyTinyRSS</li><li>Synkroniserar med InoReader</li><li>Synkroniserar med Reedah</li><li>Spara permanent rubriker i nyhetslådor</li><li>Matcha artiklar med hjälp av sökmappar</li><li>Spela poddsändningar</li></ul></description>
+    <description xml:lang="tr"><p>Liferea, Linux Feed Reader'ın bir kısaltmasıdır. Çevrim içi haber beslemeleri için bir haber toplayıcısıdır. RSS/RDF, CDF ve Atom gibi çok sayıda farklı besleme biçimini destekler. Birçok farklı haber okuyucu vardır ancak bunlar Linux'ta kullanılamayabilir ya da yüklenmek için birçok ek kütüphane gerektirir. Liferea hızlı, kullanımı kolay ve GTK/GNOME için kurulumu kolay haber toplayıcısı olarak bu boşluğu kapatmayı denemektedir.</p><p>Mükemmel özellikler:</p><ul><li>Çevrim dışı iken maddeleri oku</li><li>TheOldReader ile eşzamanlar</li><li>TinyTinyRSS ile eşzamanlar</li><li>InoReader ile eşzamanlar</li><li>Reedah ile eşzamanlar</li><li>Haber başlıklarını haber sepetlerinde kalıcı olarak sakla</li><li>Arama klasörlerini kullanarak ögeleri eşleştir</li><li>Podcastleri Oynat</li></ul></description>
+    <description xml:lang="uk"><p>Liferea — абревіатура від Linux Feed Reader (засіб читання подач у Linux). Це програма для збирання нових із подач у інтернеті. У програмі передбачено підтримку декількох різних форматів подач, зокрема RSS/RDF, CDF та Atom. Існує багато інших програм для читання новин, але вони або недоступні у Linux, або потребують встановлення багатьох додаткових бібліотек. Liferea є спробою заповнити цю прогалину створенням швидкої, простої у користуванні та простої у встановленні програми для читання новин із використанням GTK/GNOME.</p><p>Визначні особливості:</p><ul><li>Читання статей у автономному режимі.</li><li>Синхронізація з TheOldReader.</li><li>Синхронізація з TinyTinyRSS.</li><li>Синхронізація з InoReader.</li><li>Синхронізація з Reedah.</li><li>Зберігання заголовків записів новин.</li><li>Встановлення відповідності записів з використанням тек пошуку.</li><li>Відтворення трансляцій.</li></ul></description>
+    <description xml:lang="vi"><p>Liferea là từ viết tắt từ Linux Feed Reader. Nó là một bộ tập hợp tin tức cho các feed tin tức trực tuyến. Nó hỗ trợ một lượng lớn các định dạng feed khác nhau bao gồm RSS/RDF, CDF và Atom. Hiện sẵn có nhiều bộ đọc tin tức, nhưng những cái khác đó không sẵn có trên Linux hay yêu cầu cài đặt bổ sung nhiều thư viện. Liferea có để lấp đầy khoảng trống này bằng các tạo cho môi trường  GTK/GNOME một bộ tập hợp tin tức nhanh, dễ cài đặt và sử dụng.</p><p>Các tính năng phân biệt:</p><ul><li>Đọc các bài viết khi ngoại tuyến</li><li>Đồng bộ hóa với TheOldReader</li><li>Đồng bộ hóa với TinyTinyRSS</li><li>Đồng bộ hóa với InoReader</li><li>Đồng bộ hóa với Reedah</li><li>Lưu vĩnh viễn tin chính vào một bin tin tức</li><li>Khớp các mục tin sử dụng các thư mục tìm kiếm</li><li>Chơi Podcast</li></ul></description>
+    <icon type="cached" height="128" width="128">128x128/net.sourceforge.liferea.png</icon>
+    <icon type="cached" height="64" width="64">64x64/net.sourceforge.liferea.png</icon>
+    <categories>
+      <category>Network</category>
+      <category>News</category>
+    </categories>
+    <keywords>
+      <keyword>aggregator</keyword>
+      <keyword>atom</keyword>
+      <keyword>blog</keyword>
+      <keyword>feed</keyword>
+      <keyword>news</keyword>
+      <keyword>podcast</keyword>
+      <keyword>rss</keyword>
+      <keyword>syndication</keyword>
+      <keyword xml:lang="fr">actualité</keyword>
+      <keyword xml:lang="fr">agrégateur</keyword>
+      <keyword xml:lang="fr">nouvelle</keyword>
+      <keyword xml:lang="it">aggregatore</keyword>
+      <keyword xml:lang="it">notiziario</keyword>
+      <keyword xml:lang="it">notizie</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/atom+xml</mimetype>
+      <mimetype>application/rdf+xml</mimetype>
+      <mimetype>application/rss+xml</mimetype>
+      <mimetype>x-scheme-handler/feed</mimetype>
+    </mimetypes>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://lzone.de/liferea/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source" height="657" width="837">https://lzone.de/liferea/screenshots/screenshot1.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="657" width="837">https://lzone.de/liferea/screenshots/screenshot9.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="657" width="834">https://lzone.de/liferea/screenshots/screenshot8.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="438" width="642">https://lzone.de/liferea/screenshots/screenshot7.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="657" width="837">https://lzone.de/liferea/screenshots/screenshot6.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="657" width="837">https://lzone.de/liferea/screenshots/screenshot5.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="657" width="837">https://lzone.de/liferea/screenshots/screenshot4.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="657" width="837">https://lzone.de/liferea/screenshots/screenshot3.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source" height="656" width="833">https://lzone.de/liferea/screenshots/screenshot2.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">net.sourceforge.liferea</dbus>
+    </provides>
+    <launchable type="desktop-id">net.sourceforge.liferea.desktop</launchable>
+  </component>
+</components>
+

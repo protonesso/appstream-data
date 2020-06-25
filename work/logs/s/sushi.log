@@ -1,0 +1,33 @@
+DEBUG:   Getting filename match for sushi-3.34.0-2.x86_64.rpm
+DEBUG:   Exploding tree for sushi
+DEBUG:   Processing sushi-3.34.0-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <eischmann@redhat.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+<components version="1.0">
+  <component type="addon">
+    <id>org.gnome.NautilusPreviewer</id>
+    <pkgname>sushi</pkgname>
+    <translation type="gettext">sushi</translation>
+    <name>Sushi</name>
+    <summary>Provide a facility for quickly viewing different kinds of files</summary>
+    <keywords>
+      <keyword>nautilus</keyword>
+      <keyword>preview</keyword>
+      <keyword>previewer</keyword>
+      <keyword>sushi</keyword>
+      <keyword>view</keyword>
+    </keywords>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/sushi/issues</url>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/sushi</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Nautilus.desktop</extends>
+  </component>
+</components>
+

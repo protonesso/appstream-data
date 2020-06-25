@@ -1,0 +1,117 @@
+DEBUG:   Getting filename match for wireshark-3.2.4-1.x86_64.rpm
+DEBUG:   Exploding tree for wireshark
+DEBUG:   Processing wireshark-3.2.4-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <wireshark-dev@wireshark.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/wireshark.png
+DEBUG:   Saved icon ./tmp/icons/128x128/wireshark.png
+<components version="1.0">
+  <component type="desktop">
+    <id>wireshark.desktop</id>
+    <pkgname>wireshark</pkgname>
+    <name>Wireshark</name>
+    <summary>Wireshark is the world's foremost protocol analyzer</summary>
+    <summary xml:lang="af">Netwerkverkeer analiseerder</summary>
+    <summary xml:lang="ast">Analizador de tráficu de rede</summary>
+    <summary xml:lang="bg">Анализатор на мрежовия трафик</summary>
+    <summary xml:lang="bn">নেটওয়ার্ক ট্রাফিক বিশ্লেষক</summary>
+    <summary xml:lang="bs">Analizator mrežnoga prometa</summary>
+    <summary xml:lang="cs">Analyzátor síťového přenosu</summary>
+    <summary xml:lang="da">Netværkstrafikanalyse</summary>
+    <summary xml:lang="de">Netzwerkverkehr-Analyseprogramm</summary>
+    <summary xml:lang="el">Ανάλυση κίνησης δικτύου</summary>
+    <summary xml:lang="es">Analizador de tráfico de red</summary>
+    <summary xml:lang="et">Võrguliikluse analüüsija</summary>
+    <summary xml:lang="fi">Verkkoliikenne analysaattori</summary>
+    <summary xml:lang="fr">Analyseur de trafic réseau</summary>
+    <summary xml:lang="gl">Analizador do tráfico de rede</summary>
+    <summary xml:lang="hu">Hálózatiforgalom-elemző</summary>
+    <summary xml:lang="it">Analizzatore del traffico di rete</summary>
+    <summary xml:lang="ja">ネットワークトラフィックアナライザー</summary>
+    <summary xml:lang="ko">네트워크 트래픽 분석기</summary>
+    <summary xml:lang="ky">Тармактык трафикти анализдөө</summary>
+    <summary xml:lang="lt">Tinklo duomenų srauto analizatorius</summary>
+    <summary xml:lang="ms">Penganalisa trafik rangkaian</summary>
+    <summary xml:lang="nb">Nettverkstrafikk-analysator</summary>
+    <summary xml:lang="nl">Netwerkverkeer analyseren</summary>
+    <summary xml:lang="oc">Analisador de tramas de ret</summary>
+    <summary xml:lang="pl">Analizator ruchu sieciowego</summary>
+    <summary xml:lang="pt">Analisador de tráfego da rede</summary>
+    <summary xml:lang="pt_BR">Analisador de tráfego de rede</summary>
+    <summary xml:lang="ro">Analizator trafic de rețea</summary>
+    <summary xml:lang="ru">Анализ сетевого трафика</summary>
+    <summary xml:lang="sk">Analyzátor sieťovej premávky</summary>
+    <summary xml:lang="sl">Preučevalnik omrežnega prometa</summary>
+    <summary xml:lang="sq">Analizues i trafikut të rrjetit</summary>
+    <summary xml:lang="sv">Nätverkstrafikanalysator</summary>
+    <summary xml:lang="tr">Ağ trafiği çözümleyicisi</summary>
+    <summary xml:lang="uk">Аналізатор мережевого трафіку</summary>
+    <summary xml:lang="vi">Trình phân tích giao thông mạng</summary>
+    <description><p>Wireshark allows you to examine protocol data stored in files or as it is captured from wired or wireless (WiFi or Bluetooth) networks, USB devices, and many other sources.  It supports dozens of protocol capture file formats and understands more than a thousand protocols.</p><p>It has many powerful features including a rich display filter language and the ability to reassemble multiple protocol packets in order to, for example, view a complete TCP stream, save the contents of a file which was transferred over HTTP or CIFS, or play back an RTP audio stream.</p></description>
+    <description xml:lang="fr"><p>Wireshark est le principal analyseur de protocole au monde.</p><p>Wireshark vous permet d’examiner les données enregistrées dans des fichiers ou en temps réel sur un réseau câblé ou sans fil (WiFi ou Bluetooth), à partir d’équipement USB et de bien d’autres sources. Il supporte des dizaines de formats de fichiers de capture de protocoles et comprend plus d’un millier de protocoles.</p><p>Il dispose de nombreuses fonctionnalités puissantes dont un riche langage de filtre d’affichage et la capacité de ré-assembler de multiples paquets de protocoles, afin par exemple, de visualiser un flux TCP, de sauvegarder le contenu d’un fichier transféré par HTTP ou CIFS, ou de re-jouer un flux audio RTP.</p></description>
+    <icon type="cached" height="128" width="128">128x128/wireshark.png</icon>
+    <icon type="cached" height="64" width="64">64x64/wireshark.png</icon>
+    <categories>
+      <category>Monitor</category>
+      <category>Network</category>
+    </categories>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/ipfix</mimetype>
+      <mimetype>application/vnd.tcpdump.pcap</mimetype>
+      <mimetype>application/x-5view</mimetype>
+      <mimetype>application/x-apple-packetlogger</mimetype>
+      <mimetype>application/x-endace-erf</mimetype>
+      <mimetype>application/x-etherpeek</mimetype>
+      <mimetype>application/x-iptrace</mimetype>
+      <mimetype>application/x-ixia-vwr</mimetype>
+      <mimetype>application/x-lanalyzer</mimetype>
+      <mimetype>application/x-micropross-mplog</mimetype>
+      <mimetype>application/x-netinstobserver</mimetype>
+      <mimetype>application/x-nettl</mimetype>
+      <mimetype>application/x-pcapng</mimetype>
+      <mimetype>application/x-radcom</mimetype>
+      <mimetype>application/x-snoop</mimetype>
+      <mimetype>application/x-tektronix-rf5</mimetype>
+      <mimetype>application/x-visualnetworks</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0</project_license>
+    <url type="homepage">https://www.wireshark.org</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://www.wireshark.org/~morriss/Screenshot-Wireshark2.0-Http-cap.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://www.wireshark.org/~morriss/Screenshot-Wireshark2.0-Stevens-graph.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1589846400" version="3.2.4">
+        <url type="unknown">https://www.wireshark.org/docs/relnotes/wireshark-3.2.4.html</url>
+      </release>
+      <release timestamp="1586304000" version="3.2.3">
+        <url type="unknown">https://www.wireshark.org/docs/relnotes/wireshark-3.2.3.html</url>
+      </release>
+      <release timestamp="1582675200" version="3.2.2">
+        <url type="unknown">https://www.wireshark.org/docs/relnotes/wireshark-3.2.2.html</url>
+      </release>
+      <release timestamp="1579046400" version="3.2.1">
+        <url type="unknown">https://www.wireshark.org/docs/relnotes/wireshark-3.2.1.html</url>
+      </release>
+      <release timestamp="1576627200" version="3.2.0">
+        <url type="unknown">https://www.wireshark.org/docs/relnotes/wireshark-3.2.0.html</url>
+      </release>
+    </releases>
+    <launchable type="desktop-id">wireshark.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,77 @@
+DEBUG:   Getting filename match for gnome-usage-3.33.2-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-usage
+DEBUG:   Processing gnome-usage-3.33.2-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <pstetka@redhat.com">
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Usage.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Usage.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Usage.desktop</id>
+    <pkgname>gnome-usage</pkgname>
+    <translation type="gettext">gnome-usage</translation>
+    <name>GNOME Usage</name>
+    <summary>A nice way to view information about use of system resources</summary>
+    <description><p>A simple GNOME 3 application to monitor and analyze system resources such as processing, memory, and storage.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Usage.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Usage.png</icon>
+    <categories>
+      <category>Monitor</category>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>CPU</keyword>
+      <keyword>History</keyword>
+      <keyword>Manager</keyword>
+      <keyword>Memory</keyword>
+      <keyword>Monitor</keyword>
+      <keyword>Network</keyword>
+      <keyword>Performance</keyword>
+      <keyword>Process</keyword>
+      <keyword>System</keyword>
+      <keyword>Task</keyword>
+      <keyword>Usage</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-usage/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://gitlab.gnome.org/GNOME/gnome-usage/wikis/home</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Usage</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-usage/raw/master/screenshots/screenshot-performance-view.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-usage/raw/master/screenshots/screenshot-performance-memory-view.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-usage/raw/master/screenshots/screenshot-storage-view.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-usage/raw/master/screenshots/screenshot-about-dialog.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1553212800" version="3.32.0">
+        <description><p>Boxes 3.32.0 is the latest stable release of GNOME Usage.</p></description>
+      </release>
+    </releases>
+    <launchable type="desktop-id">org.gnome.Usage.desktop</launchable>
+  </component>
+</components>
+

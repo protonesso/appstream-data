@@ -1,0 +1,299 @@
+DEBUG:   Getting filename match for evince-3.36.5-2.x86_64.rpm
+DEBUG:   Exploding tree for evince
+DEBUG:   Processing evince-3.36.5-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <evince-list@gnome.org>
+INFO:    Upstream contact <evince-list@gnome.org>
+INFO:    Upstream contact <evince-list@gnome.org>
+INFO:    Upstream contact <evince-list@gnome.org>
+INFO:    Upstream contact <evince-list@gnome.org>
+INFO:    Upstream contact <evince-list@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Evince
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Evince.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Evince.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Evince</id>
+    <pkgname>evince</pkgname>
+    <translation type="gettext">evince</translation>
+    <name>Evince</name>
+    <summary>Document viewer for popular document formats</summary>
+    <description><p>A document viewer for the GNOME desktop. You can view, search or annotate documents in many different formats.</p><p>Evince supports documents in: PDF, PS, EPS, XPS, DjVu, TIFF, DVI (with SyncTeX), and Comic Books archives (CBR, CBT, CBZ, CB7).</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Evince.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Evince.png</icon>
+    <categories>
+      <category>2DGraphics</category>
+      <category>Graphics</category>
+      <category>Office</category>
+      <category>VectorGraphics</category>
+      <category>Viewer</category>
+    </categories>
+    <keywords>
+      <keyword>djvu</keyword>
+      <keyword>document</keyword>
+      <keyword>dvi</keyword>
+      <keyword>evince</keyword>
+      <keyword>pdf</keyword>
+      <keyword>postscript</keyword>
+      <keyword>presentation</keyword>
+      <keyword>ps</keyword>
+      <keyword>tiff</keyword>
+      <keyword>viewer</keyword>
+      <keyword>xps</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/illustrator</mimetype>
+      <mimetype>application/oxps</mimetype>
+      <mimetype>application/pdf</mimetype>
+      <mimetype>application/postscript</mimetype>
+      <mimetype>application/vnd.comicbook+zip</mimetype>
+      <mimetype>application/vnd.comicbook-rar</mimetype>
+      <mimetype>application/vnd.ms-xpsdocument</mimetype>
+      <mimetype>application/x-bzpdf</mimetype>
+      <mimetype>application/x-bzpostscript</mimetype>
+      <mimetype>application/x-cb7</mimetype>
+      <mimetype>application/x-cbr</mimetype>
+      <mimetype>application/x-cbt</mimetype>
+      <mimetype>application/x-cbz</mimetype>
+      <mimetype>application/x-ext-cb7</mimetype>
+      <mimetype>application/x-ext-cbr</mimetype>
+      <mimetype>application/x-ext-cbt</mimetype>
+      <mimetype>application/x-ext-cbz</mimetype>
+      <mimetype>application/x-ext-eps</mimetype>
+      <mimetype>application/x-ext-pdf</mimetype>
+      <mimetype>application/x-ext-ps</mimetype>
+      <mimetype>application/x-gzpdf</mimetype>
+      <mimetype>application/x-gzpostscript</mimetype>
+      <mimetype>application/x-xzpdf</mimetype>
+      <mimetype>image/tiff</mimetype>
+      <mimetype>image/x-bzeps</mimetype>
+      <mimetype>image/x-eps</mimetype>
+      <mimetype>image/x-gzeps</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://wiki.gnome.org/Apps/Evince/ReportingBugs</url>
+    <url type="donation">https://www.gnome.org/support-gnome/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Evince</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <caption>A clear, simple UI</caption>
+        <image type="source">https://gitlab.gnome.org/GNOME/evince/raw/master/data/screenshots/evince-1.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Advanced highlighting and annotation</caption>
+        <image type="source">https://gitlab.gnome.org/GNOME/evince/raw/master/data/screenshots/evince-2.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1591833600" version="3.36.5"/>
+      <release timestamp="1591660800" version="3.36.4"/>
+      <release timestamp="1590796800" version="3.36.3"/>
+      <release timestamp="1590710400" version="3.36.2"/>
+      <release timestamp="1589846400" version="3.36.1"/>
+      <release timestamp="1583539200" version="3.36.0"/>
+      <release timestamp="1582329600" version="3.35.92"/>
+      <release timestamp="1574467200" version="3.35.1"/>
+      <release timestamp="1574467200" version="3.34.2"/>
+      <release timestamp="1570406400" version="3.34.1"/>
+      <release timestamp="1569715200" version="3.34.0"/>
+      <release timestamp="1569715200" version="3.32.1"/>
+      <release timestamp="1569715200" version="3.30.3"/>
+      <release timestamp="1552521600" version="3.32.0"/>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.evince.Daemon</dbus>
+      <id>evince.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Evince.desktop</launchable>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="addon">
+    <id>evince-xpsdocument</id>
+    <pkgname>evince</pkgname>
+    <name>XPS Documents</name>
+    <summary>Adds support for reading XPS documents</summary>
+    <kudos>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/oxps</mimetype>
+      <mimetype>application/vnd.ms-xpsdocument</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Evince/SupportedDocumentFormats</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Evince</extends>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="addon">
+    <id>evince-tiffdocument</id>
+    <pkgname>evince</pkgname>
+    <name>TIFF Documents</name>
+    <summary>Adds support for reading TIFF documents</summary>
+    <kudos>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>image/tiff</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Evince/SupportedDocumentFormats</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Evince</extends>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="addon">
+    <id>evince-psdocument</id>
+    <pkgname>evince</pkgname>
+    <name>PostScript Documents</name>
+    <summary>Adds support for reading PostScript documents</summary>
+    <kudos>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/illustrator</mimetype>
+      <mimetype>application/postscript</mimetype>
+      <mimetype>application/x-bzpostscript</mimetype>
+      <mimetype>application/x-ext-eps</mimetype>
+      <mimetype>application/x-ext-ps</mimetype>
+      <mimetype>application/x-gzpostscript</mimetype>
+      <mimetype>image/x-bzeps</mimetype>
+      <mimetype>image/x-eps</mimetype>
+      <mimetype>image/x-gzeps</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Evince/SupportedDocumentFormats</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Evince</extends>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="addon">
+    <id>evince-pdfocument</id>
+    <pkgname>evince</pkgname>
+    <name>PDF Documents</name>
+    <summary>Adds support for reading PDF Documents</summary>
+    <kudos>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/illustrator</mimetype>
+      <mimetype>application/pdf</mimetype>
+      <mimetype>application/x-bzpdf</mimetype>
+      <mimetype>application/x-ext-pdf</mimetype>
+      <mimetype>application/x-gzpdf</mimetype>
+      <mimetype>application/x-xzpdf</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Evince/SupportedDocumentFormats</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Evince</extends>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="addon">
+    <id>evince-comicsdocument</id>
+    <pkgname>evince</pkgname>
+    <name>Comic Books</name>
+    <summary>Adds support for reading comic books</summary>
+    <kudos>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/vnd.comicbook+zip</mimetype>
+      <mimetype>application/vnd.comicbook-rar</mimetype>
+      <mimetype>application/x-cb7</mimetype>
+      <mimetype>application/x-cbr</mimetype>
+      <mimetype>application/x-cbt</mimetype>
+      <mimetype>application/x-cbz</mimetype>
+      <mimetype>application/x-ext-cb7</mimetype>
+      <mimetype>application/x-ext-cbr</mimetype>
+      <mimetype>application/x-ext-cbt</mimetype>
+      <mimetype>application/x-ext-cbz</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://wiki.gnome.org/Apps/Evince/SupportedDocumentFormats</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Evince</extends>
+  </component>
+</components>
+

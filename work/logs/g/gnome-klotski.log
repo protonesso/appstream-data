@@ -1,0 +1,89 @@
+DEBUG:   Getting filename match for gnome-klotski-3.36.3-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-klotski
+DEBUG:   Processing gnome-klotski-3.36.3-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Klotski
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Klotski.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Klotski.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Klotski</id>
+    <pkgname>gnome-klotski</pkgname>
+    <translation type="gettext">gnome-klotski</translation>
+    <name>GNOME Klotski</name>
+    <summary>Slide blocks to solve the puzzle</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>GNOME Klotski is a set of block sliding puzzles. The objective is to move the patterned block to the area bordered by green markers. To do so, you’ll need to slide other blocks out of the way. Complete each puzzle in as few moves as possible!</p><p>GNOME Klotski comes with nearly thirty different puzzle layouts of varying difficulty. Some of the layouts are similar and only the size of one or more blocks differ. Other layouts have more variety.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Klotski.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Klotski.png</icon>
+    <categories>
+      <category>Game</category>
+      <category>LogicGame</category>
+    </categories>
+    <keywords>
+      <keyword>game</keyword>
+      <keyword>logic</keyword>
+      <keyword>move</keyword>
+      <keyword>strategy</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-klotski/issues/</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-klotski/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Klotski</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-klotski.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release type="stable" timestamp="1590796800" urgency="medium" version="3.36.3"/>
+      <release type="development" timestamp="1581724800" urgency="low" version="3.35.91"/>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Klotski</dbus>
+      <id>gnome-klotski.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Klotski.desktop</launchable>
+  </component>
+</components>
+

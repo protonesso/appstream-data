@@ -1,0 +1,54 @@
+DEBUG:   Getting filename match for gnome-control-center-3.36.3-4.x86_64.rpm
+DEBUG:   Exploding tree for gnome-control-center
+DEBUG:   Processing gnome-control-center-3.36.3-4.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <gnomecc-list@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/gnome-control-center.png
+DEBUG:   Saved icon ./tmp/icons/128x128/gnome-control-center.png
+<components version="1.0">
+  <component type="desktop">
+    <id>gnome-control-center.desktop</id>
+    <pkgname>gnome-control-center</pkgname>
+    <translation type="gettext">gnome-control-center-2.0</translation>
+    <name>GNOME Settings</name>
+    <summary>Utility to configure the GNOME desktop</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Settings is the primary interface for configuring your system.</p></description>
+    <icon type="cached" height="128" width="128">128x128/gnome-control-center.png</icon>
+    <icon type="cached" height="64" width="64">64x64/gnome-control-center.png</icon>
+    <categories>
+      <category>Settings</category>
+    </categories>
+    <keywords>
+      <keyword>Preferences</keyword>
+      <keyword>Settings</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>SearchProvider</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-control-center/issues/</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-control-center</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <provides>
+      <dbus type="session">org.gnome.ControlCenter</dbus>
+      <dbus type="session">org.gnome.ControlCenter.SearchProvider</dbus>
+    </provides>
+    <launchable type="desktop-id">gnome-control-center.desktop</launchable>
+  </component>
+</components>
+

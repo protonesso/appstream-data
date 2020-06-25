@@ -1,0 +1,66 @@
+DEBUG:   Getting filename match for gnome-shell-3.36.3-4.x86_64.rpm
+DEBUG:   Exploding tree for gnome-shell
+DEBUG:   Processing gnome-shell-3.36.3-4.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Extensions.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Extensions.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Extensions</id>
+    <pkgname>gnome-shell</pkgname>
+    <name>Extensions</name>
+    <summary>Manage your GNOME Extensions</summary>
+    <description><p>GNOME Extensions handles updating extensions, configuring extension preferences and removing or disabling unwanted extensions.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Extensions.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Extensions.png</icon>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>GPL-2.0-or-later</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-shell/issues/new</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="homepage">https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/master/subprojects/extensions-app</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-shell/raw/gnome-3-36/subprojects/extensions-app/data/metainfo/extensions-main.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-shell/raw/gnome-3-36/subprojects/extensions-app/data/metainfo/extensions-update.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-shell/raw/gnome-3-36/subprojects/extensions-app/data/metainfo/extensions-remove.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0"/>
+    <releases>
+      <release timestamp="1591142400" version="3.36.3"/>
+      <release timestamp="1588118400" version="3.36.2"/>
+      <release timestamp="1585440000" version="3.36.1"/>
+      <release timestamp="1583539200" version="3.36.0"/>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Extensions</dbus>
+      <dbus type="session">org.gnome.Shell.CalendarServer</dbus>
+      <dbus type="session">org.gnome.Shell.Extensions</dbus>
+      <dbus type="session">org.gnome.Shell.HotplugSniffer</dbus>
+      <dbus type="session">org.gnome.Shell.Notifications</dbus>
+      <dbus type="session">org.gnome.Shell.PortalHelper</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Extensions.desktop</launchable>
+  </component>
+</components>
+

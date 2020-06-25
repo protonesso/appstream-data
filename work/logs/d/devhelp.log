@@ -1,0 +1,65 @@
+DEBUG:   Getting filename match for devhelp-3.36.2-1.x86_64.rpm
+DEBUG:   Exploding tree for devhelp
+DEBUG:   Processing devhelp-3.36.2-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <swilmet@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Devhelp.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Devhelp.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Devhelp.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Devhelp.desktop</id>
+    <pkgname>devhelp</pkgname>
+    <translation type="gettext">devhelp</translation>
+    <name>Devhelp</name>
+    <summary>A developer tool for browsing and searching API documentation</summary>
+    <description><p>Devhelp is a developer tool for browsing and searching API documentation. It provides an easy way to navigate through libraries and to search by function, struct, or macro.</p><p>The documentation must be installed locally, so an internet connection is not needed to use Devhelp.</p><p>Devhelp works natively with GTK-Doc, so the GTK and GNOME libraries are well supported. But other development platforms can be supported as well, as long as the API documentation is available in HTML and a *.devhelp2 index file is generated.</p><p>Devhelp integrates with other applications such as Glade, Builder or Anjuta, and plugins are available for different text editors (gedit, Vim, Emacs, Geany, …).</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Devhelp.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Devhelp.png</icon>
+    <categories>
+      <category>Development</category>
+    </categories>
+    <keywords>
+      <keyword>api</keyword>
+      <keyword>developer</keyword>
+      <keyword>documentation</keyword>
+      <keyword>information</keyword>
+      <keyword>manual</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/devhelp/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Devhelp/</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~swilmet/devhelp/screenshot-1.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://people.gnome.org/~swilmet/devhelp/screenshot-2.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1587772800" version="3.36.2"/>
+      <release timestamp="1585180800" version="3.36.1"/>
+      <release timestamp="1583366400" version="3.36.0"/>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Devhelp</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Devhelp.desktop</launchable>
+  </component>
+</components>
+

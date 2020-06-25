@@ -1,0 +1,64 @@
+DEBUG:   Getting filename match for baobab-3.34.0-1.x86_64.rpm
+DEBUG:   Exploding tree for baobab
+DEBUG:   Processing baobab-3.34.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <stefano.facchini@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.baobab.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.baobab.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.baobab.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.baobab.desktop</id>
+    <pkgname>baobab</pkgname>
+    <translation type="gettext">baobab</translation>
+    <name>Disk Usage Analyzer</name>
+    <summary>Check folder sizes and available disk space</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>A simple application to keep your disk usage and available space under control.</p><p>Disk Usage Analyzer can scan specific folders, storage devices and online accounts. It provides both a tree and a graphical representation showing the size of each folder, making it easy to identify where disk space is wasted.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.baobab.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.baobab.png</icon>
+    <categories>
+      <category>Filesystem</category>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>cleanup</keyword>
+      <keyword>space</keyword>
+      <keyword>storage</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>inode/directory</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=baobab</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Baobab</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://git.gnome.org/browse/baobab/plain/data/baobab.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">org.gnome.baobab</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.baobab.desktop</launchable>
+  </component>
+</components>
+

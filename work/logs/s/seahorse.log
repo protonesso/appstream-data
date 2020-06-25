@@ -1,0 +1,79 @@
+DEBUG:   Getting filename match for seahorse-3.36-1.x86_64.rpm
+DEBUG:   Exploding tree for seahorse
+DEBUG:   Processing seahorse-3.36-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <nielsdegraef@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.seahorse.Application
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.seahorse.Application.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.seahorse.Application.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.seahorse.Application</id>
+    <pkgname>seahorse</pkgname>
+    <translation type="gettext">seahorse</translation>
+    <name>Seahorse</name>
+    <summary>Manage your passwords and encryption keys</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Seahorse is a GNOME application for managing encryption keys. It also integrates with nautilus, gedit and other places for encryption operations.</p><p>With seahorse you can create and manage PGP keys, create and manage SSH keys, publish and retrieve keys from key servers, cache your passphrase so you don’t have to keep typing it and backup your keys and keyring.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.seahorse.Application.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.seahorse.Application.png</icon>
+    <categories>
+      <category>DesktopSettings</category>
+      <category>Security</category>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>encryption</keyword>
+      <keyword>keyring</keyword>
+      <keyword>security</keyword>
+      <keyword>sign</keyword>
+      <keyword>ssh</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>SearchProvider</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-2.0+ and LGPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/seahorse/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/seahorse/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Seahorse</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://wiki.gnome.org/Apps/Seahorse?action=AttachFile&amp;do=get&amp;target=seahorse-screenshot.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="social-contacts">intense</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1583798400" version="3.36">
+        <description><p>Version 3.36 is the next stable release after 3.34, with the following major improvements:</p><ul><li>UI improvements to the main window: better fitted to deal with smaller screens, as well as better feedback when iterating over the list</li><li>The sidebar now groups in the more logical "Passwords", "Keys" and "Certificates" categories</li><li>Consistent with other GNOME apps, we now have a separate window for our keyboard shortcuts</li><li>Removed the usage of short key IDs for PGP keys</li><li>Add the possibility to show and copy the public key of an SSH key</li><li>When showing passwords in the main list, we do a best effort to also display the username</li><li>Several bugfixes</li></ul><p>This release also updates translations in several languages.</p></description>
+      </release>
+      <release timestamp="1569888000" version="3.34">
+        <description><p>Version 3.34 is the next stable release after 3.32, with the following major improvements:</p><ul><li>Following the GNOME UX with type-to-search</li><li>Allow passing files that should be imported as argument</li><li>Fix a segfault when syncing to HKP server</li><li>Fix a use-after-free the password dialog</li><li>Fix build for some GPG versions</li><li>Several Flatpak build fixes</li></ul><p>This release also updates translations in several languages.</p></description>
+      </release>
+      <release timestamp="1552348800" version="3.32">
+        <description><p>Version 3.32 is the first stable release since 3.30, with the following major improvements:</p><ul><li>A new and contemporary icon</li><li>Cleanup of the interface with a headerbar</li><li>Added an empty state placeholder</li><li>Passwords filled in GNOME Web show the website and username</li><li>User-specific Wi-Fi Passwords are now recognized</li><li>Passwords from Chrome are now more often properly recognized</li><li>Application-specific passwords now show the application logo if available</li><li>When entering a new password, an indicator shows its strength</li><li>Property dialogs for passwords and keys have undergone a cleanup</li></ul><p>This release also updates translations in several languages.</p></description>
+      </release>
+      <release timestamp="1535932800" version="3.30">
+        <description><p>Version 3.30 is the first stable release since 3.20, with the following major improvements:</p><ul><li>SSH: Added support for ED25519 and ECDSA keys</li><li>SSH: different key length options given the encryption type</li><li>GPG: give a hint when a name is too short for a key</li><li>GKR: ask for confirmation when changing a password</li><li>GKR: fix segfault when changing default keyring password</li><li>Fixed multi-selection of keys</li><li>Small tweaks to modernize the UI</li><li>Got rid of several deprecated GTK+ widgets</li><li>Moved to Meson as build system</li><li>Migrated to GitLab and added CI with Flatpak</li></ul><p>This release also updates translations in several languages.</p></description>
+      </release>
+    </releases>
+    <provides>
+      <binary>seahorse</binary>
+      <dbus type="session">org.gnome.seahorse.Application</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.seahorse.Application.desktop</launchable>
+  </component>
+</components>
+

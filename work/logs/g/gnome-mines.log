@@ -1,0 +1,83 @@
+DEBUG:   Getting filename match for gnome-mines-3.36.0-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-mines
+DEBUG:   Processing gnome-mines-3.36.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <robert.roth.off@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Mines
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Mines.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Mines.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Mines</id>
+    <pkgname>gnome-mines</pkgname>
+    <translation type="gettext">gnome-mines</translation>
+    <name>GNOME Mines</name>
+    <summary>Clear hidden mines from a minefield</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>GNOME Mines is a puzzle game where you search for hidden mines. Flag the spaces with mines as quickly as possible to make the board a safer place. You win the game when you’ve flagged every mine on the board. Be careful not to trigger one, or the game is over!</p><p>You can select the size of the field you want to play on at the start of the game. If you get stuck, you can ask for a hint: there’s a time penalty, but that’s better than hitting a mine!</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Mines.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Mines.png</icon>
+    <categories>
+      <category>Game</category>
+      <category>LogicGame</category>
+    </categories>
+    <keywords>
+      <keyword>minesweeper</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-3.0+ and CC-BY-SA-3.0</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-mines/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-mines/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Mines</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-mines.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.0">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release type="development" timestamp="1549238400" version="3.31.90"/>
+      <release timestamp="1546905600" version="3.31.4.1"/>
+      <release timestamp="1546905600" version="3.31.4"/>
+    </releases>
+    <launchable type="desktop-id">org.gnome.Mines.desktop</launchable>
+  </component>
+</components>
+

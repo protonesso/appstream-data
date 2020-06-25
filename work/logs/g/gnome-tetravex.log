@@ -1,0 +1,93 @@
+DEBUG:   Getting filename match for gnome-tetravex-3.36.3-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-tetravex
+DEBUG:   Processing gnome-tetravex-3.36.3-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <mcatanzaro@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Tetravex
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Tetravex.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Tetravex.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Tetravex</id>
+    <pkgname>gnome-tetravex</pkgname>
+    <translation type="gettext">gnome-tetravex-gui</translation>
+    <name>GNOME Tetravex</name>
+    <summary>Reorder tiles to fit a square</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Each square piece has a number on each side. Position the pieces on the left side of the board so that the same numbers are next to each other. If the numbers don’t match, you can’t put the piece there. Move quickly: you’re being timed!</p><p>You can make the game easier or harder by changing the size of the board.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Tetravex.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Tetravex.png</icon>
+    <categories>
+      <category>Game</category>
+      <category>LogicGame</category>
+    </categories>
+    <keywords>
+      <keyword>board</keyword>
+      <keyword>game</keyword>
+      <keyword>logic</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-2.0+ and CC-BY-SA-3.0</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-tetravex/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-tetravex/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Tetravex</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://people.gnome.org/~mcatanzaro/gnome-tetravex.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release type="stable" timestamp="1590796800" urgency="medium" version="3.36.3"/>
+      <release type="development" timestamp="1583107200" urgency="low" version="3.35.92"/>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Tetravex</dbus>
+      <id>gnome-tetravex.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Tetravex.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,120 @@
+DEBUG:   Getting filename match for eog-3.36.2-2.x86_64.rpm
+DEBUG:   Exploding tree for eog
+DEBUG:   Processing eog-3.36.2-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <eog-list@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.eog.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.eog.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.eog.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.eog.desktop</id>
+    <pkgname>eog</pkgname>
+    <translation type="gettext">eog</translation>
+    <name>Eye of GNOME</name>
+    <summary>Browse and rotate images</summary>
+    <description><p>The Eye of GNOME is the official image viewer for the GNOME desktop. It integrates with the GTK+ look and feel of GNOME, and supports many image formats for viewing single images or images in a collection.</p><p>The Eye of GNOME also allows to view the images in a fullscreen slideshow mode or set an image as the desktop wallpaper. It reads the camera tags to automatically rotate your images in the correct portrait or landscape orientation.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.eog.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.eog.png</icon>
+    <categories>
+      <category>2DGraphics</category>
+      <category>Graphics</category>
+      <category>RasterGraphics</category>
+      <category>Viewer</category>
+    </categories>
+    <keywords>
+      <keyword>Graphics</keyword>
+      <keyword>Picture</keyword>
+      <keyword>Slideshow</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>image/bmp</mimetype>
+      <mimetype>image/gif</mimetype>
+      <mimetype>image/jpeg</mimetype>
+      <mimetype>image/jpg</mimetype>
+      <mimetype>image/pjpeg</mimetype>
+      <mimetype>image/png</mimetype>
+      <mimetype>image/svg+xml</mimetype>
+      <mimetype>image/svg+xml-compressed</mimetype>
+      <mimetype>image/tiff</mimetype>
+      <mimetype>image/vnd.wap.wbmp</mimetype>
+      <mimetype>image/x-bmp</mimetype>
+      <mimetype>image/x-gray</mimetype>
+      <mimetype>image/x-icb</mimetype>
+      <mimetype>image/x-icns</mimetype>
+      <mimetype>image/x-ico</mimetype>
+      <mimetype>image/x-pcx</mimetype>
+      <mimetype>image/x-png</mimetype>
+      <mimetype>image/x-portable-anymap</mimetype>
+      <mimetype>image/x-portable-bitmap</mimetype>
+      <mimetype>image/x-portable-graymap</mimetype>
+      <mimetype>image/x-portable-pixmap</mimetype>
+      <mimetype>image/x-xbitmap</mimetype>
+      <mimetype>image/x-xpixmap</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+ and GFDL-1.3</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/eog/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/eog/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/EyeOfGnome</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://gitlab.gnome.org/GNOME/eog/raw/master/data/screenshot.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1587772800" version="3.36.2">
+        <description><p>Eye of GNOME 3.36.2 is the latest stable version of Eye of GNOME, and it contains all the features and bugfixes introduced since our 3.36 release.</p></description>
+      </release>
+      <release timestamp="1586390400" version="3.36.1"/>
+    </releases>
+    <launchable type="desktop-id">org.gnome.eog.desktop</launchable>
+  </component>
+</components>
+

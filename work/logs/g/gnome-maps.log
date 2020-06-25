@@ -1,0 +1,128 @@
+DEBUG:   Getting filename match for gnome-maps-3.36.2-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-maps
+DEBUG:   Processing gnome-maps-3.36.2-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <gnome-maps-list@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Maps.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Maps.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Maps.desktop</id>
+    <pkgname>gnome-maps</pkgname>
+    <translation type="gettext">gnome-maps</translation>
+    <name>GNOME Maps</name>
+    <summary>Find places around the world</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Maps gives you quick access to maps all across the world. It allows you to quickly find the place you’re looking for by searching for a city or street, or locate a place to meet a friend.</p><p>Maps uses the collaborative OpenStreetMap database, made by hundreds of thousands of people across the globe.</p><p>You can even search for specific types of locations, such as “Pubs near Main Street, Boston” or “Hotels near Alexanderplatz, Berlin”.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Maps.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Maps.png</icon>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>Maps</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/gpx+xml</mimetype>
+      <mimetype>application/vnd.geo+json</mimetype>
+      <mimetype>application/vnd.google-earth.kml+xml</mimetype>
+      <mimetype>x-scheme-handler/geo</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0-or-later</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-maps/</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="homepage">http://wiki.gnome.org/Apps/Maps</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-maps/raw/master/data/screenshots/maps-main.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-maps/raw/master/data/screenshots/maps-route.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-maps/raw/master/data/screenshots/maps-pinpoint.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+      <release timestamp="1587772800" version="3.36.2">
+        <description><ul><li>Don't reset query points when routing fails (e.g. no public transit provider is available) to allow switching mode with the same query</li><li>Fix a bug not displaying tiles south of the equator when using --local command line option</li><li>Allow entering DMS coordinates without comma between latitude and logitude parts</li></ul></description>
+      </release>
+      <release timestamp="1585353600" version="3.36.1">
+        <description><ul><li>Updated POI defintions for OpenStreetMap editing</li><li>Fix link to sign up for an OpenStreetMap account</li></ul></description>
+      </release>
+      <release timestamp="1583539200" version="3.36.0">
+        <description><ul><li>Initial support for public transit routing</li><li>Re-arrange context menu. Move "export as image" to hamburger menu</li><li>Avoid flickering the current location marker when changes</li></ul></description>
+      </release>
+      <release timestamp="1578096000" version="3.34.3">
+        <description><ul><li>Added Malay translation</li></ul></description>
+      </release>
+      <release timestamp="1574467200" version="3.34.2">
+        <description><ul><li>Fix generating Wikipedia URLs in some cases</li></ul></description>
+      </release>
+      <release timestamp="1570406400" version="3.34.1">
+        <description><ul><li>Update tile size to 512 px when using --local option</li></ul></description>
+      </release>
+      <release timestamp="1567987200" version="3.34.0">
+        <description><ul><li>Auto-complete "search-as-you-type"</li><li>Revamped sharing dialog</li><li>Support opening OpenStreetMap URLs</li><li>Faster startup</li><li>Remember map style last used when starting (street or aerial view)</li></ul></description>
+      </release>
+      <release timestamp="1558396800" version="3.32.2.1">
+        <description><ul><li>Fix misaligned rendering of shape layers with the new map tiles</li></ul></description>
+      </release>
+      <release timestamp="1557100800" version="3.32.2">
+        <description><ul><li>Remove some unnessesary instructions in turn-by-turn route searches</li></ul></description>
+      </release>
+      <release timestamp="1553990400" version="3.32.1">
+        <description><ul><li>Updated Croatian translations</li></ul></description>
+      </release>
+      <release timestamp="1552262400" version="3.32.0">
+        <description><ul><li>Show live-updated thumbnails for the street/aerial layer switcher, instead of (outdated) hard-code thumbnails</li><li>Move app menu to the headerbar</li><li>Updated application icon</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <dbus type="session">org.gnome.Maps</dbus>
+      <id>gnome-maps.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Maps.desktop</launchable>
+  </component>
+</components>
+

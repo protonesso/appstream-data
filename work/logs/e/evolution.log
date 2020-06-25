@@ -1,0 +1,718 @@
+DEBUG:   Getting filename match for evolution-3.36.3-2.x86_64.rpm
+DEBUG:   Exploding tree for evolution
+DEBUG:   Processing evolution-3.36.3-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: project license is invalid: LGPL
+INFO:    Upstream contact <evolution-hackers@gnome.org>
+WARNING: project license is invalid: LGPL
+INFO:    Upstream contact <evolution-hackers@gnome.org>
+INFO:    Upstream contact <evolution-hackers@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Evolution.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Evolution.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Evolution.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Evolution.desktop</id>
+    <pkgname>evolution</pkgname>
+    <translation type="gettext">evolution</translation>
+    <name>Evolution</name>
+    <name xml:lang="ar">افلوشن</name>
+    <name xml:lang="dz">ཨི་བོ་ལུ་ཤཱན།</name>
+    <name xml:lang="en@shaw">·𐑧𐑝𐑩𐑤𐑵𐑖𐑩𐑯</name>
+    <name xml:lang="eo">Evolucio</name>
+    <name xml:lang="fa">اوولوشن</name>
+    <name xml:lang="hi">एवोल्यूशन</name>
+    <name xml:lang="ka">ევოლუშენი</name>
+    <name xml:lang="ko">에볼루션</name>
+    <name xml:lang="ml">ഇവല്യൂഷന്‍</name>
+    <name xml:lang="mn">Эволюшин</name>
+    <name xml:lang="mr">एव्हल्युशन</name>
+    <name xml:lang="ne">इभोल्युसन</name>
+    <name xml:lang="or">କ୍ରମବିକାଶ</name>
+    <name xml:lang="pa">ਈਵੇਲੂਸ਼ਨ</name>
+    <name xml:lang="rw">Impinduka</name>
+    <name xml:lang="si">ඉවෝලුශන්</name>
+    <name xml:lang="sr">Еволуција</name>
+    <name xml:lang="sr@latin">Evolucija</name>
+    <name xml:lang="ta">எவல்யூஷன்</name>
+    <name xml:lang="te">ఎవాల్యూషన్</name>
+    <name xml:lang="xh">I-Evolution</name>
+    <summary>Manage your email, contacts and schedule</summary>
+    <summary xml:lang="af">Bestuur pos, kontakte en skedule</summary>
+    <summary xml:lang="an">Chestiona lo tuyo correu electronico, contactos y calandario</summary>
+    <summary xml:lang="ar">أدِر بريدك الإلكتروني ومتراسليك وجدولك</summary>
+    <summary xml:lang="as">আপোনাৰ ই-মেইল একাওন্টসমূহকে ইয়াত বিন্যাস কৰক</summary>
+    <summary xml:lang="ast">Xestiona'l corréu-e, contautos y calendariu</summary>
+    <summary xml:lang="be">Кіраванне поштай, кантактамі і раскладам</summary>
+    <summary xml:lang="be@latin">Pracuj z poštaj, kantaktami j pracoŭnym raskładam</summary>
+    <summary xml:lang="bg">Управление на поща, контакти и разписания</summary>
+    <summary xml:lang="bn">ই-মেইল, পরিচিতি ও কর্মতালিকা এখানে কনফিগার করুন</summary>
+    <summary xml:lang="bn_IN">ই-মেইল, পরিচিতি ও কর্মতালিকা এখানে কনফিগার করুন</summary>
+    <summary xml:lang="bs">Upravlja poštom, kontaktima i obavezama</summary>
+    <summary xml:lang="ca">Gestioneu els correus electrònics, contactes i horaris</summary>
+    <summary xml:lang="ca@valencia">Gestioneu els correus electrònics, contactes i horaris</summary>
+    <summary xml:lang="cs">Spravujte svůj e-mail, kontakty a rozvrh</summary>
+    <summary xml:lang="da">Håndtér dine e-mails, kontaktpersoner og din tidsplan</summary>
+    <summary xml:lang="de">Ihre E-Mails, Kontakte und Terminplanung verwalten</summary>
+    <summary xml:lang="dz">ཁྱོད་རའི་གློག་འཕྲིན་དང་ འབྲེལ་ས་ དེ་ལས་ འཆར་རིམ་ཚུ་ འཛིན་སྐྱོང་འབད་</summary>
+    <summary xml:lang="el">Διαχείριση της αλληλογραφίας, των επαφών και του χρόνου σας</summary>
+    <summary xml:lang="en@shaw">𐑥𐑨𐑯𐑦𐑡 𐑿𐑼 𐑰𐑥𐑱𐑤, 𐑒𐑪𐑯𐑑𐑨𐑒𐑑𐑕 𐑯 𐑖𐑧𐑛𐑿𐑤</summary>
+    <summary xml:lang="en_GB">Manage your e-mail, contacts and schedule</summary>
+    <summary xml:lang="eo">Administri viajn retpoŝton, kontaktojn kaj planojn</summary>
+    <summary xml:lang="es">Gestione su correo-e, contactos y calendario</summary>
+    <summary xml:lang="et">Oma e-posti, kontaktide ja kalendri haldamine</summary>
+    <summary xml:lang="eu">Kudeatu zure posta-kontuak, kontaktuak eta antolaketa</summary>
+    <summary xml:lang="fa">رایانامه، آشنایان و برنامه‌ریزی‌تان را مدیریت کنید</summary>
+    <summary xml:lang="fi">Hallitse sähköposteja, yhteystietoja ja ajan käyttöä</summary>
+    <summary xml:lang="fr">Gérer vos courriels, contacts et agendas</summary>
+    <summary xml:lang="fur">Gjestìs lis propriis e-mail, i contats e lis planificazions</summary>
+    <summary xml:lang="ga">Bainstigh do chuid ríomhphoist, do chuid teagmhálacha agus do sceideal</summary>
+    <summary xml:lang="gl">Xestione o seu correo, contactos e programación</summary>
+    <summary xml:lang="gu">તમારું ઈમેઈલ, સંપર્કો અને સમયક્રમની વ્યવસ્થા કરો</summary>
+    <summary xml:lang="he">נהל את הדוא"ל, אנשי הקשר ולוח הזמנים שלך</summary>
+    <summary xml:lang="hi">अपना ईमेल संपर्क व योजना प्रबंधित करें</summary>
+    <summary xml:lang="hr">Upravljajte svojom e-poštom, kontaktima i rasporedom</summary>
+    <summary xml:lang="hu">E-mailek, névjegyek és határidők kezelése</summary>
+    <summary xml:lang="id">Mengelola surel, kontak, dan jadwal Anda</summary>
+    <summary xml:lang="is">Sjá um tölvupóst, tengiliði og dagbók</summary>
+    <summary xml:lang="it">Gestisce le proprie email, i contatti e progetti</summary>
+    <summary xml:lang="ja">メールや連絡先、予定などを管理します</summary>
+    <summary xml:lang="kk">Пошта, контакттар және жоспарыңызды басқару</summary>
+    <summary xml:lang="kn">ನಿಮ್ಮ ವಿಅಂಚೆ, ಸಂಪರ್ಕ ವಿಳಾಸಗಳನ್ನು ಹಾಗು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ನಿರ್ವಹಿಸು</summary>
+    <summary xml:lang="ko">전자메일, 연락처, 일정을 관리합니다</summary>
+    <summary xml:lang="lt">Tvarkykite savo el. paštą, kontaktus ir kalendorių</summary>
+    <summary xml:lang="lv">Pārvaldiet savu e-pastu, kontaktus un grafiku</summary>
+    <summary xml:lang="mk">Менаџирајте со Вашата е-пошта, контакти и распоред</summary>
+    <summary xml:lang="ml">നിങ്ങളുടെ ഈ മെയില്‍ , കോണ്ടാക്റ്റുകള്‍, ഷെഡ്യൂള്‍ ഇവിടെ ക്രമീകരിക്കുക</summary>
+    <summary xml:lang="mr">तुमचे ईमेल, संपर्क व वेळपत्रकाचे निरीक्षण करा</summary>
+    <summary xml:lang="ms">Urus emel, hubungan dan jadual anda</summary>
+    <summary xml:lang="nb">Håndter e-post, kontakter og kalender</summary>
+    <summary xml:lang="nl">Uw e-mail, adresboek en agenda beheren</summary>
+    <summary xml:lang="nn">Handsama epost, kontaktar og timeplan</summary>
+    <summary xml:lang="oc">Gerir vòstres corrièls, contactes e agendas</summary>
+    <summary xml:lang="or">ଆପଣଙ୍କ ମେଲକୁ ପରିଚାଳନା କରନ୍ତୁ, ଯୋଗାଯୋଗ ଏବଂ କାର୍ଯ୍ୟସୂଚୀ</summary>
+    <summary xml:lang="pa">ਆਪਣਾ ਈ-ਮੇਲ ਅਕਾਊਂਟ, ਸੰਪਰਕ ਅਤੇ ਸ਼ੈਡਿਊਲ ਦਾ ਪਰਬੰਧ ਕਰੋ</summary>
+    <summary xml:lang="pl">Zarządzanie wiadomościami, kontaktami i terminarzem</summary>
+    <summary xml:lang="ps">خپل برېښليکونه، اړيکلوري او مهالوېش سمبال کړﺉ</summary>
+    <summary xml:lang="pt">Para gerir o seu email, contactos e agenda</summary>
+    <summary xml:lang="pt_BR">Gerencie seus e-mails, contatos e programação</summary>
+    <summary xml:lang="ro">Administrează email-urile, contactele și întâlnirile</summary>
+    <summary xml:lang="ru">Управление электронной почтой, контактами и расписанием</summary>
+    <summary xml:lang="sk">Spravuje váš email, kontakty a časový plán</summary>
+    <summary xml:lang="sl">Enostavno upravljanje s pošto, stiki, urniki in razporedi</summary>
+    <summary xml:lang="sq">Menazhon postën personale, kontakte dhe projekte</summary>
+    <summary xml:lang="sr">Управљајте вашом поштом, контактима и обавезама</summary>
+    <summary xml:lang="sr@latin">Upravljajte vašom poštom, kontaktima i obavezama</summary>
+    <summary xml:lang="sv">Hantera din e-post, kontakter och schema</summary>
+    <summary xml:lang="ta">உங்கள் மின்னஞ்சல் தொடர்புகள் மற்றும் கால ஒதுக்கீடுகள் ஆகியவற்றை மேலாளவும்</summary>
+    <summary xml:lang="te">మీ ఈమెయిల్ ను నిర్వహించుము, పరిచయాలు మరియు ప్రణాళిక</summary>
+    <summary xml:lang="th">จัดการอีเมล ผู้ติดต่อ และนัดหมายของคุณ</summary>
+    <summary xml:lang="tr">E-postalarını, bağlantılarınızı ve randevularınızı yönetin</summary>
+    <summary xml:lang="ug">ئېلخەت، ئالاقەداشلار ۋە پىلانىڭىزنى باشقۇرىدۇ</summary>
+    <summary xml:lang="uk">Ваша електронна пошта та розклад</summary>
+    <summary xml:lang="vi">Quản lý thư tín, lịch biểu và các liên lạc</summary>
+    <summary xml:lang="zh_CN">配置您的电子邮件，联系人和日程表</summary>
+    <summary xml:lang="zh_HK">管理你的郵件、聯絡人和行程</summary>
+    <summary xml:lang="zh_TW">管理您的郵件、連絡人和行程</summary>
+    <developer_name>The Evolution Team</developer_name>
+    <developer_name xml:lang="ca">L'equip de l'Evolution</developer_name>
+    <developer_name xml:lang="cs">Tým Evolution</developer_name>
+    <developer_name xml:lang="da">Evolution-holdet</developer_name>
+    <developer_name xml:lang="de">Das Evolution-Team</developer_name>
+    <developer_name xml:lang="el">Η ομάδα του Evolution</developer_name>
+    <developer_name xml:lang="eo">La Evolucio-teamo</developer_name>
+    <developer_name xml:lang="es">El equipo de Evolution</developer_name>
+    <developer_name xml:lang="eu">Evolution taldea</developer_name>
+    <developer_name xml:lang="fi">Evolution-tiimi</developer_name>
+    <developer_name xml:lang="fr">L’équipe d’Evolution</developer_name>
+    <developer_name xml:lang="fur">Il grup di Evolution</developer_name>
+    <developer_name xml:lang="gl">O equipo do Evolution</developer_name>
+    <developer_name xml:lang="hr">Evolution tim</developer_name>
+    <developer_name xml:lang="hu">Az Evolution csapata</developer_name>
+    <developer_name xml:lang="id">Tim Evolution</developer_name>
+    <developer_name xml:lang="it">Il team di Evolution</developer_name>
+    <developer_name xml:lang="ko">에볼루션 팀</developer_name>
+    <developer_name xml:lang="lt">Evolution komanda</developer_name>
+    <developer_name xml:lang="ms">Pasukan Evolution</developer_name>
+    <developer_name xml:lang="nb">Evolution utviklerene</developer_name>
+    <developer_name xml:lang="nl">Het Evolution-team</developer_name>
+    <developer_name xml:lang="pa">ਈਵੇਲੂਸ਼ਨ ਟੀਮ</developer_name>
+    <developer_name xml:lang="pl">Zespół programu Evolution</developer_name>
+    <developer_name xml:lang="pt_BR">A Equipe do Evolution</developer_name>
+    <developer_name xml:lang="ro">Echipa Evolution</developer_name>
+    <developer_name xml:lang="ru">Команда Evolution</developer_name>
+    <developer_name xml:lang="sk">Tím aplikácie Evolution</developer_name>
+    <developer_name xml:lang="sl">Skupina Evolution</developer_name>
+    <developer_name xml:lang="sr">Тим Еволуције</developer_name>
+    <developer_name xml:lang="sr@latin">Tim Evolucije</developer_name>
+    <developer_name xml:lang="sv">Evolution-teamet</developer_name>
+    <developer_name xml:lang="tr">Evolution Takımı</developer_name>
+    <developer_name xml:lang="uk">Команда розробників Evolution</developer_name>
+    <developer_name xml:lang="zh_TW">Evolution 小組</developer_name>
+    <description><p>Evolution is a personal information management application that provides integrated mail, calendaring and address book functionality.</p><p>Evolution supports a wide range of industry standard data formats and network protocols for information exchange, with an emphasis on standards compliance and security. Evolution can also integrate smoothly with Microsoft Exchange by way of the “Exchange Web Services” (EWS) extension.</p></description>
+    <description xml:lang="as"><p>Evolution এটা ব্যক্তিগত তথ্য ব্যৱস্থাপনা এপ্লিকেচন যি অনুকূলিত মেইল, কেলেন্ডাৰিং আৰু ঠিকনা বহীৰ কাৰ্য্যকৰিতা প্ৰদান কৰে।</p></description>
+    <description xml:lang="be"><p>Evolution гэта праграма для кіравання асабістай інфармацыяй, уключаючы электронную пошту, каляндар і адрасную кнігу.</p><p>Evolution падтрымлівае шырокае кола прамысловых стандартаў фарматаў даных і сеткавых пратаколаў з акцэнтам на адпаведнасць стандартам і бяспеку. Evolution можа гладкім чынам узаемадзейнічаць з Microsoft Exchange з дапамогай пашырэння "Exchange Web Services" (EWS).</p></description>
+    <description xml:lang="bg"><p>Evolution е програма за управление на лична информация, която предоставя поща, календар, адресник и др.</p></description>
+    <description xml:lang="bs"><p>Evolution je lična aplikacija za upravljanje informacijama koja pruža usluge ingeriranih poštanskih poruka, kalendara i adresara.</p></description>
+    <description xml:lang="ca"><p>L'Evolution és una aplicació de gestió d'informació personal que proporciona funcions integrades de correu, de calendari i de llibreta d'adreces.</p><p>L'Evolution és compatible amb un gran ventall de formats estàndard de dades i de protocols de xarxa per a l'intercanvi d'informació, amb un èmfasi en el compliment d'estàndards i de seguretat. L'Evolution també pot integrar-se sense problemes amb el Microsoft Exchange amb l'extensió «Serveis web de l'Exchange» (EWS).</p></description>
+    <description xml:lang="ca@valencia"><p>L'Evolution és una aplicació de gestió d'informació personal que proporciona funcions integrades de correu, de calendari i de llibreta d'adreces.</p><p>L'Evolution és compatible amb un gran ventall de formats estàndard de dades i de protocols de xarxa per a l'intercanvi d'informació, amb un èmfasi en el compliment d'estàndards i de seguretat. L'Evolution també pot integrar-se sense problemes amb el Microsoft Exchange amb l'extensió «Exchange Web Services» (EWS).</p></description>
+    <description xml:lang="cs"><p>Evolution je aplikace sloužící ke správě osobních informací. Pro tento účel poskytuje integrovaný e-mail, kalendář a adresář.</p><p>Evolution podporuje širokou škálu datových formátů a síťových protokolů sloužících k výměně informací, vše s důrazem na dodržování standardů a bezpečnost. Lze jej také hladce integrovat s Microsoft Exchange pomocí rozšíření EWS (Exchange Web Service).</p></description>
+    <description xml:lang="da"><p>Evolution er et program til håndtering af personlig information, som indeholder integreret funktionalitet til e-mails, kalender og adressebøger.</p><p>Evolution understøtter en bred vifte af industristandardiserede dataformater og netværksprotokoller til informationsudveksling, med fokus på overensstemmelse med standarderne og sikkerhed. Evolution kan også på nem vis integreres med Microsoft Exchange ved hjælp at “Exchange Web Services”-udvidelsen (EWS).</p></description>
+    <description xml:lang="de"><p>Evolution ist eine Anwendung zur Verwaltung persönlicher Informationen, die ein E-Mail-Programm, einen Kalender und ein Adressbuch enthält.</p><p>Evolution unterstützt eine Vielzahl von industriellen Standard-Formaten und Netzwerk-Protokollen zum Informationsaustausch, mit einem Schwerpunkt auf Standard-Konformität und Sicherheit. Evolution arbeitet außerdem problemlos mit Microsoft Exchange mittels der Erweiterung »Exchange Web Services« (EWS) zusammen.</p></description>
+    <description xml:lang="el"><p>Το Evolution είναι μια προσωπική εφαρμογή διαχείρισης πληροφοριών που παρέχει ολοκληρωμένη λειτουργικότητα αλληλογραφίας, ημερολογίου και βιβλίου διευθύνσεων.</p></description>
+    <description xml:lang="eo"><p>Evolucio estas perona informomastruma aplikaĵo, kiu provizas integritan poŝtan, kalendaran kaj adresaran funkciado.</p><p>Evolucio subtenas larĝan amplekson da industriaj normoj kaj retaj protokoloj por interŝanĝo de informoj, kun emfazo je konformo al normoj kaj sekureco. Evolucio ankaŭ povas integri glate kun Microsoft Exchange tra la “Exchange Web Services” (EWS) etendaĵo.</p></description>
+    <description xml:lang="es"><p>Evolution es una aplicación de gestión de información personal que integra funcionalidades de correo, calendario y libreta de direcciones.</p><p>Evolution soporta un amplio rango de estándares industriales de formatos de datos y protocolos de red para intercambiar información, haciendo hincapié en el cumplimiento de estándares y de seguridad. Evolution también se puede integrar con Microsoft Exchange usando la extensión «Exchange Web Services» (EWS).</p></description>
+    <description xml:lang="eu"><p>Evolution informazio pertsonala kudeatzeko aplikazio bat da, bateratutako posta elektronikoa, egutegia eta helbide-liburuaren funtzionalitatea eskaintzen du.</p><p>Evolution-ek industriaren datu-formatuen eta sareko protokoloen barruti handia onartzen du informazioa trukatzeko, eta bereziki estandarrak eta segurtasuna betetzen du. Evolution-ek Microsoft Exchange-rekin ere bateratzen da “Exchange Web Services” (EWS) hedapenaren bidez.</p></description>
+    <description xml:lang="fa"><p>اوولوشن یک برنامهٔ مدیریت اطّلعات شخصی است که امکانات نامهٔ یکپارچه، تقویم و دفترچهٔ نشانی را فراهم می‌کند.</p><p>اوللوشن بازهٔ گسترده‌ای از قالب‌های دادهٔ استاندارد صنعتی و قراردادهای شبکه برای تبادل اطّلاعات را با تأکید بر پیروی از استانداردها و امنیت، پشتیبانی می‌کند. هم‌چنین اوولوشن می‌تواند از رطیق افزونهٔ خدمات وب اکسچنج (EWS) به راحتی با اکسچنج مایکروسافت یکپارچه شود.</p></description>
+    <description xml:lang="fi"><p>Evolution on henkilökohtaisen tiedon hallintasovellus, joka tarjoaa sähköpostin, kalenterin ja osoitekirjan.</p><p>Evolution tukee lukuisia standardeja tiedostomuotoja ja verkkoprotokollia tiedonvaihtoa varten, painoarvoa on asetettu erityisesti standardien noudattamiseen ja tietoturvaan. Evolution voi myös integroitua Microsoft Exchange -palvelimeen Exchange Web Services (EWS) -laajennuksen avulla.</p></description>
+    <description xml:lang="fr"><p>Evolution est une application de gestion des informations personnelles qui regroupe les fonctions de courriel, d’agenda et de carnet d’adresses.</p><p>Evolution prend en charge un large éventail de formats et de protocoles réseaux standards de l’industrie de l’échange d’informations, avec un fort accent mis sur la compatibilité et la sécurité. Evolution peut aussi facilement s’intégrer à Microsoft Exchange gràce à l’extension « Exchange Web Services » (EWS).</p></description>
+    <description xml:lang="fur"><p>Evolution e je une aplicazion pe gjestion des informazions personâls che e furnìs funzionalitâts integradis di pueste, calendari e rubriche.</p><p>Evolution al supuarte une vore di formâts di dâts standard di setôr e protocoi di rêt pal scambi di informazions, cuntun voli di rivuart ae conformitât dai standard e ae sigurece. Evolution al pues ancje integrâsi cence fastidis cun Microsoft Exchange par mieç de estension “Servizis web di Exchange” (EWS).</p></description>
+    <description xml:lang="gl"><p>Evolution é unha aplicación de xestión de información persoal que lle fornece funcionalidades integradas de correo electrónico, calendario e axenda de enderezos.</p><p>Evolution admite un amplo conxunto de formatos de datos estándar na industria e protocolos estándares de intercambio de información, xa que lle fornece un gran apoio ao cumplimento de estándares e seguridade. Evolution tamén pode integrarse perfectamente con Microsoft Exchange empregando a extensión "Exchange Web Services" (EWS).</p></description>
+    <description xml:lang="hr"><p>Evolution je aplikacija upravljanja osobnim informacijama koja pruža integriranu funkcionalnost e-pošte, kalendara i adresara.</p><p>Evolution podržava širok raspon industrijskih standarda formata vremena i mrežnih protokola za razmjenu informacija, s naglaskom na usklađenost standarda i sigurnosti. Evolution se isto tako može lagano integrirati s Microsoft Exchangom putem “Exchange Web Services” (EWS) proširenja.</p></description>
+    <description xml:lang="hu"><p>Az Evolution egy személyes információkezelő alkalmazás, amely integrált levelező, naptárkezelő és címjegyzékfunkciókat biztosít.</p><p>Az Evolution adatcserére használt ipari szabvány adatformátumok és hálózati protokollok széles körét támogatja, a szabványoknak megfelelés és biztonság hangsúlyozásával. Az Evolution képes simán integrálódni a Microsoft Exchange-dzsel, az „Exchange Web Services” (EWS) kiterjesztés révén.</p></description>
+    <description xml:lang="id"><p>Evolution adalah aplikasi manajemen informasi personal yang menyediakan fungsionalitas buku alamat, kalender, dan surel terintegrasi.</p><p>Evolution mendukung protokol jaringan dan format data standar industri yang luas untuk pertukaran informasi, dengan penekanan pada keamanan dan kepatuhan standar. Evolution juga dapat mengintegrasi secara mulus dengan Microsoft Exchange melalui ekstensi "Exchange Web Services" (EWS).</p></description>
+    <description xml:lang="it"><p>Evolution è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di posta, calendario e rubrica.</p><p>Evolution supporta una vasta gamma di formati di dati standard di settore e protocolli di rete per lo scambio di informazioni, con particolare attenzione alla conformità degli standard e alla sicurezza. Evolution può anche integrarsi senza problemi con Microsoft Exchange tramite l'estensione «Servizi web di Exchange» (EWS).</p></description>
+    <description xml:lang="ja"><p>Evolution は個人情報管理アプリケーションで、メール、カレンダー、アドレス帳の機能を総合的に提供しています。</p></description>
+    <description xml:lang="kn"><p>Evolution ಒಂದು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ ನಿರ್ವಹಣಾ ಅನ್ವಯವಾಗಿದ್ದು, ಇದು ಸಂಯೋಜಿತ ಅಂಚೆ, ಕ್ಯಾಲೆಂಡರ್‌ ವ್ಯವಸ್ಥೆ ಮತ್ತು ವಿಳಾಸ ಪುಸ್ತಕದ ಸೌಲಭ್ಯವನ್ನು ಒದಗಿಸುತ್ತದೆ.</p></description>
+    <description xml:lang="ko"><p>에볼루션은 개인 정보 관리 프로그램으로 메일, 달력, 주소록 기능이 통합되어 있습니다.</p><p>에볼루션은 광범위한 산업 표준 데이터 포맷과 정보 교환용 네트워크 프로토콜을 표준 준수와 보안을 염두에 두고 지원합니다. 또 에볼루션은 “익스체인지 웹 서비스”(EWS) 확장 기능을 이용해 마이크로소프트 익스체인지와 연동할 수도 있습니다.</p></description>
+    <description xml:lang="lt"><p>Evolution yra asmeninė informacijos valdymo programa, kuri suteikia integruotą pašto, kalendoriaus ir adresų knygos funkcionalumą.</p><p>Evolution palaiko daug standartinių duomenų formatų bei tinklo protokolų apsikeitimui informacija, ypač siekiant suderinamumo su standartais bei saugumo. Evolution taip pat gali sklandžiai integruotis su Microsoft Exchange naudojant „Exchange Web Services“ plėtinį.</p></description>
+    <description xml:lang="lv"><p>Evolution ir personīgās informācijas pārvaldības lietotne, kas sniedz integrētu pasta, kalendāra un adrešu grāmatas funkcionalitāti.</p><p>Evolution atbalsta plašu industrijas standarta datu formātu un tīkla protokolu spektru informācijas apmaiņai, ar uzsvaru uz atbilstību standartiem un drošību. Evolution var integrēt ar Microsoft Exchange, izmantojot “Exchange Web Services” (EWS) paplašinājumu.</p></description>
+    <description xml:lang="mr"><p>इवोल्युशन वैयक्तिक माहिती व्यवस्थापन ॲप्लिकेशन आहे जे एकत्रीत मेल, दिनदर्शिका आणि पत्ता पुस्तिका कार्यक्षमता पुरवते.</p></description>
+    <description xml:lang="ms"><p>Evolution ialah aplikasi pengurusan maklumat peribadi yang menyediakan kefungsian mel, kalendar dan buku alamat bersepadu.</p><p>Evolution menyokong sebahagian besar format data piawai industri dan protokol-protokol rangkaian untuk pertukaran maklumat, dengan penekanan terhadap pematuhan piawaian dan keselamatan. Evolution juga boleh disepadukan dengan Microsoft Exchange secara lancar melalui sambungan “Exchange Web Services” (EWS).</p></description>
+    <description xml:lang="nb"><p>Evolution er et program for håndtering av personlig informasjon som gir deg integrert e-post, kalender og adressebokfunksjonalitet.</p><p>Evolution støtter en rekke forskjellige industristandarder for dataformater og nettverksprotokoller for utveksling av informasjon med fokus på standarder og sikkerhet. Evolution kan også integreres med Microsoft Exchange via «Exchange Web Services» (EWS) utvidelsen.</p></description>
+    <description xml:lang="nl"><p>Evolution is een beheertoepassing voor persoonlijk informatie die geïntegreerde e-mail-, agenda- en adresboekfunctionaliteit levert.</p><p>Evolution ondersteunt veel industrie-gegevensformaten en netwerkprotocollen voor informatie-uitwisseling, met een nadruk op veiligheid en het naleven van standaarden. Evolution kan ook goed met Microsoft Exchange integreren door middel van de uitbreiding ‘Exchange Web Services’ (EWS).</p></description>
+    <description xml:lang="oc"><p>Evolution es una aplicacion de gestion de las informacions personalas que regropa las foncions de corrièr electronic, d'agenda e de quasernet d'adreças.</p></description>
+    <description xml:lang="pl"><p>Program Evolution pomaga zarządzać informacjami osobistymi, oferując funkcje klienta poczty e-mail, kalendarza oraz książki adresowej.</p><p>Program Evolution obsługuje szeroką gamę standardowych formatów zapisu danych i protokołów sieciowych do wymiany informacji. Szczególny nacisk położono na zgodność ze standardami i bezpieczeństwo. Program można także z łatwością zintegrować z systemem pocztowym Microsoft Exchange za pomocą rozszerzenia „Exchange Web Services” (EWS).</p></description>
+    <description xml:lang="pt"><p>O Evolution é uma aplicação de gestão de informação pessoal que disponibiliza funcionalidades de email, calendários e livros de endereços integrados.</p></description>
+    <description xml:lang="pt_BR"><p>Evolution é um aplicativo de gerenciamento de informações pessoais que provê funcionalidades de correio, agenda e catálogo de endereços.</p><p>Evolution tem suporte uma ampla gama de formatos de dados padrão da indústria e protocolos de rede para troca de informações, com ênfase em padrões de conformidade e segurança. O Evolution também pode integrar perfeitamente com o Microsoft Exchange por meio da extensão “Exchange Web Services” (EWS).</p></description>
+    <description xml:lang="ro"><p>Evolution este o aplicație de administrare a informațiilor personale ce oferă email integrat, funcții de calendar și agendă.</p><p>Evolution suportă o gamă variată de formate de date standard și protocoale de rețea pentru a schimba informații, cu o accentuare pe conformitatea la standarde și securitate. Evolution se poate de asemenea integra lin cu Microsoft Exchange prin extensia „Exchange Web Services” (EWS).</p></description>
+    <description xml:lang="ru"><p>Evolution — приложение для управления персональной информацией, которое включает в себя почту, календарь и адресную книгу.</p><p>Evolution поддерживает широкий спектр промышленных стандартов форматов данных и сетевых протоколов для обмена информации, с упором на совместимость со стандартами и конфиденциальность. Evolution поддерживает интеграцию с Microsoft Exchange посредством расширения Exchange Web Services (EWS).</p></description>
+    <description xml:lang="sk"><p>Evolution je aplikácia na správu osobných informácií, ktorá poskytuje integrované funkcie na správu pošty, kalendára a adresára kontaktov.</p><p>Program Evolution podporuje veľké množstvo formátov údajov a sieťových protokolov slúžiacich na výmenu údajov, s dôrazom na dodržanie štandardov a bezpečnosti. Program Evolution sa dokáže jednoducho integrovať so službou Microsoft Exchange pomocou rozšírenia EWS „Exchange Web Services“.</p></description>
+    <description xml:lang="sl"><p>Program Evolution je osebni upravljalnik podatkov, povezanih z elektronsko pošto, koledarjem in imenikom.</p><p>Program Evolution podpira širok nabor standardnih podatkovnih zapisov in omrežnih protokolov za izmenjavo podatkov. Poudarjeni so standardi, ki so nujni zaradi splošne uporabnosti in varnosti. Program podpira tudi povezavo s sistemom Microsoft Exchange prek razširitve EWS – »Exchange Web Services».</p></description>
+    <description xml:lang="sr"><p>Еволуција је програм за управљање личним подацима који обезбеђује обједињену функционалност поште, календара и именика.</p><p>Еволуција подржава широк опсег записа индустријских стандардних података и мрежних протокола за размену информација, са нагласком на сагласност стандарда и безбедност. Еволуција може такође глатко да се обједини са Мајкрософтовом разменом посредством проширења „Услуге веб размене“ (EWS).</p></description>
+    <description xml:lang="sr@latin"><p>Evolucija je program za upravljanje ličnim podacima koji obezbeđuje objedinjenu funkcionalnost pošte, kalendara i imenika.</p><p>Evolucija podržava širok opseg zapisa industrijskih standardnih podataka i mrežnih protokola za razmenu informacija, sa naglaskom na saglasnost standarda i bezbednost. Evolucija može takođe glatko da se objedini sa Majkrosoftovom razmenom posredstvom proširenja „Usluge veb razmene“ (EWS).</p></description>
+    <description xml:lang="sv"><p>Evolution är ett program som hanterar personlig information, med funktionalitet så som E-post, Kalender och Adressbok.</p><p>Evolution stöder ett stort antal dataformat av industristandard och nätverksprotokoll för informationsutbyte, med en tonvikt på att uppfylla standarder och säkerhet. Evolution kan också enkelt användas med Microsoft Exchange genom användning av tillägget ”Exchange Web Services” (EWS).</p></description>
+    <description xml:lang="ta"><p>Evolution ஒரு தனிப்பட்ட தகவல் நிர்வாகப் பயன்பாடு, இது ஒருங்கிணைந்த அஞ்சல், நாள்காட்டி மற்றும் முகவரிப்புத்தக செயலம்சங்களை வழங்குகிறது.</p></description>
+    <description xml:lang="tr"><p>Evolution, tümleşik eposta, takvim ve adres defteri işlevlerini sunan bir kişisel bilgi yönetimi uygulamasıdır.</p><p>Evolution, bilgi alışverişi için standart veri biçimleri ve ağ protokollerinin birçoğunu destekler. Bunu standartlarla uyum ve güvenli bir şekilde yapar. Evolution, “Exchange Web Services” (EWS) eklentisi kullanarak Microsoft Exchange ile de sorunsuz şekilde tümleşebilir.</p></description>
+    <description xml:lang="uk"><p>Evolution — програма керування особистими відомостями, яка забезпечує спільні можливості пошти, календаря та адресної книги.</p><p>Evolution підтримує широкий ряд стандартних форматів даних і мережевих протоколів для обміну інформацією, орієнтуючись на догідливість стандартам і безпеки. Evolution також інтегровано з Microsoft Exchange через розширення «Exchange Web Services» (EWS).</p></description>
+    <description xml:lang="zh_CN"><p>Evolution 是一款个人信息管理应用，提供集成的邮件、日历和地址簿功能。</p></description>
+    <description xml:lang="zh_HK"><p>Evolution 是一套個人資料管理應用程式，提供了整合郵件、行事曆和通訊錄等功能。</p></description>
+    <description xml:lang="zh_TW"><p>Evolution 是一套個人資訊管理應用程式，提供了整合郵件、行事曆和通訊錄等功能。</p><p>Evolution 支援了用於資訊交換的廣範圍的工業標準資料格式與網路協定，著重於標準的相容性與安全性。Evolution 也可以與 Microsoft Exchange 透過「Exchange 網頁服務」(EWS)延伸功能平順的整合。</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Evolution.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Evolution.png</icon>
+    <categories>
+      <category>Calendar</category>
+      <category>ContactManagement</category>
+      <category>Email</category>
+      <category>Office</category>
+    </categories>
+    <keywords>
+      <keyword>addressbook</keyword>
+      <keyword>calendar</keyword>
+      <keyword>contact</keyword>
+      <keyword>email</keyword>
+      <keyword>task</keyword>
+      <keyword xml:lang="be">адрасная кніга</keyword>
+      <keyword xml:lang="be">заданне</keyword>
+      <keyword xml:lang="be">каляндар</keyword>
+      <keyword xml:lang="be">кантакт</keyword>
+      <keyword xml:lang="be">пошта</keyword>
+      <keyword xml:lang="bg">mail</keyword>
+      <keyword xml:lang="bg">адресник</keyword>
+      <keyword xml:lang="bg">е-поща</keyword>
+      <keyword xml:lang="bg">задача</keyword>
+      <keyword xml:lang="bg">календар</keyword>
+      <keyword xml:lang="bg">контакт</keyword>
+      <keyword xml:lang="bg">поща</keyword>
+      <keyword xml:lang="bs">e-pošta</keyword>
+      <keyword xml:lang="bs">kalendar</keyword>
+      <keyword xml:lang="bs">kontakt:adresar</keyword>
+      <keyword xml:lang="bs">zadatak</keyword>
+      <keyword xml:lang="ca">calendari</keyword>
+      <keyword xml:lang="ca">contactes</keyword>
+      <keyword xml:lang="ca">correu</keyword>
+      <keyword xml:lang="ca">llibreta d'adreces</keyword>
+      <keyword xml:lang="ca">tasca</keyword>
+      <keyword xml:lang="ca@valencia">calendari</keyword>
+      <keyword xml:lang="ca@valencia">contactes</keyword>
+      <keyword xml:lang="ca@valencia">correu</keyword>
+      <keyword xml:lang="ca@valencia">llibreta d'adreces</keyword>
+      <keyword xml:lang="ca@valencia">tasca</keyword>
+      <keyword xml:lang="cs">adresář</keyword>
+      <keyword xml:lang="cs">e-mail</keyword>
+      <keyword xml:lang="cs">kalendář</keyword>
+      <keyword xml:lang="cs">kontakt</keyword>
+      <keyword xml:lang="cs">pošta</keyword>
+      <keyword xml:lang="cs">úkol</keyword>
+      <keyword xml:lang="da">adressebog</keyword>
+      <keyword xml:lang="da">e-mail</keyword>
+      <keyword xml:lang="da">e-post</keyword>
+      <keyword xml:lang="da">epost</keyword>
+      <keyword xml:lang="da">kalender</keyword>
+      <keyword xml:lang="da">kontakt</keyword>
+      <keyword xml:lang="da">kontaktperson</keyword>
+      <keyword xml:lang="da">opgave</keyword>
+      <keyword xml:lang="de">Adressbuch</keyword>
+      <keyword xml:lang="de">Aufgabe</keyword>
+      <keyword xml:lang="de">E-Mail</keyword>
+      <keyword xml:lang="de">Kalender</keyword>
+      <keyword xml:lang="de">Kontakt</keyword>
+      <keyword xml:lang="de">Mail</keyword>
+      <keyword xml:lang="de">Nachricht</keyword>
+      <keyword xml:lang="el">αλληλογραφία</keyword>
+      <keyword xml:lang="el">βιβλίο διευθύνσεων</keyword>
+      <keyword xml:lang="el">επαφή</keyword>
+      <keyword xml:lang="el">εργασία</keyword>
+      <keyword xml:lang="el">ημερολόγιο</keyword>
+      <keyword xml:lang="eo">kalendaro</keyword>
+      <keyword xml:lang="eo">kontaktaro</keyword>
+      <keyword xml:lang="eo">kontakto</keyword>
+      <keyword xml:lang="eo">retpoŝto</keyword>
+      <keyword xml:lang="eo">tasko</keyword>
+      <keyword xml:lang="es">calendario</keyword>
+      <keyword xml:lang="es">contacto</keyword>
+      <keyword xml:lang="es">correo-e</keyword>
+      <keyword xml:lang="es">direcciones</keyword>
+      <keyword xml:lang="es">libreta</keyword>
+      <keyword xml:lang="es">tarea</keyword>
+      <keyword xml:lang="eu">egutegia</keyword>
+      <keyword xml:lang="eu">helbide-liburua</keyword>
+      <keyword xml:lang="eu">kontaktua</keyword>
+      <keyword xml:lang="eu">posta</keyword>
+      <keyword xml:lang="eu">zeregina</keyword>
+      <keyword xml:lang="fa">آشنا</keyword>
+      <keyword xml:lang="fa">آشنایان</keyword>
+      <keyword xml:lang="fa">ای‌میل</keyword>
+      <keyword xml:lang="fa">تقویم</keyword>
+      <keyword xml:lang="fa">تکلیف</keyword>
+      <keyword xml:lang="fa">دفترچه</keyword>
+      <keyword xml:lang="fa">رایانامه</keyword>
+      <keyword xml:lang="fa">مخاطب</keyword>
+      <keyword xml:lang="fa">مخاطبان</keyword>
+      <keyword xml:lang="fa">میل</keyword>
+      <keyword xml:lang="fa">وظیفه</keyword>
+      <keyword xml:lang="fi">kalenteri</keyword>
+      <keyword xml:lang="fi">osoitekirja</keyword>
+      <keyword xml:lang="fi">sähköposti</keyword>
+      <keyword xml:lang="fi">tehtävä</keyword>
+      <keyword xml:lang="fi">yhteystiedot</keyword>
+      <keyword xml:lang="fr">agenda</keyword>
+      <keyword xml:lang="fr">calendrier</keyword>
+      <keyword xml:lang="fr">carnet d’adresses</keyword>
+      <keyword xml:lang="fr">courriel</keyword>
+      <keyword xml:lang="fr">tâches</keyword>
+      <keyword xml:lang="fur">ativitât</keyword>
+      <keyword xml:lang="fur">calendari</keyword>
+      <keyword xml:lang="fur">contats</keyword>
+      <keyword xml:lang="fur">e-mail</keyword>
+      <keyword xml:lang="fur">mail</keyword>
+      <keyword xml:lang="fur">pueste</keyword>
+      <keyword xml:lang="fur">rubriche</keyword>
+      <keyword xml:lang="gl">caderno de enderezos</keyword>
+      <keyword xml:lang="gl">calendario</keyword>
+      <keyword xml:lang="gl">contacto</keyword>
+      <keyword xml:lang="gl">correo</keyword>
+      <keyword xml:lang="gl">tarefas</keyword>
+      <keyword xml:lang="hr">adresar</keyword>
+      <keyword xml:lang="hr">e-pošta</keyword>
+      <keyword xml:lang="hr">kalendar</keyword>
+      <keyword xml:lang="hr">kontakt</keyword>
+      <keyword xml:lang="hr">zadatak</keyword>
+      <keyword xml:lang="hu">címjegyzék</keyword>
+      <keyword xml:lang="hu">feladat</keyword>
+      <keyword xml:lang="hu">levél</keyword>
+      <keyword xml:lang="hu">naptár</keyword>
+      <keyword xml:lang="hu">névjegy</keyword>
+      <keyword xml:lang="id">buku alamat</keyword>
+      <keyword xml:lang="id">kalender</keyword>
+      <keyword xml:lang="id">kontak</keyword>
+      <keyword xml:lang="id">surel</keyword>
+      <keyword xml:lang="id">tugas</keyword>
+      <keyword xml:lang="it">attività</keyword>
+      <keyword xml:lang="it">calendario</keyword>
+      <keyword xml:lang="it">contatti</keyword>
+      <keyword xml:lang="it">mail</keyword>
+      <keyword xml:lang="it">posta</keyword>
+      <keyword xml:lang="it">rubrica</keyword>
+      <keyword xml:lang="ja">E-メール</keyword>
+      <keyword xml:lang="ja">Eメール</keyword>
+      <keyword xml:lang="ja">mail</keyword>
+      <keyword xml:lang="ja">アドレス帳</keyword>
+      <keyword xml:lang="ja">カレンダー</keyword>
+      <keyword xml:lang="ja">コンタクト</keyword>
+      <keyword xml:lang="ja">タスク</keyword>
+      <keyword xml:lang="ja">仕事</keyword>
+      <keyword xml:lang="ja">作業</keyword>
+      <keyword xml:lang="ja">暦</keyword>
+      <keyword xml:lang="ja">相手</keyword>
+      <keyword xml:lang="ja">相手先</keyword>
+      <keyword xml:lang="ja">連絡先</keyword>
+      <keyword xml:lang="ja">電子メイル</keyword>
+      <keyword xml:lang="ja">電子メール</keyword>
+      <keyword xml:lang="ja">電話帳</keyword>
+      <keyword xml:lang="kk">адрестік кітапша</keyword>
+      <keyword xml:lang="kk">контакт</keyword>
+      <keyword xml:lang="kk">күнтізбе</keyword>
+      <keyword xml:lang="kk">тапсырма</keyword>
+      <keyword xml:lang="kk">эл пошта</keyword>
+      <keyword xml:lang="kn">ಅಂಚೆ</keyword>
+      <keyword xml:lang="kn">ಕಾರ್ಯ</keyword>
+      <keyword xml:lang="kn">ಕ್ಯಾಲೆಂಡರ್</keyword>
+      <keyword xml:lang="kn">ವಿಳಾಸಪುಸ್ತಕ</keyword>
+      <keyword xml:lang="kn">ಸಂಪರ್ಕ</keyword>
+      <keyword xml:lang="ko">달력</keyword>
+      <keyword xml:lang="ko">메일</keyword>
+      <keyword xml:lang="ko">연락처</keyword>
+      <keyword xml:lang="ko">일정</keyword>
+      <keyword xml:lang="ko">작업</keyword>
+      <keyword xml:lang="ko">전자메일</keyword>
+      <keyword xml:lang="ko">주소록</keyword>
+      <keyword xml:lang="ko">캘린더</keyword>
+      <keyword xml:lang="ko">편지</keyword>
+      <keyword xml:lang="ko">할일</keyword>
+      <keyword xml:lang="lt">adresų knyga</keyword>
+      <keyword xml:lang="lt">kalendorius</keyword>
+      <keyword xml:lang="lt">kontaktai</keyword>
+      <keyword xml:lang="lt">paštas</keyword>
+      <keyword xml:lang="lt">užduotis</keyword>
+      <keyword xml:lang="lv">adrešu grāmata</keyword>
+      <keyword xml:lang="lv">e-pasts</keyword>
+      <keyword xml:lang="lv">kalendārs</keyword>
+      <keyword xml:lang="lv">kontakti</keyword>
+      <keyword xml:lang="lv">pasts</keyword>
+      <keyword xml:lang="lv">uzdevums</keyword>
+      <keyword xml:lang="lv">vēstule</keyword>
+      <keyword xml:lang="mr">ईमेल</keyword>
+      <keyword xml:lang="mr">कार्य</keyword>
+      <keyword xml:lang="mr">दिनदर्शिका</keyword>
+      <keyword xml:lang="mr">पत्तापुस्तिका</keyword>
+      <keyword xml:lang="mr">संपर्क</keyword>
+      <keyword xml:lang="ms">bukualamat</keyword>
+      <keyword xml:lang="ms">emel</keyword>
+      <keyword xml:lang="ms">hubungan</keyword>
+      <keyword xml:lang="ms">kalendar</keyword>
+      <keyword xml:lang="ms">tugas</keyword>
+      <keyword xml:lang="nb">adressebok</keyword>
+      <keyword xml:lang="nb">e-post</keyword>
+      <keyword xml:lang="nb">kalender</keyword>
+      <keyword xml:lang="nb">kontakt</keyword>
+      <keyword xml:lang="nb">oppgave</keyword>
+      <keyword xml:lang="nl">adresboek</keyword>
+      <keyword xml:lang="nl">agenda</keyword>
+      <keyword xml:lang="nl">e-mail</keyword>
+      <keyword xml:lang="nl">kalender</keyword>
+      <keyword xml:lang="nl">mail</keyword>
+      <keyword xml:lang="nl">taak</keyword>
+      <keyword xml:lang="oc">agenda</keyword>
+      <keyword xml:lang="oc">calendièr</keyword>
+      <keyword xml:lang="oc">contacte</keyword>
+      <keyword xml:lang="oc">corrièr electronic</keyword>
+      <keyword xml:lang="oc">prètzfaits</keyword>
+      <keyword xml:lang="oc">quasernet d'adreças</keyword>
+      <keyword xml:lang="pa">ਐਡਰੈਸਬੁੱਕ</keyword>
+      <keyword xml:lang="pa">ਕੈਲੰਡਰ</keyword>
+      <keyword xml:lang="pa">ਕੰਮ</keyword>
+      <keyword xml:lang="pa">ਟਾਸਕ</keyword>
+      <keyword xml:lang="pa">ਮੇਲ</keyword>
+      <keyword xml:lang="pa">ਸੰਪਰਕ</keyword>
+      <keyword xml:lang="pl">kalendarz</keyword>
+      <keyword xml:lang="pl">kontakt</keyword>
+      <keyword xml:lang="pl">książka adresowa</keyword>
+      <keyword xml:lang="pl">mail</keyword>
+      <keyword xml:lang="pl">poczta</keyword>
+      <keyword xml:lang="pl">zadanie</keyword>
+      <keyword xml:lang="pt">calendário</keyword>
+      <keyword xml:lang="pt">compromisso</keyword>
+      <keyword xml:lang="pt">contacto</keyword>
+      <keyword xml:lang="pt">correio</keyword>
+      <keyword xml:lang="pt">endereços</keyword>
+      <keyword xml:lang="pt">livro</keyword>
+      <keyword xml:lang="pt">mensagem</keyword>
+      <keyword xml:lang="pt">tarefa</keyword>
+      <keyword xml:lang="pt_BR">agenda</keyword>
+      <keyword xml:lang="pt_BR">calendário</keyword>
+      <keyword xml:lang="pt_BR">catálogo de endereços</keyword>
+      <keyword xml:lang="pt_BR">contato</keyword>
+      <keyword xml:lang="pt_BR">correio</keyword>
+      <keyword xml:lang="pt_BR">tarefa</keyword>
+      <keyword xml:lang="ro">agendă</keyword>
+      <keyword xml:lang="ro">sarcini</keyword>
+      <keyword xml:lang="ro">sarcină</keyword>
+      <keyword xml:lang="ru">адресная</keyword>
+      <keyword xml:lang="ru">задание</keyword>
+      <keyword xml:lang="ru">задача</keyword>
+      <keyword xml:lang="ru">календарь</keyword>
+      <keyword xml:lang="ru">книга</keyword>
+      <keyword xml:lang="ru">контакт</keyword>
+      <keyword xml:lang="ru">почта</keyword>
+      <keyword xml:lang="sk">adresár kontaktov</keyword>
+      <keyword xml:lang="sk">kalendár</keyword>
+      <keyword xml:lang="sk">kontakt</keyword>
+      <keyword xml:lang="sk">pošta</keyword>
+      <keyword xml:lang="sk">úloha</keyword>
+      <keyword xml:lang="sl">elektronska pošta</keyword>
+      <keyword xml:lang="sl">imenik</keyword>
+      <keyword xml:lang="sl">koledar</keyword>
+      <keyword xml:lang="sl">naloge</keyword>
+      <keyword xml:lang="sl">opravila</keyword>
+      <keyword xml:lang="sl">stik</keyword>
+      <keyword xml:lang="sl">stiki</keyword>
+      <keyword xml:lang="sr">adresar</keyword>
+      <keyword xml:lang="sr">e-pošta</keyword>
+      <keyword xml:lang="sr">imenik</keyword>
+      <keyword xml:lang="sr">kalendar</keyword>
+      <keyword xml:lang="sr">kontakt</keyword>
+      <keyword xml:lang="sr">mejl</keyword>
+      <keyword xml:lang="sr">pošta</keyword>
+      <keyword xml:lang="sr">zadatak</keyword>
+      <keyword xml:lang="sr">адресар</keyword>
+      <keyword xml:lang="sr">е-пошта</keyword>
+      <keyword xml:lang="sr">задатак</keyword>
+      <keyword xml:lang="sr">именик</keyword>
+      <keyword xml:lang="sr">календар</keyword>
+      <keyword xml:lang="sr">контакт</keyword>
+      <keyword xml:lang="sr">мејл</keyword>
+      <keyword xml:lang="sr">пошта</keyword>
+      <keyword xml:lang="sr@latin">adresar</keyword>
+      <keyword xml:lang="sr@latin">e-pošta</keyword>
+      <keyword xml:lang="sr@latin">imenik</keyword>
+      <keyword xml:lang="sr@latin">kalendar</keyword>
+      <keyword xml:lang="sr@latin">kontakt</keyword>
+      <keyword xml:lang="sr@latin">mejl</keyword>
+      <keyword xml:lang="sr@latin">pošta</keyword>
+      <keyword xml:lang="sr@latin">zadatak</keyword>
+      <keyword xml:lang="sv">adressbok</keyword>
+      <keyword xml:lang="sv">e-post</keyword>
+      <keyword xml:lang="sv">epost</keyword>
+      <keyword xml:lang="sv">kalender</keyword>
+      <keyword xml:lang="sv">kontakt</keyword>
+      <keyword xml:lang="sv">mail</keyword>
+      <keyword xml:lang="sv">todo</keyword>
+      <keyword xml:lang="sv">uppgifter</keyword>
+      <keyword xml:lang="tr">adres</keyword>
+      <keyword xml:lang="tr">bağlantı</keyword>
+      <keyword xml:lang="tr">defter</keyword>
+      <keyword xml:lang="tr">eposta</keyword>
+      <keyword xml:lang="tr">görev</keyword>
+      <keyword xml:lang="tr">takvim</keyword>
+      <keyword xml:lang="uk">адресна</keyword>
+      <keyword xml:lang="uk">завдання</keyword>
+      <keyword xml:lang="uk">календар</keyword>
+      <keyword xml:lang="uk">книга</keyword>
+      <keyword xml:lang="uk">контакт</keyword>
+      <keyword xml:lang="uk">пошта</keyword>
+      <keyword xml:lang="zh_CN">mail</keyword>
+      <keyword xml:lang="zh_CN">任务</keyword>
+      <keyword xml:lang="zh_CN">地址簿</keyword>
+      <keyword xml:lang="zh_CN">日历</keyword>
+      <keyword xml:lang="zh_CN">联系人</keyword>
+      <keyword xml:lang="zh_CN">邮件</keyword>
+      <keyword xml:lang="zh_HK">工作</keyword>
+      <keyword xml:lang="zh_HK">聯絡人</keyword>
+      <keyword xml:lang="zh_HK">行事曆</keyword>
+      <keyword xml:lang="zh_HK">通訊錄</keyword>
+      <keyword xml:lang="zh_HK">電子郵件</keyword>
+      <keyword xml:lang="zh_TW">工作</keyword>
+      <keyword xml:lang="zh_TW">行事曆</keyword>
+      <keyword xml:lang="zh_TW">通訊錄</keyword>
+      <keyword xml:lang="zh_TW">連絡人</keyword>
+      <keyword xml:lang="zh_TW">電子郵件</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>Notifications</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/mbox</mimetype>
+      <mimetype>message/rfc822</mimetype>
+      <mimetype>text/calendar</mimetype>
+      <mimetype>text/directory</mimetype>
+      <mimetype>text/x-vcard</mimetype>
+      <mimetype>x-scheme-handler/calendar</mimetype>
+      <mimetype>x-scheme-handler/mailto</mimetype>
+      <mimetype>x-scheme-handler/memo</mimetype>
+      <mimetype>x-scheme-handler/task</mimetype>
+      <mimetype>x-scheme-handler/webcal</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+ and GFDL-1.3</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/evolution/issues/new</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/evolution/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Evolution</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://wiki.gnome.org/Apps/Evolution/Screenshots?action=AttachFile&amp;do=get&amp;target=evolution_mail.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="social-chat">intense</content_attribute>
+      <content_attribute id="social-contacts">intense</content_attribute>
+    </content_rating>
+    <releases>
+      <release type="stable" timestamp="1592870400" version="3.36.3"/>
+    </releases>
+    <provides>
+      <id>evolution</id>
+      <id>org.gnome.Evolution.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Evolution.desktop</launchable>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="addon">
+    <id>evolution-spamassassin</id>
+    <pkgname>evolution</pkgname>
+    <name>SpamAssassin</name>
+    <name xml:lang="ar">قاتل السخام</name>
+    <name xml:lang="ca@valencia">SpamAssaren</name>
+    <name xml:lang="kn">ಸ್ಪ್ಯಾಮ್‌ಅಸಾಸಿನ್</name>
+    <name xml:lang="ko">스팸어새신</name>
+    <name xml:lang="ml">സ്പാംഅസാസിന്‍</name>
+    <name xml:lang="ro">SpamAssasin</name>
+    <name xml:lang="sr">Убица спама</name>
+    <name xml:lang="sr@latin">Ubica spama</name>
+    <name xml:lang="ta">ஸ்பாம் அஸாஸின்</name>
+    <summary>Junk filter using SpamAssassin</summary>
+    <summary xml:lang="be">Фільтрацыі спаму праз SpamAssassin</summary>
+    <summary xml:lang="bg">Програма за защита от спам чрез SpamAssasin</summary>
+    <summary xml:lang="bs">Filter za smeće koristeći SpamAssassin</summary>
+    <summary xml:lang="ca">Filtra la brossa amb SpamAssassin</summary>
+    <summary xml:lang="ca@valencia">Filtra la brossa amb SpamAssaren</summary>
+    <summary xml:lang="cs">Filtr nevyžádané pošty používá SpamAssassin</summary>
+    <summary xml:lang="da">Spamfilter med SpamAssassin</summary>
+    <summary xml:lang="de">Filter für unerwünschte Nachrichten, der den SpamAssassin-Filter verwendet</summary>
+    <summary xml:lang="el">Φίλτρο ανεπιθύμητων χρησιμοποιώντας το SpamAssassin</summary>
+    <summary xml:lang="eo">Spamfiltrilo uzante SpamAssassin</summary>
+    <summary xml:lang="es">Filtro de spam usando SpamAssassin</summary>
+    <summary xml:lang="eu">Baztergarriak iragazteko SpamAssassin erabiltzen</summary>
+    <summary xml:lang="fi">Roskapostisuodatus SpamAssassinia käyttäen</summary>
+    <summary xml:lang="fr">Filtre de pourriel utilisant SpamAssassin</summary>
+    <summary xml:lang="fur">Filtrâ i malvolûts doprant SpamAssassin</summary>
+    <summary xml:lang="gl">Filtrar o correo lixo usando SpamAssassin</summary>
+    <summary xml:lang="hr">Filtar neželjene pošte koristi SpamAssassin</summary>
+    <summary xml:lang="hu">Levélszemétszűrő szoftver SpamAssassin használatával</summary>
+    <summary xml:lang="id">Penyaring sampah memakai SpamAssassin</summary>
+    <summary xml:lang="it">Filtra indesiderata usando SpamAssassin</summary>
+    <summary xml:lang="kn">ಸ್ಪ್ಯಾಮ್‌ಅಸಾಸಿನ್ ಬಳಸಿಕೊಂಡು ರದ್ದಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡು</summary>
+    <summary xml:lang="ko">프매어새신 사용 정크메일 필터링</summary>
+    <summary xml:lang="lt">Šlamšto filtravimas naudojant SpamAssassin</summary>
+    <summary xml:lang="lv">Mēstuļu filtrēšanas, izmantojot SpamAssassin</summary>
+    <summary xml:lang="ms">Tapis sarap menggunakan SpamAssassin</summary>
+    <summary xml:lang="nb">Søppelfilter bruker SpamAssassin</summary>
+    <summary xml:lang="nl">Spamfilter gebruikmakend van SpamAssassin</summary>
+    <summary xml:lang="oc">Filtra de corrièr electronic indesirable utilizant SpamAssassin</summary>
+    <summary xml:lang="pl">Filtrowanie niechcianych wiadomości za pomocą SpamAssassin</summary>
+    <summary xml:lang="pt">Filtrar não solicitado usando SpamAssassin</summary>
+    <summary xml:lang="pt_BR">Filtro de spam usando SpamAssassin</summary>
+    <summary xml:lang="ro">Filtrare a spamurilor folosind SpamAssassin</summary>
+    <summary xml:lang="ru">Фильтр спама с помощью SpamAssassin</summary>
+    <summary xml:lang="sk">Filtrovanie nevyžiadanej pošty pomocou programu SpamAssassin</summary>
+    <summary xml:lang="sl">Filtriranje vsiljenih sporočil s SpamAssassin</summary>
+    <summary xml:lang="sr">Филтер непожељне поруке помоћу Убице спама</summary>
+    <summary xml:lang="sr@latin">Filter nepoželjne poruke pomoću Ubice spama</summary>
+    <summary xml:lang="sv">Skräppostfilter som använder SpamAssassin</summary>
+    <summary xml:lang="ta">SpamAssassin பயன்படுத்தி குப்பை வடிகட்டி</summary>
+    <summary xml:lang="tr">SpamAssassin kullanarak önemsiz ileti süz</summary>
+    <summary xml:lang="uk">Фільтрувати спам через SpamAssassin</summary>
+    <summary xml:lang="zh_CN">使用 SpamAssassin 过滤垃圾</summary>
+    <summary xml:lang="zh_TW">使用 SpamAssassin 垃圾郵件過濾器</summary>
+    <kudos>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://live.gnome.org/Apps/Evolution</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Evolution.desktop</extends>
+  </component>
+</components>
+
+<components version="1.0">
+  <component type="addon">
+    <id>evolution-bogofilter</id>
+    <pkgname>evolution</pkgname>
+    <name>Bogofilter</name>
+    <name xml:lang="hi">बोगोफिल्टर</name>
+    <name xml:lang="kn">ಬೊಗೊಫಿಲ್ಟರ್</name>
+    <name xml:lang="ko">보고필터</name>
+    <name xml:lang="ml">ബോഗോഫില്‍റ്റര്‍</name>
+    <name xml:lang="mr">बोगोफिल्टर</name>
+    <name xml:lang="pa">ਬੋਗੋਲਫਿਲਟਰ</name>
+    <name xml:lang="ro">Bogofiltru</name>
+    <name xml:lang="sr">Богофилтер</name>
+    <name xml:lang="ta">போகோவடிகட்டி</name>
+    <summary>Junk filter using Bogofilter</summary>
+    <summary xml:lang="be">Фільтрацыя спаму з выкарыстаннем Bogofilter</summary>
+    <summary xml:lang="bg">Програма за защита от спам чрез Bogofilter</summary>
+    <summary xml:lang="bs">Filter za smeće koristeći Bogofilter</summary>
+    <summary xml:lang="ca">Filtra la brossa amb Bogofilter</summary>
+    <summary xml:lang="ca@valencia">Filtra la brossa amb Bogofilter</summary>
+    <summary xml:lang="cs">Filtr nevyžádané pošty používá Bogofilter</summary>
+    <summary xml:lang="da">Spamfilter med Bogofilter</summary>
+    <summary xml:lang="de">Filter für unerwünschte Nachrichten, der den Bogofilter verwendet</summary>
+    <summary xml:lang="el">Φίλτρο ανεπιθύμητων χρησιμοποιώντας το Bogofilter</summary>
+    <summary xml:lang="eo">Spamfiltrilo uzante Bogofilter</summary>
+    <summary xml:lang="es">Filtro de spam usando Bogofilter</summary>
+    <summary xml:lang="eu">Baztergarriak iragazteko Bogofilter erabiltzen</summary>
+    <summary xml:lang="fr">Filtre de pourriel utilisant Bogofilter</summary>
+    <summary xml:lang="fur">Filtri malvolûts doprant Bogofilter</summary>
+    <summary xml:lang="gl">Filtro de correo lixo usando Bogofilter</summary>
+    <summary xml:lang="hr">Filtar neželjene pošte koristi Bogofilter</summary>
+    <summary xml:lang="hu">Levélszemétszűrő szoftver Bogofilter használatával</summary>
+    <summary xml:lang="id">Penyaring sampah memakai Bogofilter</summary>
+    <summary xml:lang="it">Filtra indesiderata usando Bogofilter</summary>
+    <summary xml:lang="kn">ಬೊಗೊಫಿಲ್ಟರ್ ಬಳಸಿಕೊಂಡು ರದ್ಧಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ</summary>
+    <summary xml:lang="ko">보고필터를 사용한 정크메일 필터링</summary>
+    <summary xml:lang="lt">Šlamšto filtravimas naudojant Bogofilter</summary>
+    <summary xml:lang="lv">Mēstuļu filtrēšanas, izmantojot Bogofilter</summary>
+    <summary xml:lang="ms">Tapis sarap menggunakan Bogofilter</summary>
+    <summary xml:lang="nb">Søppelfilter bruker Bogofilter</summary>
+    <summary xml:lang="nl">Spamfilter gebruikmakend van Bogofilter</summary>
+    <summary xml:lang="oc">Filtre de corrièr indesirable qu'utiliza Bogofilter</summary>
+    <summary xml:lang="pl">Filtrowanie niechcianych wiadomości za pomocą Bogofilter</summary>
+    <summary xml:lang="pt">Filtrar não solicitado usando Bogofilter</summary>
+    <summary xml:lang="pt_BR">Filtro de spam usando Bogofilter</summary>
+    <summary xml:lang="ro">Filtrează spamuri folosind Bogofilter</summary>
+    <summary xml:lang="ru">Фильтр спама с помощью Bogofilter</summary>
+    <summary xml:lang="sk">Filtrovanie nevyžiadanej pošty pomocou programu Bogofilter</summary>
+    <summary xml:lang="sl">Filter za vsiljeno pošto, ki uporablja Bogofilter</summary>
+    <summary xml:lang="sr">Бого-филтер непожељних порука</summary>
+    <summary xml:lang="sr@latin">Bogo-filter nepoželjnih poruka</summary>
+    <summary xml:lang="sv">Skräppostfilter som använder Bogofilter</summary>
+    <summary xml:lang="ta">Bogofilter பயன்படுத்தி குப்பை வடிகட்டி</summary>
+    <summary xml:lang="tr">Bogofilter kullanarak gereksiz iletileri süz</summary>
+    <summary xml:lang="uk">Фільтрувати спам через Bogofilter</summary>
+    <summary xml:lang="zh_CN">使用 Bogofilter 过滤垃圾</summary>
+    <summary xml:lang="zh_TW">使用 Bogofilter 垃圾郵件過濾器</summary>
+    <kudos>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>(null)</project_license>
+    <url type="homepage">https://live.gnome.org/Apps/Evolution</url>
+    <project_group>GNOME</project_group>
+    <extends>org.gnome.Evolution.desktop</extends>
+  </component>
+</components>
+

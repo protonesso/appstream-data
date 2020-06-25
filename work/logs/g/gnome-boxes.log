@@ -1,0 +1,90 @@
+DEBUG:   Getting filename match for gnome-boxes-3.36.5-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-boxes
+DEBUG:   Processing gnome-boxes-3.36.5-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <felipeborges@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Boxes.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Boxes.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Boxes.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Boxes.desktop</id>
+    <pkgname>gnome-boxes</pkgname>
+    <translation type="gettext">gnome-boxes</translation>
+    <name>GNOME Boxes</name>
+    <summary>Simple remote and virtual machines</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>A simple GNOME 3 application to access remote or virtual systems. Unlike some other virtual machine management software, Boxes is targeted towards typical desktop end-users. For this reason, Boxes will not provide many advanced options to tweak virtual machines. Instead Boxes will focus on getting things working out of the box with very little input from user.</p><p>You want to install Boxes if you just want a very safe and easy way to try out new operating systems or new (potentially unstable) versions of your favorite operating system(s), or need to connect to a remote machine (for example, in your office).</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Boxes.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Boxes.png</icon>
+    <categories>
+      <category>Development</category>
+      <category>Emulator</category>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>rdp</keyword>
+      <keyword>virtual machine</keyword>
+      <keyword>vm</keyword>
+      <keyword>vnc</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>SearchProvider</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/x-cd-image</mimetype>
+      <mimetype>x-scheme-handler/rdp</mimetype>
+      <mimetype>x-scheme-handler/vnc</mimetype>
+    </mimetypes>
+    <project_license>LGPL-2.1+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-boxes/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-boxes/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Boxes</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-boxes-logos/raw/master/screenshots/01-icon-view.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-boxes-logos/raw/master/screenshots/02-download-an-os.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-boxes-logos/raw/master/screenshots/03-windows-vm.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-boxes-logos/raw/master/screenshots/04-express-install.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://gitlab.gnome.org/GNOME/gnome-boxes-logos/raw/master/screenshots/05-shared-folders.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1591833600" version="3.36.5">
+        <description><p>Boxes 3.36.5 is the latest stable version of GNOME Boxes, and it contains all the features and bugfixes introduced since our 3.36 release.</p><ul><li>New box creation assistant and download manager</li><li>Allow setting vCPU count for virtual machines</li><li>Allow VM disks to be stored anywhere within the $HOME directory</li><li>Onboarding dialog presenting Boxes main features</li><li>Updated translations</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <binary>gnome-boxes</binary>
+      <dbus type="session">org.gnome.Boxes</dbus>
+      <dbus type="session">org.gnome.Boxes.SearchProvider</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Boxes.desktop</launchable>
+  </component>
+</components>
+

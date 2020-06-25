@@ -1,0 +1,5 @@
+DEBUG:   Getting filename match for fwupd-1.4.4-2.x86_64.rpm
+DEBUG:   Exploding tree for fwupd
+DEBUG:   Processing fwupd-1.4.4-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+WARNING: Failed to run process 'appdata': ./tmp/fwupd-1.4.4-2/usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs-testing.metainfo.xml could not be read: Failed to open file “./tmp/fwupd-1.4.4-2/usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs-testing.metainfo.xml”: No such file or directory

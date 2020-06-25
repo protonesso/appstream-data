@@ -1,0 +1,74 @@
+DEBUG:   Getting filename match for gnome-system-monitor-3.36.1-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-system-monitor
+DEBUG:   Processing gnome-system-monitor-3.36.1-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <robert.roth.off@gmail.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for gnome-system-monitor.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/gnome-system-monitor.png
+DEBUG:   Saved icon ./tmp/icons/128x128/gnome-system-monitor.png
+<components version="1.0">
+  <component type="desktop">
+    <id>gnome-system-monitor.desktop</id>
+    <pkgname>gnome-system-monitor</pkgname>
+    <translation type="gettext">gnome-system-monitor</translation>
+    <name>GNOME System Monitor</name>
+    <summary>View and manage system resources</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>System Monitor is a process viewer and system monitor with an attractive, easy-to-use interface.</p><p>System Monitor can help you find out what applications are using the processor or the memory of your computer, can manage the running applications, force stop processes not responding, and change the state or priority of existing processes.</p><p>The resource graphs feature shows you a quick overview of what is going on with your computer displaying recent network, memory and processor usage.</p></description>
+    <icon type="cached" height="128" width="128">128x128/gnome-system-monitor.png</icon>
+    <icon type="cached" height="64" width="64">64x64/gnome-system-monitor.png</icon>
+    <categories>
+      <category>Monitor</category>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>Activity</keyword>
+      <keyword>CPU</keyword>
+      <keyword>History</keyword>
+      <keyword>Manager</keyword>
+      <keyword>Memory</keyword>
+      <keyword>Monitor</keyword>
+      <keyword>Network</keyword>
+      <keyword>Performance</keyword>
+      <keyword>Process</keyword>
+      <keyword>System</keyword>
+      <keyword>Task</keyword>
+      <keyword>Usage</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-2.0</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-system-monitor/issues</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-system-monitor/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/SystemMonitor</url>
+    <url type="translate">https://l10n.gnome.org/module/gnome-system-monitor/</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <caption>Process list view</caption>
+        <image type="source">https://wiki.gnome.org/Apps/SystemMonitor?action=AttachFile&amp;do=get&amp;target=Processes.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>File Systems view</caption>
+        <image type="source">https://wiki.gnome.org/Apps/SystemMonitor?action=AttachFile&amp;do=get&amp;target=Disks.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Resources overview</caption>
+        <image type="source">https://wiki.gnome.org/Apps/SystemMonitor?action=AttachFile&amp;do=get&amp;target=Resources.png</image>
+      </screenshot>
+    </screenshots>
+    <launchable type="desktop-id">gnome-system-monitor.desktop</launchable>
+  </component>
+</components>
+

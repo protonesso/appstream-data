@@ -1,0 +1,91 @@
+DEBUG:   Getting filename match for gnome-characters-3.34.0-2.x86_64.rpm
+DEBUG:   Exploding tree for gnome-characters
+DEBUG:   Processing gnome-characters-3.34.0-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <dueno@src.gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Characters.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Characters.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Characters.desktop</id>
+    <pkgname>gnome-characters</pkgname>
+    <translation type="gettext">org.gnome.Characters</translation>
+    <name>GNOME Characters</name>
+    <summary>Character map application</summary>
+    <description><p>Characters is a simple utility application to find and insert unusual characters.  It allows you to quickly find the character you are looking for by searching for keywords.</p><p>You can also browse characters by categories, such as Punctuation, Pictures, etc.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Characters.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Characters.png</icon>
+    <categories>
+      <category>Utility</category>
+    </categories>
+    <keywords>
+      <keyword>characters</keyword>
+      <keyword>emoji</keyword>
+      <keyword>emoticon</keyword>
+      <keyword>letters</keyword>
+      <keyword>math</keyword>
+      <keyword>punctuation</keyword>
+      <keyword>unicode</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>SearchProvider</kudo>
+    </kudos>
+    <project_license>BSD-3-Clause AND GPL-2.0+</project_license>
+    <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-characters</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://wiki.gnome.org/Apps/Gucharmap</url>
+    <url type="homepage">https://wiki.gnome.org/Design/Apps/CharacterMap</url>
+    <project_group>GNOME</project_group>
+    <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.github.com/gnome-design-team/gnome-mockups/master/character-map/png/grid.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1">
+      <content_attribute id="violence-cartoon">none</content_attribute>
+      <content_attribute id="violence-fantasy">none</content_attribute>
+      <content_attribute id="violence-realistic">none</content_attribute>
+      <content_attribute id="violence-bloodshed">none</content_attribute>
+      <content_attribute id="violence-sexual">none</content_attribute>
+      <content_attribute id="violence-desecration">none</content_attribute>
+      <content_attribute id="violence-slavery">none</content_attribute>
+      <content_attribute id="violence-worship">none</content_attribute>
+      <content_attribute id="drugs-alcohol">none</content_attribute>
+      <content_attribute id="drugs-narcotics">none</content_attribute>
+      <content_attribute id="drugs-tobacco">none</content_attribute>
+      <content_attribute id="sex-nudity">none</content_attribute>
+      <content_attribute id="sex-themes">none</content_attribute>
+      <content_attribute id="sex-homosexuality">none</content_attribute>
+      <content_attribute id="sex-prostitution">none</content_attribute>
+      <content_attribute id="sex-adultery">none</content_attribute>
+      <content_attribute id="sex-appearance">none</content_attribute>
+      <content_attribute id="language-profanity">none</content_attribute>
+      <content_attribute id="language-humor">none</content_attribute>
+      <content_attribute id="language-discrimination">none</content_attribute>
+      <content_attribute id="social-chat">none</content_attribute>
+      <content_attribute id="social-info">none</content_attribute>
+      <content_attribute id="social-audio">none</content_attribute>
+      <content_attribute id="social-location">none</content_attribute>
+      <content_attribute id="social-contacts">none</content_attribute>
+      <content_attribute id="money-purchasing">none</content_attribute>
+      <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <provides>
+      <dbus type="session">org.gnome.Characters</dbus>
+      <dbus type="session">org.gnome.Characters.BackgroundService</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Characters.desktop</launchable>
+  </component>
+</components>
+

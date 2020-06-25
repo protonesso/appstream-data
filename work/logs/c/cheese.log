@@ -1,0 +1,57 @@
+DEBUG:   Getting filename match for cheese-3.34.0-2.x86_64.rpm
+DEBUG:   Exploding tree for cheese
+DEBUG:   Processing cheese-3.34.0-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <davidk@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Cheese.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Cheese.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Cheese.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Cheese.desktop</id>
+    <pkgname>cheese</pkgname>
+    <translation type="gettext">cheese</translation>
+    <name>Cheese</name>
+    <summary>Take photos and videos with your webcam, with fun graphical effects</summary>
+    <description><p>Cheese uses your webcam to take photos and videos, applies fancy special effects and lets you share the fun with others.</p><p>Take multiple photos in quick succession with burst mode. Use the countdown to give yourself time to strike a pose, and wait for the flash!</p><p>Under the hood, Cheese uses GStreamer to apply fancy effects to photos and videos. With Cheese it is easy to take photos of you, your friends, pets or whatever you want and share them with others.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Cheese.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Cheese.png</icon>
+    <categories>
+      <category>AudioVideo</category>
+      <category>Recorder</category>
+      <category>Video</category>
+    </categories>
+    <keywords>
+      <keyword>photo</keyword>
+      <keyword>video</keyword>
+      <keyword>webcam</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=cheese</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/cheese/stable</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Cheese</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">http://amigadave.com/temp/cheese-default.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">org.gnome.Cheese</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Cheese.desktop</launchable>
+  </component>
+</components>
+

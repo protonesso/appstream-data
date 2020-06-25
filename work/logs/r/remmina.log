@@ -1,0 +1,101 @@
+DEBUG:   Getting filename match for remmina-1.4.6-2.x86_64.rpm
+DEBUG:   Exploding tree for remmina
+DEBUG:   Processing remmina-1.4.6-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <admin@remmina.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.remmina.Remmina.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.remmina.Remmina.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.remmina.Remmina.desktop</id>
+    <pkgname>remmina</pkgname>
+    <translation type="gettext">remmina</translation>
+    <name>Remmina</name>
+    <summary>Remote Desktop Client</summary>
+    <summary xml:lang="bg">Свързване към отдалечени компютри</summary>
+    <summary xml:lang="ca">Connecteu-vos a escriptoris remots</summary>
+    <summary xml:lang="cs">Připojení ke vzdáleným plochám</summary>
+    <summary xml:lang="da">Opret forbindelse til fjernskriveborde</summary>
+    <summary xml:lang="de">Zu entfernten Arbeitsflächen verbinden</summary>
+    <summary xml:lang="el">Συνδεθείτε σε απομακρυσμένους υπολογιστές</summary>
+    <summary xml:lang="es">Conectarse a escritorios remotos</summary>
+    <summary xml:lang="eu">Konektatu urruneko mahaigainekin</summary>
+    <summary xml:lang="fr">Client de contrôle de bureau à distance</summary>
+    <summary xml:lang="hu">Kapcsolódás távoli asztalhoz</summary>
+    <summary xml:lang="id">Mengakses remote desktop</summary>
+    <summary xml:lang="it">Client di connessione a desktop remoti</summary>
+    <summary xml:lang="kk">Қашықтаған жұмыс үстелдерге қосылу</summary>
+    <summary xml:lang="lt">Jungtis prie nutolusių kompiuterių</summary>
+    <summary xml:lang="nl">Verbinding maken met bureaubladen op afstand</summary>
+    <summary xml:lang="pl">Łączy ze zdalnymi pulpitami</summary>
+    <summary xml:lang="pt_BR">Conecte-se a áreas de trabalho remotas</summary>
+    <summary xml:lang="pt_PT">Estabelecer ligação com computadores remotos</summary>
+    <summary xml:lang="ru">Подключение к удалённым рабочим столам</summary>
+    <summary xml:lang="sk">Pripojenie k vzdialeným pracovným plochám</summary>
+    <summary xml:lang="sv">Anslut till fjärrskrivbord</summary>
+    <summary xml:lang="th">เชื่อมต่อไปยังพื้นโต๊ะระยะไกล</summary>
+    <summary xml:lang="tr">Uzak masaüstlerine bağlan</summary>
+    <summary xml:lang="uk">З'єднатися із віддаленим комп'ютером</summary>
+    <summary xml:lang="zh_CN">连接到远程桌面</summary>
+    <description><p>Remmina is a remote desktop client written in GTK+, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large monitors or tiny netbooks.</p><p>Remmina supports multiple network protocols in an integrated and consistent user interface. The protocols currently supported are: RDP (Remote Desktop Protocol), VNC (Virtual Network Computing), NX (NoMachine NX / FreeNX), XDMCP (X Display Manager Control Protocol) and SSH (Secure Shell / Open SSH).</p><p>External plugins are also supported to add new protocols and features.</p></description>
+    <description xml:lang="fr"><p>Remmina est un client graphique de connexion et de prise de contrôle de bureau multi-protocoles pour les systèmes d'exploitation basés sur le noyau Linux. Il s'appuie sur la bibliothèque GTK+ pour l'affichage et permet de se connecter à distance sur les bureaux de nombreux systèmes d'exploitation : GNU/Linux, Unix, Windows, Mac OS, Android, etc.</p><p>Dans sa dernière version, Remmina prend en charge les technologies NX, RDP, SFTP, SSH, VNC et XDMCP. Les connexions peuvent se faire en clair (pas sécurisé du tout) ou à travers un tunnel SSH chiffré (recommandé) par mot de passe ou par échange de clés.</p><p>Ajout possible de greffons pour la gestion de nouveaux protocoles</p></description>
+    <description xml:lang="it"><p>Remmina è un visualizzatore di desktop remoti scritto in GTK+, utile per amministratori di sistema e viaggiatori, che hanno bisogno di lavorare con numerosi computer remoti davanti a grandi monitor oppure a minuscoli netbook.</p><p>Remmina supporta molteplici protocolli di rete con un'interfaccia utente consistente e integrata. I protocolli attualmente supportati sono: RDP (Remote Desktop Protocol), VNC (Virtual Network Computing), NX (NoMachine NX / FreeNX), XDMCP (X Display Manager Control Protocol) e SSH (Secure Shell / Open SSH).</p><p>Sono anche supportati plugin esterni per aggiungere nuovi protocolli e funzionalità.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.remmina.Remmina.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.remmina.Remmina.png</icon>
+    <categories>
+      <category>Network</category>
+    </categories>
+    <keywords>
+      <keyword>nx</keyword>
+      <keyword>rdp</keyword>
+      <keyword>remote desktop</keyword>
+      <keyword>spice</keyword>
+      <keyword>ssh</keyword>
+      <keyword>vnc</keyword>
+      <keyword>xdmcp</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/x-remmina</mimetype>
+      <mimetype>x-scheme-handler/rdp</mimetype>
+      <mimetype>x-scheme-handler/remmina</mimetype>
+      <mimetype>x-scheme-handler/spice</mimetype>
+      <mimetype>x-scheme-handler/vnc</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.com/Remmina/Remmina/issues</url>
+    <url type="help">https://gitlab.com/Remmina/Remmina/wikis/home</url>
+    <url type="homepage">https://www.remmina.org/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://remmina.org/assets/images/RemminaUI.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://www.remmina.org/images/appdata/protocol-rdp.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://www.remmina.org/images/appdata/protocol-vnc.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://www.remmina.org/images/appdata/protocol-ssh.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://www.remmina.org/images/appdata/protocol-sftp.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1591660800" version="1.4.6"/>
+    </releases>
+    <launchable type="desktop-id">org.remmina.Remmina.desktop</launchable>
+  </component>
+</components>
+

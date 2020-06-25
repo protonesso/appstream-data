@@ -1,0 +1,63 @@
+DEBUG:   Getting filename match for sysprof-3.36.0-2.x86_64.rpm
+DEBUG:   Exploding tree for sysprof
+DEBUG:   Processing sysprof-3.36.0-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <chergert_AT_redhat.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.Sysprof3.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.Sysprof3.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.Sysprof3.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.Sysprof3.desktop</id>
+    <pkgname>sysprof</pkgname>
+    <translation type="gettext">sysprof</translation>
+    <name>Sysprof</name>
+    <summary>Profile an application or entire system</summary>
+    <developer_name>The GNOME Foundation</developer_name>
+    <description><p>Sysprof allows you to profile applications to aid in debugging and optimization.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.Sysprof3.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.Sysprof3.png</icon>
+    <categories>
+      <category>Development</category>
+    </categories>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HighContrast</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>application/x-sysprof-capture</mimetype>
+    </mimetypes>
+    <project_license>GPL-3.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/sysprof/issues</url>
+    <url type="donation">https://www.gnome.org/friends</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Sysprof</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://git.gnome.org/browse/sysprof/plain/data/screenshots/sysprof-main-window.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1567987200" version="3.34.0"/>
+    </releases>
+    <provides>
+      <binary>sysprof</binary>
+      <binary>sysprof-cli</binary>
+      <dbus type="system">org.gnome.Sysprof2</dbus>
+      <dbus type="system">org.gnome.Sysprof3</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.Sysprof3.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,61 @@
+DEBUG:   Getting filename match for sound-juicer-46851c208415902c281c8f3509ee766bb1db55dd-2.x86_64.rpm
+DEBUG:   Exploding tree for sound-juicer
+DEBUG:   Processing sound-juicer-46851c208415902c281c8f3509ee766bb1db55dd-2.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <pwood@src.gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.SoundJuicer.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.SoundJuicer.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.SoundJuicer.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.SoundJuicer.desktop</id>
+    <pkgname>sound-juicer</pkgname>
+    <translation type="gettext">sound-juicer</translation>
+    <name>Sound Juicer</name>
+    <summary>CD ripper with a clean interface and simple preferences</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>Sound Juicer is a simple and clean CD ripping tool. It allows you to extract the audio from audio compact discs and convert them into audio files that your computer can understand and play. Sound Juicer can also play the audio tracks directly from the CD, allowing you to preview the CD before ripping it.</p><p>Sound Juicer is designed to be easy to use, and to work with little user intervention. When you start Sound Juicer, it will examine the CD in the drive and try to locate information about the audio tracks using the freely-available MusicBrainz service.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.SoundJuicer.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.SoundJuicer.png</icon>
+    <categories>
+      <category>Audio</category>
+      <category>AudioVideo</category>
+    </categories>
+    <keywords>
+      <keyword>Ripper</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>x-content/audio-cdda</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=sound-juicer</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/sound-juicer/stable/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/SoundJuicer</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://git.gnome.org/browse/sound-juicer/plain/data/appdata/sound-juicer-3.14-752x423.png</image>
+      </screenshot>
+    </screenshots>
+    <provides>
+      <dbus type="session">org.gnome.SoundJuicer</dbus>
+    </provides>
+    <launchable type="desktop-id">org.gnome.SoundJuicer.desktop</launchable>
+  </component>
+</components>
+

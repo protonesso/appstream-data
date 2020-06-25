@@ -1,0 +1,135 @@
+DEBUG:   Getting filename match for gnome-multi-writer-3.32.1-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-multi-writer
+DEBUG:   Processing gnome-multi-writer-3.32.1-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <richard@hughsie.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.MultiWriter.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.MultiWriter.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.MultiWriter.desktop</id>
+    <pkgname>gnome-multi-writer</pkgname>
+    <translation type="gettext">gnome-multi-writer</translation>
+    <name>MultiWriter</name>
+    <summary>Write an ISO file to multiple USB devices at once</summary>
+    <description><p>GNOME MultiWriter can be used to write an ISO file to multiple USB devices at once. Supported drive sizes are between 1GB and 32GB.</p><p>MultiWriter may be useful for QA testing, to create a GNOME Live image for a code sprint or to create hundreds of LiveUSB drives for a trade show.</p><p>Writing a more than 10 devices simultaneously can easy saturate the USB bus for most storage devices. There are two ways to write more devices in parallel:</p><ul><li>Use USB 3.0 hubs, even if the storage devices are USB 2.0</li><li>Install another USB 2.0 PCIe root hub</li></ul><p>MultiWriter was originally written as part of the ColorHug project but was split off as an independent application in 2015.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.MultiWriter.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.MultiWriter.png</icon>
+    <categories>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>ISO</keyword>
+      <keyword>Image</keyword>
+      <keyword>USB</keyword>
+      <keyword>Writer</keyword>
+    </keywords>
+    <kudos>
+      <kudo>AppMenu</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://bugzilla.gnome.org/browse.cgi?product=gnome-multi-writer</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/MultiWriter</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>Initial screen for the application</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-multi-writer/plain/data/appdata/gmw-startup.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>All devices have been written</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-multi-writer/plain/data/appdata/gmw-finished.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Writing and verifying images</caption>
+        <image type="source">https://git.gnome.org/browse/gnome-multi-writer/plain/data/appdata/gmw-progress.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1558483200" version="3.32.1">
+        <description><p>This fixes a memory corruption issue causing the UI to crash and also fixes some build issues.</p></description>
+      </release>
+      <release timestamp="1552003200" version="3.32.0">
+        <description><p>This is the first stable release for GNOME 3.32 which updates several translations and fixes some build issues.</p></description>
+      </release>
+      <release timestamp="1536019200" version="3.30.0">
+        <description><p>This is the first stable release for GNOME 3.30 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1520812800" version="3.28.0">
+        <description><p>This is the first stable release for GNOME 3.28 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1505088000" version="3.26.0">
+        <description><p>This is the first stable release for GNOME 3.26 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1502064000" version="3.25.90">
+        <description><p>This unstable release switched to the meson buildsystem and updated several translations.</p></description>
+      </release>
+      <release timestamp="1489968000" version="3.24.0">
+        <description><p>This is the first stable release for GNOME 3.24.</p></description>
+      </release>
+      <release timestamp="1489190400" version="3.23.92">
+        <description><p>This unstable release updates several translations.</p></description>
+      </release>
+      <release timestamp="1476230400" version="3.22.1">
+        <description><p>This release fixes the following bugs:</p><ul><li>Allow writing to large expensive USB drives</li></ul></description>
+      </release>
+      <release timestamp="1474243200" version="3.22.0">
+        <description><p>This is the first stable release for GNOME 3.22.</p></description>
+      </release>
+      <release timestamp="1473724800" version="3.21.92">
+        <description><p>This unstable release fixes several build issues and also updates one translation.</p></description>
+      </release>
+      <release timestamp="1472428800" version="3.21.91">
+        <description><p>This unstable release fixes the following bug:</p><ul><li>Check for authentication before copying starts</li></ul><p>This release also updates translations.</p></description>
+      </release>
+      <release timestamp="1471219200" version="3.21.90">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1458518400" version="3.20.0">
+        <description><p>This is the first stable release for GNOME 3.20</p></description>
+      </release>
+      <release timestamp="1455494400" version="3.19.90">
+        <description><p>This unstable release fixes the following bug:</p><ul><li>Add proper text to the button during a copy operation</li></ul></description>
+      </release>
+      <release timestamp="1442827658" version="3.18.0">
+        <description><p>This is the first stable release for GNOME 3.18</p></description>
+      </release>
+      <release timestamp="1442312119" version="3.17.92"/>
+      <release timestamp="1439990287" version="3.17.90">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1427103917" version="3.16.0">
+        <description><p>This stable release marks the release of GNOME 3.16!</p></description>
+      </release>
+      <release timestamp="1426498834" version="3.15.92">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1425299116" version="3.15.91">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1390089600" version="3.15.4">
+        <description><p>This unstable release fixes the following bugs:</p><ul><li>Add quirks for the 36 port MegaHub</li><li>Don't proceed to the copy phase if unmounting failed</li><li>Never use the USB platform ID for the hub label</li><li>Support root hubs with bus numbers greater than 8</li><li>Unmount all partitions when a device is inserted</li></ul><p>This release also adds the following new feature:</p><ul><li>Show the size next to the device name when the device is idle</li></ul></description>
+      </release>
+      <release timestamp="1389225600" version="3.15.2">
+        <description><p>This unstable release fixes the following bugs:</p><ul><li>Queue the device writes according to the connected root hub</li><li>Show ten devices per column to better use the space</li><li>Unmount filesystems before starting to copy</li></ul><p>This release also adds the following new feature:</p><ul><li>Reads and writes are now spread over root hubs to increase throughput</li><li>Completely wipe devices by default</li><li>Make the verification and wipe optional</li><li>Show a warning dialog before copying for the first time</li><li>Show some global read/write stats in the title bar</li></ul></description>
+      </release>
+      <release timestamp="1388880000" version="3.15.1">
+        <description><p>This initial release fixes the following bugs:</p><ul><li>Show the USB connection address in the UI</li><li>Use a progressbar and smaller icons in the main UI</li></ul><p>This release also adds the following new feature:</p><ul><li>Copy an ISO image to an unlimited number of devices</li><li>Inhibit suspend when copying data</li><li>Play a sound when all the images have been written</li><li>Show an image when there are no suitable drives plugged in</li></ul></description>
+      </release>
+      <release timestamp="1285974000" version="3.15.90">
+        <description><p>This unstable release fixes the following bugs:</p><ul><li>Add hub quirks for all Plugable USB devices</li></ul><p>This release also adds the following new features:</p><ul><li>Optionally check that USB drives are indeed their advertised size</li><li>Allow renaming hub labels from the UI</li></ul></description>
+      </release>
+    </releases>
+    <launchable type="desktop-id">org.gnome.MultiWriter.desktop</launchable>
+  </component>
+</components>
+

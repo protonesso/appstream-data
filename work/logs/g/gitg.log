@@ -1,0 +1,75 @@
+DEBUG:   Getting filename match for gitg-3.32.1-1.x86_64.rpm
+DEBUG:   Exploding tree for gitg
+DEBUG:   Processing gitg-3.32.1-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <albfan@gnome.org>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.gitg.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.gitg.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.gitg</id>
+    <pkgname>gitg</pkgname>
+    <translation type="gettext">gitg</translation>
+    <name>gitg</name>
+    <summary>Graphical user interface for git</summary>
+    <developer_name>The GNOME Project</developer_name>
+    <description><p>gitg is a graphical user interface for git. It aims at being a small, fast and convenient tool to visualize the history of git repositories. Besides visualization, gitg also provides several utilities to manage your repository and commit your work.</p><p>Goals</p><ul><li>Browse local git repositories</li><li>Clone local and remote git repositories</li><li>Commit files</li><li>Retrieve patch from a commit</li></ul></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.gitg.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.gitg.png</icon>
+    <categories>
+      <category>Development</category>
+    </categories>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+    </kudos>
+    <mimetypes>
+      <mimetype>x-scheme-handler/gitg</mimetype>
+    </mimetypes>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://gitlab.gnome.org/GNOME/gitg/issues</url>
+    <url type="donation">https://www.gnome.org/friends/</url>
+    <url type="homepage">https://wiki.gnome.org/Apps/Gitg</url>
+    <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <caption>Browse repository history</caption>
+        <image type="source">https://wiki.gnome.org/Apps/Gitg?action=AttachFile&amp;do=get&amp;target=history.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Commit staged changes</caption>
+        <image type="source">https://wiki.gnome.org/Apps/Gitg?action=AttachFile&amp;do=get&amp;target=commit.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Overview of recently used repositories</caption>
+        <image type="source">https://wiki.gnome.org/Apps/Gitg?action=AttachFile&amp;do=get&amp;target=projects.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Staging area to compose your commit</caption>
+        <image type="source">https://wiki.gnome.org/Apps/Gitg?action=AttachFile&amp;do=get&amp;target=stage.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release type="stable" timestamp="1564012800" version="3.32.1">
+        <description><p>Bug fixes:</p><ul><li>Support repository being null</li><li>Allow copying file names</li></ul></description>
+      </release>
+      <release type="stable" timestamp="1558569600" version="3.32.0">
+        <description><p>Bug fixes:</p><ul><li>Detect links in commit messages</li><li>Push action with http/ssh support</li><li>Fix time sort mode</li><li>Add push support</li><li>Add typeahead find feature</li><li>Respect system fonts</li><li>Update submodules at clone</li><li>Add body to patch</li><li>Shorcut to open preferences</li><li>Honor GIT_DIR env</li><li>Update menus for AppMenu removal</li><li>Bump libgit2 to 0.27</li><li>Use Unicode typography in user-visible strings</li><li>Fix shared library paths in typelib files</li><li>Migrate from Intltool to Gettext</li><li>Meson polish</li><li>Removed autotools</li><li>Fixes in documentation</li><li>Fixed several deprecations</li><li>Misc fixes</li></ul></description>
+      </release>
+      <release type="stable" timestamp="1540425600" version="3.30.1">
+        <description><p>Bug fixes:</p><ul><li>Meson improvements</li><li>Fix parsing title and body for message commit</li><li>Search repositories ignoring case</li><li>Added standalone mode</li><li>Allow to config patience algorithm</li><li>GUI improvements</li><li>Removed autotools buildsystem</li><li>Fixed mac compilation</li><li>Misc fixes</li></ul></description>
+      </release>
+    </releases>
+    <launchable type="desktop-id">org.gnome.gitg.desktop</launchable>
+  </component>
+</components>
+

@@ -1,0 +1,139 @@
+DEBUG:   Getting filename match for gnome-color-manager-3.36.0-1.x86_64.rpm
+DEBUG:   Exploding tree for gnome-color-manager
+DEBUG:   Processing gnome-color-manager-3.36.0-1.x86_64.rpm with appdata
+DEBUG:   Running asb_plugin_process() from appdata
+INFO:    Upstream contact <richard@hughsie.com>
+WARNING: Unable to currently map Fedora license 'null' to SPDX
+DEBUG:   Running asb_plugin_process_app() from desktop
+DEBUG:   Running asb_plugin_process_app() from font
+DEBUG:   Running asb_plugin_process_app() from gettext
+DEBUG:   Running asb_plugin_process_app() from hardcoded
+DEBUG:   Auto-adding kudo UserDocs for org.gnome.ColorProfileViewer.desktop
+DEBUG:   Running asb_plugin_process_app() from icon
+DEBUG:   Saved icon ./tmp/icons/64x64/org.gnome.ColorProfileViewer.png
+DEBUG:   Saved icon ./tmp/icons/128x128/org.gnome.ColorProfileViewer.png
+<components version="1.0">
+  <component type="desktop">
+    <id>org.gnome.ColorProfileViewer.desktop</id>
+    <pkgname>gnome-color-manager</pkgname>
+    <translation type="gettext">gnome-color-manager</translation>
+    <name>GNOME Color Manager</name>
+    <summary>Inspect and compare installed color profiles</summary>
+    <description><p>GNOME Color Profile Viewer shows installed color profiles on your system and allows you to calibrate displays, printers and cameras using a wizard.</p><p>This functionality is typically used by GNOME Control Center from the color panel although can be used on its own.</p></description>
+    <icon type="cached" height="128" width="128">128x128/org.gnome.ColorProfileViewer.png</icon>
+    <icon type="cached" height="64" width="64">64x64/org.gnome.ColorProfileViewer.png</icon>
+    <categories>
+      <category>System</category>
+    </categories>
+    <keywords>
+      <keyword>Color</keyword>
+      <keyword>ICC</keyword>
+    </keywords>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>HiDpiIcon</kudo>
+      <kudo>ModernToolkit</kudo>
+      <kudo>UserDocs</kudo>
+      <kudo>UserDocs</kudo>
+    </kudos>
+    <project_license>GPL-2.0+</project_license>
+    <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-color-manager</url>
+    <url type="donation">http://www.gnome.org/friends/</url>
+    <url type="help">https://help.gnome.org/users/gnome-color-manager/stable/</url>
+    <url type="homepage">https://projects.gnome.org/gnome-color-manager/</url>
+    <project_group>GNOME</project_group>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://git.gnome.org/browse/gnome-color-manager/plain/data/appdata/ss-info.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://git.gnome.org/browse/gnome-color-manager/plain/data/appdata/ss-cie1931.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://git.gnome.org/browse/gnome-color-manager/plain/data/appdata/ss-calibrate.png</image>
+      </screenshot>
+      <screenshot>
+        <image type="source">https://git.gnome.org/browse/gnome-color-manager/plain/data/appdata/ss-picker.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1554076800" version="3.36.0">
+        <description><p>This is the first stable release for GNOME 3.36.</p></description>
+      </release>
+      <release timestamp="1552003200" version="3.35.90">
+        <description><p>This is a test release for GNOME 3.32 which updates several translations and fixes some build issues.</p><p>The calibration wizard has been removed as the ArgyllCMS integration has been broken for a long time.</p></description>
+      </release>
+      <release timestamp="1552003200" version="3.32.0">
+        <description><p>This is the first stable release for GNOME 3.32 which updates several translations and fixes some build issues.</p></description>
+      </release>
+      <release timestamp="1536019200" version="3.30.0">
+        <description><p>This is the first stable release for GNOME 3.30 and updates several translations and fixes the build system to be more standard conformant.</p></description>
+      </release>
+      <release timestamp="1520812800" version="3.28.0">
+        <description><p>This is the first stable release for GNOME 3.28 and updates several translations and fixes the build system to be more standard conformant.</p></description>
+      </release>
+      <release timestamp="1505088000" version="3.26.0">
+        <description><p>This is the first stable release for GNOME 3.26 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1502064000" version="3.25.90">
+        <description><p>This unstable release switches to the meson build-system and updates several translations.</p></description>
+      </release>
+      <release timestamp="1489968000" version="3.24.0">
+        <description><p>This is the first stable release for GNOME 3.24.</p></description>
+      </release>
+      <release timestamp="1489190400" version="3.23.92">
+        <description><p>This unstable release updates several translations.</p></description>
+      </release>
+      <release timestamp="1478476800" version="3.22.2">
+        <description><p>This release updates translations.</p></description>
+      </release>
+      <release timestamp="1476230400" version="3.22.1">
+        <description><p>This release updates translations.</p></description>
+      </release>
+      <release timestamp="1474243200" version="3.22.0">
+        <description><p>This is the first stable release for GNOME 3.22 and updates several translations.</p></description>
+      </release>
+      <release timestamp="1473724800" version="3.21.92">
+        <description><p>This release fixes several man pages and updates translations.</p></description>
+      </release>
+      <release timestamp="1472428800" version="3.21.91">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1471219200" version="3.21.90">
+        <description><p>This release fixes the following bugs:</p><ul><li>Update the UI files to adhere to the GNOME 3 UI guidelines</li><li>Use the new-style app-ids for flatpak support</li></ul></description>
+      </release>
+      <release timestamp="1458518400" version="3.20.0">
+        <description><p>This is the first stable release for GNOME 3.20</p></description>
+      </release>
+      <release timestamp="1455494400" version="3.19.90">
+        <description><p>This unstable release fixes some software center metadata, one profile viewer crash and updates seven translations.</p></description>
+      </release>
+      <release timestamp="1442827658" version="3.18.0">
+        <description><p>This is the first stable release for GNOME 3.18</p></description>
+      </release>
+      <release timestamp="1439990514" version="3.17.90">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1427103917" version="3.16.0">
+        <description><p>This stable release marks the release of GNOME 3.16!</p></description>
+      </release>
+      <release timestamp="1426498834" version="3.15.92">
+        <description><p>This release changes the profile viewer to only show in the menu under non-GNOME environments and also updates translations.</p></description>
+      </release>
+      <release timestamp="1425299116" version="3.15.91">
+        <description><p>This release only updates translations.</p></description>
+      </release>
+      <release timestamp="1424076140" version="3.15.90">
+        <description><p>This release switches the profile viewer application to use a headerbar to match other GNOME3 applications.</p></description>
+      </release>
+      <release timestamp="1421625600" version="3.15.4">
+        <description><p>This release fixes the following bug:</p><ul><li>Make the color profile viewer visible in the software center</li></ul></description>
+      </release>
+    </releases>
+    <provides>
+      <id>gcm-viewer.desktop</id>
+    </provides>
+    <launchable type="desktop-id">org.gnome.ColorProfileViewer.desktop</launchable>
+  </component>
+</components>
+
